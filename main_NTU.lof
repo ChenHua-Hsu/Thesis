@@ -1,0 +1,19 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The importance of simulation. credit: Joshuha Thomas-Wilsker}}{2}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces The balance between accuracy and speed in simulation. credit: Joshuha Thomas-Wilsker}}{4}{figure.caption.9}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Forward and Backward Processes in Diffusion Models (The picture is from Song and Ermon (2019))}}{18}{figure.caption.48}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Comparison of RNN and Transformer architectures.}}{25}{figure.caption.89}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The structure of the original Transformer model. Adapted from \textit {"Attention is All You Need,"} with additional annotations.}}{26}{figure.caption.91}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Comparison of self-attention and mean-field attention mechanisms.}}{28}{figure.caption.99}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Comparison of training loss curves for VE and VP methods.}}{31}{figure.caption.107}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Comparison of FID scores for VE and VP methods.}}{31}{figure.caption.108}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Comparison of FID scores for VE and VP methods.}}{32}{figure.caption.109}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Visualization of parameter sweeping results.}}{32}{figure.caption.111}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces The Picture after adding the correlation term.}}{33}{figure.caption.116}%
+\addvspace {10\p@ }

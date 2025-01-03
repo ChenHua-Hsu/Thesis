@@ -1,0 +1,105 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main_NTU.aux
+The style file: biblatex.bst
+A level-1 auxiliary file: Chapters/Chapter1.aux
+A level-1 auxiliary file: Chapters/Chapter2.aux
+A level-1 auxiliary file: Chapters/Chapter3.aux
+A level-1 auxiliary file: Chapters/Chapter4.aux
+A level-1 auxiliary file: Chapters/Chapter5.aux
+A level-1 auxiliary file: Chapters/Chapter6.aux
+A level-1 auxiliary file: Chapters/Chapter7.aux
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: main_NTU-blx.bib
+Database file #2: bib/Algorithm.bib
+Database file #3: bib/transformer.bib
+Database file #4: bib/introduction.bib
+Reallocated buffer (elt_size=1) to 40000 items from 20000.
+Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
+Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
+Reallocated out_buf (elt_size=1) to 40000 items from 20000.
+Reallocated name_tok (elt_size=4) to 40000 items from 20000.
+Reallocated name_sep_char (elt_size=1) to 40000 items from 20000.
+Reallocated buffer (elt_size=1) to 60000 items from 40000.
+Reallocated sv_buffer (elt_size=1) to 60000 items from 40000.
+Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
+Reallocated out_buf (elt_size=1) to 60000 items from 40000.
+Reallocated name_tok (elt_size=4) to 60000 items from 40000.
+Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--I didn't find a database entry for "calochallenge"
+Warning--I didn't find a database entry for "inceptionv3"
+Warning--I didn't find a database entry for "pytorch"
+Warning--I didn't find a database entry for "restart"
+Biblatex version: 3.19
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Warning--you've exceeded 500, the entry-string-size, for entry collaboration_atlas_2008
+while executing--line 2699 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry CMS_2008
+while executing--line 2699 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry CMS_2008
+while executing--line 2727 of file biblatex.bst
+*Please notify the bibstyle designer*
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Warning--you've exceeded 500, the entry-string-size, for entry collaboration_atlas_2008
+while executing--line 2727 of file biblatex.bst
+*Please notify the bibstyle designer*
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 24 entries,
+            6399 wiz_defined-function locations,
+            1373 strings with 98870 characters,
+and the built_in function-call counts, 9454111 in all, are:
+= -- 977609
+> -- 45672
+< -- 603
++ -- 431999
+- -- 32211
+* -- 653722
+:= -- 1427956
+add.period$ -- 0
+call.type$ -- 24
+change.case$ -- 259
+chr.to.int$ -- 164
+cite$ -- 46
+duplicate$ -- 1115323
+empty$ -- 646438
+format.name$ -- 59502
+if$ -- 1666686
+int.to.chr$ -- 0
+int.to.str$ -- 66
+missing$ -- 0
+newline$ -- 32461
+num.names$ -- 1020
+pop$ -- 113841
+preamble$ -- 1
+purify$ -- 10944
+quote$ -- 0
+skip$ -- 26464
+stack$ -- 0
+substring$ -- 1894137
+swap$ -- 77286
+text.length$ -- 9845
+text.prefix$ -- 4014
+top$ -- 1
+type$ -- 802
+warning$ -- 0
+while$ -- 192577
+width$ -- 0
+write$ -- 32438
+(There were 8 warnings)

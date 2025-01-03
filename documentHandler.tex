@@ -1,0 +1,135 @@
+% Watermark Options
+\AddToShipoutPictureBG{ % Adds to every page % Add image at the top right with exact 2cm from the top and right edges
+  \AtPageUpperLeft{% % Shifts the image horizontally and vertically
+    \raisebox{-2.5cm-\height}{% Moves the image up by its own height plus 2cm
+      \makebox[\paperwidth][r]{%
+        \includegraphics[scale=0.5]{Figures/watermark-05.pdf}% Shifts image left by 2cm
+        \hspace{2.5cm}
+      }
+    }
+  }
+  % doi number
+  % \AtPageLowerLeft{%
+  %   \raisebox{1cm}{\makebox[\paperwidth][r]{doi:10.6342/NTU202403709\hspace{1cm}}}
+  % }
+}
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
+
+%----------------------------------------------------------------------------------------
+%	Title page (Main title, hardcover version)
+%	Title page (2nd title page)
+%   conpyright page
+%----------------------------------------------------------------------------------------
+
+\input{Documents/front}
+
+%----------------------------------------------------------------------------------------
+%	committee approval
+%----------------------------------------------------------------------------------------
+
+\pagenumbering{roman}
+
+% NTU require: page numbe 
+\AddToShipoutPictureBG{ % Adds to every page % Add image at the top right with exact 2cm from the top and right edges
+  \AtPageLowerLeft{%
+    \raisebox{1cm}{\makebox[\paperwidth][c]{\thepage}}
+  }
+}
+
+\addcontentsline{toc}{chapter}{Committee Approval}
+% 口委會審定書
+% \begin{center}
+%   \makebox[0pt][c]{%
+%     % \raisebox{raise}[height][depth]{text}
+%     \raisebox{-\totalheight}[0pt][0pt]{%
+%       \includegraphics[width=\textwidth]{certificate_mod.pdf}
+%     }
+%   }%
+% \end{center}
+
+\cleardoublepage
+\cleardoublepage
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+\input{Documents/acknowledgement}
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\input{Documents/abstract}
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+\begin{CJK}{UTF8}{bkai}
+  \tableofcontents % Prints the main table of contents
+\end{CJK}
+
+\listoffigures % Prints the list of figures
+\listoftables % Prints the list of tables
+\listoftodos % Prints the list of todos
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{thesis} % Return the page headers back to the "thesis" style
+% \linenumbers
+
+% % Chapter 1. Introduction
+\include{Chapters/Chapter1}
+
+% % Chapter 2. Detector
+\include{Chapters/Chapter2}
+
+% % Chapter 3. Dataset
+\include{Chapters/Chapter3}
+
+% % Chapter 4. Algorithm
+\include{Chapters/Chapter4}
+
+% % Chapter 5. Model Structure
+\include{Chapters/Chapter5}
+
+% % Chapter 6. Results
+\include{Chapters/Chapter6}
+
+% % Chapter 7. Conclusion and Discussion
+\include{Chapters/Chapter7}
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\appendix % Cue to tell LaTeX that the following "chapters" are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+
+% A. Updates from the result presented in 2020 KAON
+% \include{Appendices/AppendixA}
+
+% B. Timing resolution
+% \include{Appendices/AppendixB}
+
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\printbibliography[heading=bibintoc]
+
+%----------------------------------------------------------------------------------------
+%	INDEX
+%----------------------------------------------------------------------------------------
+
+\printindex
+
+%----------------------------------------------------------------------------------------

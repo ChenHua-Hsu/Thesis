@@ -1,0 +1,82 @@
+\chapter{Strategies and Results}
+
+\section{Metrics}
+\subsection{FID Score}
+To evaluate the performance of our model, we employed the Fréchet Inception Distance (FID) score as a key metric. The FID score is widely used to assess the quality of generated samples by measuring the distance between the feature representations of real and generated images using the InceptionV3 model \cite{inceptionv3}. A lower FID score indicates that the generated samples are closer to the real samples in terms of their statistical distribution. We utilized the PyTorch library's implementation of the FID score \cite{pytorch} for our calculations.
+
+\subsection{Classifier}
+% Add this section's details as necessary.
+
+\section{VE and VP Studies}
+To begin, we compared the performance of the Variance Exploding (VE) and Variance Preserving (VP) methods. Both methods were used to train the model, and their results were evaluated. First, we observed that the loss curves during training exhibit distinct shapes for the two methods.
+
+\begin{figure}[h!]
+    \centering
+    % Include your loss shape figure here
+    \caption{Comparison of training loss curves for VE and VP methods.}
+\end{figure}
+
+We also compared the FID scores of models trained with the VE and VP methods. The results showed that the VE method resulted in a lower FID score compared to the VP method. This suggests that the VE method is more effective at pushing the model toward generating random samples that better represent the initial sampling space.
+
+\begin{figure}[h!]
+    \centering
+    % Include your FID score comparison figure here
+    \caption{Comparison of FID scores for VE and VP methods.}
+\end{figure}
+
+In conclusion, the VE method outperformed the VP method in terms of FID score. 
+We guess this is because it has more power to push our data to random noise, which is the initial state of sampling space. So our model know how to do the reverse process at the beginning in VE method. For example, if we see the standard deviation of both VE and VP methods, one can find out VE has the steeper slope than VP, which means it has the power to push the data to the random noise.
+
+\begin{figure}[h!]
+    \centering
+    % Include your FID score comparison figure here
+    \caption{Comparison of FID scores for VE and VP methods.}
+\end{figure}
+
+\section{Parameter Sweeping}
+To optimize the model, we conducted a parameter sweeping study using \texttt{wandb}. We experimented with various learning rates, batch sizes, and hidden dimensions. Our findings indicated that the best-performing parameter configuration was:
+\begin{itemize}
+    \item Learning rate: $0.0003$
+    \item Batch size: $128$
+    \item Embedding dimension: $96$
+    \item Hidden dimension: $96$
+\end{itemize}
+
+\begin{figure}[h!]
+    \centering
+    % Include your parameter sweeping study figure here
+    \caption{Visualization of parameter sweeping results.}
+\end{figure}
+
+\section{Energy Distribution}
+With the optimal settings, our model was able to generate the basic shapes of both the energy and spatial distributions. However, the model often produced an excessive number of hits (\texttt{nhits}) at higher energy levels, leading to overestimation. This issue was not observed when training on single-bucket data, indicating that the model struggles to differentiate between data from different buckets. This suggests that our conditional variables are not functioning effectively.
+
+\section{Centralization}
+In addition to the conditional variable issue, visualizing 2D or 3D plots revealed that the model failed to capture the relationship between energy and radius. A key observation was that the model could not learn that higher energy values should be concentrated near the center (smaller radii). Consequently, while the 1D plots were satisfactory, the generated samples lacked proper centralization.
+
+To address this, we first tried to transform our data into spherical coordinate and introduce a correlation term between energy and theta in the loss function to try to suppress relation between energy and theta, hoping our model can thus learn more about the relation between energy and radius. 
+
+The new loss function is defined as:
+\begin{equation}
+    L = L_{\text{MSE}} + \lambda L_{\text{cor}},
+\end{equation}
+where $L_{\text{MSE}}$ is the mean squared error loss, $L_{\text{cor}}$ is the correlation loss, and $\lambda$ is a weighting factor for the correlation loss. The correlation loss is defined as:
+\begin{equation}
+    L_{\text{cor}} = \frac{1}{N} \sum_{i=1}^{N} (x_i - \bar{x})(y_i - \bar{y}),
+\end{equation}
+where $x$ and $y$ are the variables of interest, and $\bar{x}$ and $\bar{y}$ are their respective means.
+
+The reason why we don't apply the correlation term between energy and radius is that the relation between them is by experienced, although everyone would expect the result, it's not solid, we don't want to bias our model, or you can say we don't want to tell the answer of the relation to our model. 
+
+However, although the correlation term was added to the loss function and it indeed suppressed the relation between energy and theta, the centralization of the generated samples did not improve significantly. This suggests that the correlation term alone is not sufficient to address the centralization issue.
+
+\begin{figure}[h!]
+    \centering
+    % Include any relevant results or visualizations here
+    \caption{The Picture after adding the correlation term.}
+\end{figure}
+
+
+
+
+

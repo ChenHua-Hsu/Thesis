@@ -1,0 +1,77 @@
+\documentclass{standalone}
+\usepackage{array} % For better table management
+\RequirePackage{booktabs} % Required for better table rules
+\newcommand{\dtoprule}{\specialrule{1pt}{0pt}{0.4pt}%
+            \specialrule{0.3pt}{0pt}{\belowrulesep}%
+            }
+\newcommand{\dbottomrule}{\specialrule{0.3pt}{0pt}{0.4pt}%
+            \specialrule{1pt}{0pt}{\belowrulesep}%
+            }
+
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{palatino} % Use the Palatino font by default
+\def\VmSpace{1em}
+\def\VdSpace{0.5em}
+\usepackage{threeparttable}
+\usepackage{xcolor,colortbl}
+\usepackage{etoolbox} % color table
+\definecolor{Gray}{gray}{0.85}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+
+\renewcommand{\arraystretch}{1.0} % 1.5 times the default row height
+
+\begin{document}
+% \begin{tabular}{lcccc}
+%     \dtoprule
+%     \rowcolor{LightCyan}
+%     Trigger Type         & CsIEt     & Online Veto            & Cluster Number & prescale \\
+%     \midrule
+%     Physics              & > 500 MeV & !(CV|CC0X|IB|CBAR|NCC) & 2              & 1        \\[2ex]
+%     Normalization        & > 500 MeV & !(CV|CC0X|IB|CBAR|NCC) & --             & 1/30     \\[2ex]
+%     Minimum-Bias         & > 500 MeV & --                     & --             & 1/300    \\[1ex]
+%     \midrule
+%     Single Cluster       & > 300 MeV & !(CV|CC0X|IB|CBAR|NCC) & 1              & 1        \\[2ex]
+%     Pseudo-Normalization & > 500 MeV & !(CV)                  & --             & 1/13     \\[1ex]
+%     \dbottomrule
+% \end{tabular}
+
+% \begin{threeparttable}
+%     \begin{tabular}[]{ll}
+%         \dtoprule
+%         Veto Counter                   & Energy Threshold \\
+%         \midrule
+%         FB                             & 1 MeV                            \\
+%         NCC and HINEMOS                & 1 MeV                            \\
+%         MB                             & 1 MeV                            \\
+%         IB                             & 1 MeV                            \\
+%         MBCV                           & 0.5 MeV                          \\
+%         IBCV                           & 0.5 MeV                          \\
+%         CV                             & 0.2 MeV                          \\
+%         OEV                            & 1 MeV                            \\
+%         CC03                           & 3 MeV                            \\
+%         CC04, CC05, CC06 (CSI crystal) & 3 MeV                            \\
+%         BHPV \tnote{2}                 & 2.5 p.e.                         \\
+%         BHGC \tnote{3}                 & 2.5 p.e.                         \\
+%         \dbottomrule
+%     \end{tabular}
+%     \begin{tablenotes}
+%         \item[1]{BHCV requires hits in more than two modules.}
+%         \item[2]{BHPV requires hits in more than three consecutive modules.}
+%         \item[3]{BHGC veto accepts the number of equivalent photons instead of energy.}
+%     \end{tablenotes}
+% \end{threeparttable}
+
+\begin{tabular}{lc}
+    \dtoprule
+    \rowcolor{LightCyan}
+    $z_i$ & Max($H_{XY}$) \\
+    \midrule
+    0     & 264.6         \\
+    -1507 & 191.8         \\
+    -2165 & 175.0         \\
+    -3680 & 150.0         \\
+    -5507 & 132.6         \\
+    \dbottomrule
+\end{tabular}
+
+\end{document}

@@ -1,0 +1,632 @@
+% Chapter Template
+
+\chapter{Kaon and CP Violation} % Main chapter title
+
+\label{Chapter1} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+% outline
+%----------------------------------------------------------------------------
+% 1-1 : Kaons
+% 1-2 : Quark mixing phenomena (Cabibbo angle, GIM mechanism).
+% 1-3 : CP violation in kaon decays
+% 1-3 : CKM matrix.
+% 1-4 : Origin of CP violation.
+% 1-5 : KLpi0nn and KLpi0gg in Standard Model
+%       (GN bound, KLpi0ee <- KLpi0gg)
+%
+
+Historically, physicists believed that all physics laws were exactly the same in a mirrored world, which was called P-symmetry (parity symmetry). After the rigorous review of P-symmetry by T.D. Lee and C.N. Yang, the experimental examination in weak interactions was suggested \parencite{P_theory}. In 1950’s, C.S. Wu and her collaborators observed parity violation in the beta decay of cobalt-60 \parencite{P_violation_exp}. As a result, an additional C-symmetry (charge symmetry), which replaced each particle with its anti-particle, was introduced to incorporate with P-symmetry so the invariance was still held. The combined symmetry, named CP-symmetry, guaranteed the physics laws for matter and antimatter were identical. 
+
+\index{baryongenesis}
+\index{CP violation}
+
+According to the Big Bang baryogenesis, in the early Universe, the same amount of the baryons and antibariyons were initially created in thermal equilibrium with the soup of high-energy photons. Then the expansion of the Universe resulted in a low rate of annihilation processes due to a dramatic drop in temperature. Eventually, the fixed and equal number of baryons and antibaryons in the Universe was expected. This model was obviously contradicted with the current observation: the matter-dominated Universe. In 1967, A.D. Sakharov \parencite{Sakharov} proposed that the violation of CP-symmetry (CP violation) was one of the essential conditions leading to the matter-antimatter asymmetry. 
+
+Kaons play a key role in shaping the Standard Model (SM): strangeness, quark-mixing phenomenon, first observation of CP violation, direct CP violation, etc. Yet, the strength of CP violation in SM is not sufficient to explain the astronomical observation. We expect the study of the two rare kaon decays, the ${K_L^0\to\pi^0\nu~\overline{\nu}}$ and the ${K_L^0\to\pi^0\gamma\gamma}$ decays, can further guide us through the intrinsic structure of CP violation.
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1 : Kaon
+%----------------------------------------------------------------------------------------
+
+% (1) Rochester, Butler : discover strange particles.
+%     other experiment for kaon
+% (2) Gell-Mann, Nishijima : strangeness
+% 
+
+\section{Discovery of Kaons}
+\label{sec:kaon}
+
+\index{strangeness}
+
+In 1947, G.D. Rochester and C.C. Butler first observed some strange particles in the cosmic ray study~\parencite{strange_exp}. These particles lived relatively longer and their mass significantly different from other known particles at that time. In 1953, M. Gell-Mann and N. Kazuhiko introduced an extra quantum number conserved in both strong and electromagnetic interactions but not in weak interactions \parencite{gell_mann_strangeness, nishijima_strangeness}. This number was dubbed "strangeness". 
+
+Kaons are the lightest mesons with nonzero strangeness, including ${K^+(u \overline{s})}$, ${K^-(s\overline{u})}$, ${K^0(d \overline{s})}$, and ${\overline{K}^0(s \overline{d})}$. Their decay can only be governed by the weak interactions because other forces preserve strangeness. This explains why kaons can be long-lived.
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2 : Quark mixing
+%----------------------------------------------------------------------------------------
+
+%
+% (1) Cabbibo mechanism: quark mixing.
+% (2) GIM mechanism
+%
+
+\section{Quark Mixing}
+\label{sec:quark_mixing}
+%
+% Cabibbo mechanism
+%
+
+\index{quark-mixing}
+\index{Cabbio mechanism}
+
+The coupling strengths of weak vertices are universal for all quarks in the SM. However, for instance, the decay rate of ${K^-(s\overline{u})\to\mu^-\overline{\nu}}$ is measured to be twenty times smaller than that of ${\pi^-(d\overline{u})\to\mu^-\overline{\nu}}$. In 1963, N. Cabibbo proposed the quark mixing to explain the smaller decay rate of particles carrying strangeness  \parencite{Cabibbo}. The concept is to have the quark participating the weak interaction through a linear combination of
+\vspace{1em}
+\begin{align}
+\ket{d'} = \cos{\theta_c} \ket{d} +  \sin{\theta_c} \ket{s} ,
+\end{align}
+
+\noindent
+where $d'$ denotes the weak eigenstates, $d$ and $s$ denote the mass eigenstates, and $\theta_c$ is the Cabbibo angle. This formula describes how likely a quark changes to another via weak interactions. In this scenario, the weak coupling strengths are identical but the quark mixing manifests itself in different decay rates. As shown in Figure~\ref{fig:quark_mixing}, without taking mass difference into account, the ratio of the two decay rates is approximately
+\vspace{1em}
+\begin{align*}
+\frac{\Gamma(K^-\to\mu^-\nu)}{\Gamma(\pi^-\to\mu^-\nu)} \propto \frac{(g_W \sin{\theta_c})^2}{(g_W \cos{\theta_c})^2} = \tan^2{\theta_c} ,
+\end{align*}
+
+\noindent
+where $\theta_c = 13^{\circ}$ explains this phenomenon.
+
+\begin{figure}[h]
+\begin{center}
+\captionsetup{width=.9\linewidth}
+\includegraphics[width=0.9\textwidth]{Figures/Chapter1/feymann_quark_mixing.pdf}
+\end{center}
+\caption{Underlying processes in the $\pi^-$ and the $K^-$ main decays.}
+\label{fig:quark_mixing}
+\end{figure}
+
+%
+% GIM mechanism
+%
+
+\index{GIM mechanism}
+\index{FCNC}
+
+In light of quark mixing, the ${K_L^0 \to \mu^+ \mu^-}$ decay, which is a flavor-changing neutral current (FCNC) process, can occur via the exchange of a $u$ quark, as shown in the left diagram of Figure~\ref{fig:gim}. Nevertheless, this decay channel was observed to be much rarer than the expectation. In 1970, S.L. Glashow, J. Illiopoulos, and L. Maiani postulated the presence of the fourth quark, charm quark (c), that also participated the exchange as the right diagram of Figure~\ref{fig:gim}. Under this assumption, the quark mixing could be further described by a unitary matrix:
+\vspace{1em}
+\begin{align}
+\begin{pmatrix}
+d' \\
+s'
+\end{pmatrix}
+=
+\begin{pmatrix}
+\cos{\theta_c} & \sin{\theta_c} \\
+-\sin{\theta_c} & \cos{\theta_c}
+\end{pmatrix}
+\begin{pmatrix}
+d \\
+s
+\end{pmatrix}. \label{formula::Cabibbo_matrix}
+\end{align} 
+
+\vspace{0.5em}
+Notably, the matrix element of the box diagram with $c$ quark exchange brings a minus sign. If the mass difference is negligible, the interference of the two diagrams cancels out each other and results in a large suppression for ${K_L^0 \to \mu^+ \mu^-}$. This theory is known as the GIM mechanism \parencite{GIM}. The existence of the charm quark was later confirmed through the discovery of the J/$\psi$ meson \parencite{charm_SLAC, charm_BNL}.
+
+\begin{figure}[h]
+\begin{center}
+\captionsetup{width=.99\linewidth}
+\includegraphics[width=0.95\textwidth]{Figures/Chapter1/feymann_gim.pdf}
+\caption{Box diagrams for $K^0\to\mu^+\mu^-$.}
+\label{fig:gim}
+\end{center}
+\end{figure}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 3 : CP violation in neutral kaon decays
+%----------------------------------------------------------------------------------------
+
+% (1) kaon mixing
+% (2) strong / CP /weak eigenstates
+% (3) discovery of CP violation
+
+\section{CP Violation in Neutral Kaon Decays}
+\label{sec:neutral_K}
+
+% K0 mixing
+ 
+\index{$K^0-\overline{K}^0$} 
+ 
+Both ${K^0(d \overline{s})}$ and ${\overline{K}^0(s \overline{d})}$ are the strong eigenstates of the neutral kaon with definite strangeness and able to transform into each other in weak processes, as shown in Figure~\ref{fig:kaon_mixing}. This phenomenon is called $K^0-\overline{K}^0$ mixing. By extending M. Gell-Mann and A. Pais's idea \parencite{kaon_CP_behavior}, because $K^0$ and $\overline{K}^0$ are indistinguishable in weak decays, the physical particle should correspond to the linear combination of them. Under the assumption of CP invariance, the two weak eigenstates can be represented by the CP eigenstates: CP-even kaon ($K_1^0$) and CP-odd kaon ($K_2^0$). Because both $K^0$ and $\overline{K}^0$ are CP-even, $K_1^0$ and $K_2^0$ can be expressed as 
+%
+%\vspace{1em}
+\begin{align}
+\ket{K_1^0} = \frac{1}{\sqrt{2}} \left( \ket{K^0} + \ket{\overline{K}^0}\right) 
+\end{align}
+
+\noindent
+and
+%
+%\vspace{1em}
+\begin{align}
+\ket{K_2^0} = \frac{1}{\sqrt{2}} \left( \ket{K^0} - \ket{\overline{K}^0}\right) .
+\end{align}
+
+\noindent
+Consequently, $K_1^0$ was the observed neutral kaon that decayed to a pion pair\footnote{
+$\mathcal{CP}(\pi^0\pi^0)=\mathcal{CP}(\pi^+\pi^-)=+1$
+}, and $K_2^0$ was predicted to have three-pion decays\footnote{
+$\mathcal{CP}(\pi^0\pi^0\pi^0)=\mathcal{CP}(\pi^0\pi^+\pi^-)=-1$
+} with a significantly longer lifetime due to the more limited energy allocation. This prediction was later experimentally confirmed in 1956 \parencite{KL_observation}. Nevertheless, in 1964, J. Cronin and V. Fitch observed some two-pion decays in long-lived neutral kaons, which implied the violation of CP symmetry \parencite{K_CPviolation_exp}.
+
+\begin{figure}[h]
+\begin{center}
+\captionsetup{width=.95\linewidth}
+\includegraphics[width=0.99\textwidth]{Figures/Chapter1/feymann_kaon_mixing.pdf}
+\caption{Box diagrams for $K^0-\overline{K}^0$ mixing.}
+\label{fig:kaon_mixing}
+\end{center}
+\end{figure}
+
+This observation suggested that the weak eigenstates were not utterly the CP eigenstates, and thus redefined based on their lifetime: the short-lived kaon ($K_S^0$), with the mean lifetime of $\mathcal{O}(10^{-10})$~seconds; and the long-lived kaon ($K_L^0$), with the mean lifetime of $\mathcal{O}(10^{-7})$~seconds \parencite{PDG20}. $K_S^0$ and $K_L^0$ can be approximated by the CP eigenstates as
+%
+\vspace{1em}
+\begin{align}
+\ket{K_S^0} \approx \ket{K_1^0} \quad {\text{and}} \quad \ket{K_L^0} \approx \ket{K_2^0}.
+\end{align}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 4 : CKM martrix
+%----------------------------------------------------------------------------------------
+
+%
+% (1) CKM matrix 
+% (2) general parameterization
+% (4) wolfenstein parametrization
+% (4) unitary triangle
+% (5) current CKM matrix (numbers)
+%
+
+\section{The Cabibbo-Kobayashi-Maskawa (CKM) Matrix}
+
+\index{CKM}
+
+Although the concept of quark mixing was known before the discovery of CP violation, their connection was not perceived until 1973 by M. Kobayashi and T. Maskawa \parencite{KM}. By that time we already knew two generations of quarks and their mixing was characterized by the GIM mechanism as Equation~\ref{formula::Cabibbo_matrix}. If this matrix is generalized for $N$ generations, the unitary requirement implied $N^2$ real parameters. Because the phases of the quark fields for both weak and mass eigenstates are arbitrary, the number of free parameters is reduced by $(2N-1)$ relative phases. The remaining ${(N-1)^2}$ free parameters can be classified as follows: rotation angles (quark-mixing angles), which determine how quarks are mixed; complex phases, which cause the difference under CP operation. Furthermore, the number of complex phases is counted by subtracting the number of rotation angles:
+%
+\vspace{1em}
+\begin{align*}
+N_{phase} = N_{free} - N_{angle} = (N-1)^2 - \frac{N(N-1)}{2} = \frac{(N-1)(N-2)}{2},
+\end{align*}
+
+\noindent
+which indicates that the third-generation quarks are the prerequisites for CP violation to take place. This theory, known as the KM mechanism, was confirmed after the discovery of the bottom quark ($b$) \parencite{bottom} and the top quark ($t$) \parencite{top_CDF, top_DO}. The quark mixing for three generations is mathematically described by the Cabibbo-Kobayashi-Maskawa (CKM) matrix:
+%
+%\vspace{1em}
+\begin{align}
+\begin{pmatrix}
+d' \\
+s' \\
+b' 
+\end{pmatrix}
+=
+V_{CKM}
+\begin{pmatrix}
+d \\
+s \\
+b
+\end{pmatrix}
+=
+\begin{pmatrix}
+V_{ud} & V_{us} & V_{ub} \\
+V_{cd} & V_{cs} & V_{cb} \\
+V_{td} & V_{ts} & V_{tb}
+\end{pmatrix}
+\begin{pmatrix}
+d \\
+s \\
+b
+\end{pmatrix}.
+\label{eq:CKM}
+\end{align}
+
+% general parametrization 
+
+The CKM matrix consists of three mixing angles ($\theta_{12}$, $\theta_{13}$, and $\theta_{23}$) and one CP-violating phase ($\delta$), which lead to a general parameterization \parencite{CKM_general}:
+%
+\vspace{1em}
+\begin{align}
+V_{CKM}
+=
+\begin{pmatrix}
+1 & 0 & 0 \\
+0 & c_{23} & s_{23} \\
+0 & -s_{23} & c_{23} 
+\end{pmatrix}
+\begin{pmatrix}
+c_{13} & 0 & s_{13}e^{-i \delta} \\
+0 & 1 & 0 \\
+-s_{13}e^{i \delta} & 0 & c_{13} \\
+\end{pmatrix}
+\begin{pmatrix}
+c_{12} & s_{12} & 0 \\
+-s_{12} & c_{12} & 0 \\
+0 & 0 & 1
+\end{pmatrix}
+,
+\end{align}
+
+\noindent
+where $s_{ij} = \sin{\theta_{ij}}$ and $c_{ij} = \cos{\theta_{ij}}$. Alternatively, because of the observed hierarchy of ${1 \gg s_{12} \gg s_{23} \gg s_{13}}$, the CKM matrix can be parameterized by the four Wolfenstein parameters $\lambda$, $A$, $\rho$, and $\eta$ \parencite{CKM_wolfenstein}:
+%
+\vspace{1em}
+\begin{align}
+V_{CKM}
+=
+\begin{pmatrix}
+1 - \lambda^2/2 & \lambda           & A \lambda^3 (\rho - i \eta) \\
+-\lambda        & 1 - \lambda^2/2   & A \lambda^2                 \\
+A \lambda^3(1-\rho-i \eta) & -A \lambda^2 & 1
+\end{pmatrix}
++
+O(\lambda^4)
+.
+\label{eq:wolfenstein}
+\end{align}
+
+\noindent
+Those parameters relate to the general parameterization by
+%%
+\vspace{1em}
+\begin{align*}
+\lambda &= s_{12} , \\
+A \lambda^2 &= s_{23} , \\
+A \lambda^3 ( \rho - i \eta ) &= s_{13} e^{-i \delta},
+\end{align*}
+
+\noindent
+where $\lambda = \sin{\theta_c} \approx 0.225$. 
+
+Under the approximation of Wolfenstein parameterization, $\eta$ governs the complex component in the CKM matrix and thus manages to describe the strength of CP violation. The measurement of $\eta$ conventionally invokes the unitary triangle derived from the unitary constraint of the CKM matrix:
+%
+\vspace{1em}
+\begin{align}
+V_{ud}V_{ub}^\ast + V_{cd} V_{cb}^\ast + V_{td} V_{tb}^\ast = 0.
+\label{eq:CKM_unitary_constraint}
+\end{align}
+
+If we compare the matrix in Equation \ref{eq:wolfenstein} with that in Equation \ref{eq:CKM}, the complex components are contained in $V_{ub}$ and $V_{td}$. Because other elements are real, Equation \ref{eq:CKM_unitary_constraint} can be further divided by $V_{cd} V_{cb}^{\ast}$ as
+%
+%\vspace{1em}
+\begin{align}
+1 - \frac{|V_{ud}|V_{ub}^{\ast}}{|V_{cd}V_{cb}^{\ast}|} - \frac{|V_{tb}^{\ast}|V_{td}}{|V_{cd}V_{cb}^{\ast}|} = 0.
+\label{eq:unitary_triangle}
+\end{align}
+
+\noindent
+For simplification, two new variables $\overline{\rho}$ and $\overline{\eta}$ are defined as
+%
+\vspace{1em}
+\begin{align*}
+\overline{\rho} + i \overline{\eta} \equiv -\frac{|V_{ud}|V_{ub}^{\ast}}{|V_{cd}V_{cb}^{\ast}|} = \rho + i \eta + \mathit{O}(\lambda^2).
+\end{align*}
+
+\index{unitary triangle}
+
+Equation~\ref{eq:unitary_triangle} indicates the triangular relation on the complex plane in Figure~\ref{fig:unitary_triangle}. The unitary triangle had been shaped by kaon and B-meson experiments. To date, all the measurements can be fitted into a closed triangle, which verifies the KM mechanism for three generations \parencite{PDG20}.
+
+\begin{figure}[h]
+\begin{center}
+\captionsetup{width=.95\linewidth}
+\includegraphics[width=0.75\textwidth]{Figures/Chapter1/unitary_triangle.pdf}
+\caption{Unitary triangle for the CKM elements.}
+\label{fig:unitary_triangle}
+\end{center}
+\end{figure}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 5 : Origin of CP violation
+%----------------------------------------------------------------------------------------
+
+%
+% (1) indirect CP violation
+% (2) direct CP violation
+%
+
+\index{CP violation! direct CP violation}
+\index{CP violation! indirect CP violation}
+
+\section{Origin of CP Violation}
+The source of CP violation can be classified into indirect CP violation and direct CP violation. For instance, if the CP-violating decay ${K_L^0\to\pi\pi}$ is from the CP-even state $\ket{K_1}$, it implies $K^0$ and $\overline{K}^0$ do not transform to each other equally. This mechanism is called indirect CP violation. On the other hand, if that decay is from the CP-odd state $\ket{K_2}$, the decay itself is permitted due to the presence of the complex phase in the CKM matrix. This mechanism is called direct CP violation.
+
+In order to understand the intrinsic structure of CP violation, $\epsilon$ is  introduced to characterize the strength of indirect CP violation:
+%
+\vspace{1em}
+\begin{align}
+\ket{K_S^0} &= \frac{1}{\sqrt{1+|\epsilon|^2}} \left( \ket{K_1^0} + \epsilon \ket{K_2^0} \right) \approx \ket{K_1^0}, \\
+\ket{K_L^0} &= \frac{1}{\sqrt{1+|\epsilon|^2}} \left( \ket{K_2^0} + \epsilon \ket{K_1^0} \right) \approx \ket{K_2^0}.
+\end{align}
+
+\noindent
+$\epsilon'$ is responsible for direct CP violation and satisfies
+%
+\vspace{1em}
+\begin{align}
+\epsilon' = \frac{\Gamma(K_2^0 \to \pi \pi)}{\Gamma(K_2^0 \to \pi\pi\pi)}.
+\end{align}
+
+\noindent
+According to the worldwide average of the measurements \parencite{PDG20}, the strength of indirect CP violation is  
+%
+%\vspace{1em}
+\begin{align}
+|\epsilon| = (2.228 \pm 0.011) \times 10^{-3}, 
+\end{align}
+
+\noindent
+and the relative strength of direct CP violation to indirect one is  
+%
+\vspace{1em}
+\begin{align}
+\mathit{Re}(\epsilon'/\epsilon) = (1.67 \pm 0.23) \times 10^{-3},
+\end{align}
+
+\noindent
+which suggests CP violation predominantly happens in $K^0-\overline{K}^0$ mixing.
+
+%----------------------------------------------------------------------------------------
+%	SECTION 6 : KLpi0nn / KLpi0gg in the Standard Model
+%----------------------------------------------------------------------------------------
+
+\section{$K_L^0 \to \pi^0 \nu \overline{\nu}$ and $K_L^0 \to \pi^0 \gamma \gamma$ in the Standard Model}
+
+% 
+% (1) why do we search rare decays
+% (2) feature of KLpi0nn
+%     2-1 : feymann diagream + CP violation
+%     2-2 : unitary triangle
+%     2-3 : GN bound
+%     2-4 : current experiment result
+% (3) KLpi0ee -> KLpi0gg
+%     3-1: relation to KLpi0ee
+%     3-2: chPT, alpha V
+%     3-3: current experimental result
+%         
+
+Despite the triumph of the CKM matrix for resolving the CP violation mystery, the defect in explaining the matter-dominant Universe remains acute; the theoretical strength is still too small. Plenty of new models were promoted to introduce additional sources to CP violation and physicists were eager to conduct miscellaneous experiments for verification. At the intensity frontier, copious particles are generated to measure the ultra-rare processes in nature. The measurement is able to hint the existence of New Physics (NP) if the deviation is observed. Apparently, a process is considered to be appropriate for examination if it is precisely predicted.
+
+\index{FCNC}
+
+The rare kaon decay mode ${K_L^0 \to \pi^0 \nu \overline{\nu}}$ is considered to be a "golden mode" for testing the SM because of the extraordinary theoretical precision \parencite{KLpi0nn_golden, kaon_SM}. This decay is a FCNC process and primarily undergoes Z-penguin or box diagrams shown in Figure \ref{fig:KLpi0nn_feymann}. Due to the GIM mechanism, the interchange of virtual top quark plays a key role. 
+
+\begin{figure}[h]
+%
+\begin{subfigure}{.333\textwidth}
+  \centering
+  \includegraphics[width=.95\linewidth]{Figures/Chapter1/feymann_KLpi0nn_a.pdf}
+  %\caption{1a}
+  %\label{fig:sfig1}
+  \end{subfigure}%
+%
+\begin{subfigure}{.333\textwidth}
+  \centering
+  \includegraphics[width=.95\linewidth]{Figures/Chapter1/feymann_KLpi0nn_b.pdf}
+  %\caption{1a}
+  %\label{fig:sfig1}  
+  \end{subfigure}%
+%
+\begin{subfigure}{.333\textwidth}
+  \centering
+  \includegraphics[width=.95\linewidth]{Figures/Chapter1/feymann_KLpi0nn_c.pdf}
+  %\caption{1a}
+  %\label{fig:sfig1}  
+  \end{subfigure}%
+  
+  \captionsetup{width=.99\linewidth}
+  \caption{Underlying processes of the $K_L^0\to\pi^0\nu\overline{\nu}$ decay in SM.}
+  \label{fig:KLpi0nn_feymann}
+\end{figure}
+
+%
+The ${K_L^0\to\pi^0\nu\overline{\nu}}$ decay is dominated by direct CP violation \parencite{KLpi0nn_directCP}, as can be observed from the associated ${K_2^0}$ decay amplitude:
+%
+\vspace{1em}
+\begin{align}
+\mathcal{A}(K_2^0 \to \pi^0 \nu \overline{\nu}) 
+&\propto \mathcal{A}(K^0 \to \pi^0 \nu \overline{\nu}) - \mathcal{A}(\overline{K}^0 \to \pi^0 \nu \overline{\nu}) \nonumber \\
+&\propto V_{ts}V_{td}^{\ast} - V_{ts}^{\ast}V_{td} \nonumber \\
+&= -2 i A \lambda^5 \eta \nonumber \\
+&\propto \eta.
+\end{align}
+
+\noindent
+The height of the unitary triangle can thus be determined. Moreover, this decay can be calculated explicitly because of the little contribution from the long-distance interactions. To date, the braching ratio of ${K_L^0\to\pi^0\nu\overline{\nu}}$ in the SM prediction is \parencite{KLpi0nn_SM} 
+%
+\vspace{1em}
+\begin{align}
+\mathcal{BR}({K_L^0\to\pi^0\nu\overline{\nu}}) = \left( 3.0 \pm 0.3 \right) \times 10^{-11},
+\end{align}
+
+\noindent
+where the uncertainty is chiefly propagated from the CKM elements.
+
+%%%
+% GN bound
+%
+
+\index{GN, Grossman-Nir}
+
+Because the ${s \to d}$ transitions in ${K_L^0 \to \pi^0 \nu \overline{\nu}}$ are the same as those in $K^+\to\pi^+\nu\overline{\nu}$, a model-independent upper limit on ${\mathcal{BR}(K_L^0 \to \pi^0 \nu \overline{\nu})}$, known as the Grossman-Nir (GN) bound \parencite{GN}, can be derived by the weak isospin rotation:
+%
+\vspace{1em}
+\begin{align}
+\frac{\mathcal{BR}(K_L^0 \to \pi^0 \nu \overline{\nu})}{\mathcal{BR}(K^+ \to \pi^+ \nu \overline{\nu})} \times \frac{\tau_{K^+}}{\tau_{K_L}} \times r_{is}  \leq 1 ,
+\end{align}
+
+\noindent
+where $\tau_{K^+}$ and $\tau_{K_L}$ are the lifetimes of $K^+$ and $K_L^0$ respectively, and $r_{is} = 0.954$ is the isospin breaking factor \parencite{GN_correction}. By referring to the upper bound of ${\mathcal{BR}(K^+ \to \pi^+ \nu \overline{\nu})}$ from E949 experiment at Brookhaven National Laboratory (BNL) \parencite{Kpinn_BNL}, the GN bound is
+%
+\vspace{1em}
+\begin{align}
+\mathcal{BR}(K_L^0 \to \pi^0 \nu \overline{\nu}) 
+&\leq 4.3 \times \mathcal{BR}(K^+ \to \pi^+ \nu \overline{\nu}) \label{eq:gn_bound} \\
+&\leq 1.4 \times 10^{-9}.
+\end{align}
+
+%%%
+% KLpi0ee
+%
+
+As shown in Figure~\ref{fig:unitary_kaon}, besides the ${K_L^0 \to \pi^0 \nu \overline{\nu}}$ decay, the ${K_L^0 \to \pi^0 \ell^+ \ell^-}$ decay is able to provide the physics cross-check on the height of unitary triangle because it can proceed through the same Z-penguin diagrams as ${K_L^0 \to \pi^0 \nu \overline{\nu}}$. Nevertheless, the ${K_L^0 \to \pi^0 \ell^+ \ell^-}$ decay has an additional contribution from the CP-conserving (CPC) process, which is induced from ${K_L^0 \to \pi^0 \gamma \gamma}$ through $\gamma\gamma \to \ell^+ \ell^-$ rescattering, as illustrated in Figure~\ref{fig:feymann_KLpi0ll_CPC}. In order to subtract the CPC contribution, the extrapolation by the ${K_L^0 \to \pi^0 \gamma \gamma}$ measurement is crucial.
+
+\begin{figure}[h]
+\begin{center}
+\captionsetup{width=.99\linewidth}
+\includegraphics[width=0.95\textwidth]{Figures/Chapter1/kaon_UT.pdf}
+\caption[Role of the rare kaon decays.]{Role of the rare kaon decays. SD is the short distance's abbreviation and LD is the long distance's. The dashed arrow indicates the auxiliary relation.}
+\label{fig:unitary_kaon}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\captionsetup{width=.99\linewidth}
+\includegraphics[width=0.45\textwidth]{Figures/Chapter1/feymann_KLpi0ll_CPC.pdf}
+\caption{CP-conserving contribution to the ${K_L^0 \to \pi^0 \ell^+ \ell^-}$ decay.}
+\label{fig:feymann_KLpi0ll_CPC}
+\end{center}
+\end{figure}
+
+%%%
+% KLpi0gg
+%
+
+The ${K_L^0 \to \pi^0 \gamma \gamma}$ decay is predicted by Chiral Perturbation Theory (ChPT) at $\mathcal{O}(p^6)$ with vector meson exchange contributions \parencite{KLpi0gg_ChPT_p6_VMD}. ChPT is an effective field theory exploiting the chiral symmetry of quantum chromodynamics (QCD), and adept at describing the low-energy dynamics ($<$~1~GeV) in terms of light mesons due to the confinement \parencite{ChPT}. The amplitude of ${K_L^0 \to \pi^0 \gamma \gamma}$ is predicted to be \parencite{ChPT_VMD_kaon}
+%
+\vspace{1em}
+\begin{align}
+&\mathcal{A}( K(p)\to\pi(p')\gamma(q_1)\gamma(q_2) ) = \epsilon_{\mu} (q_1) \epsilon_{\nu} ( q_2 ) 
+\bigg( \frac{A(y,z)}{M_K^2} (q_2^{\mu} q_1^{\nu} - q_1 q_2 g^{\mu \nu}) \nonumber \\
+&\quad + \frac{2B(y,z)}{M_K^4} ( -pq_1 p q_2 g^{\mu \nu} -q_1 q_2 p^{\mu} p^{\nu} + p q_1 q_2^{\mu} p^{\nu} + p q_2 p^{\mu} q_1^{\nu} ) \bigg)  \label{eq:klpi0gg_generator}
+\end{align}
+
+\noindent
+where $A(y,z)$ and $B(y,z)$ are the two dimensionless amplitudes, $y$ and $z$ are the Dalitz variables:
+%\vspace{1em}
+\begin{align*}
+y = \frac{|p(q_1-q_2)|}{M_K^2} \quad \text{and} \quad z = \frac{(q_1 + q_2)^2}{M_K^2}.
+\end{align*}
+
+\noindent
+The amplitude $A(y,z)$ and $B(y,z)$ are obtained from two different physics processes. At the lowest non-trivial order $\mathcal{O}(p^4)$, only $A(y,z)$ appears to characterize the pion loop $\pi^+\pi^-\to\gamma\gamma$ in the $K_L^0\to\pi^+\pi^-\pi^0$ process. At $\mathcal{O}(p^6)$, $B(y,z)$ is introduced to include the sizable contribution from the vector meson exchange $K_L^0 \to \pi^0,\eta \to V \gamma \to \pi^0 \gamma \gamma$. With the unitarity corrections from ${K_L^0\to\pi^+\pi^-\pi^0}$, both $A(y,z)$ and $B(y,z)$ are given by
+%
+\vspace{1em}
+\begin{align}
+A = \frac{G_8M_K^2\alpha}{\pi} \left( F\left( \frac{z}{r_{\pi}^2} \right) \left( 1 - \frac{r_{\pi^2}}{z} \right) + F(z) \left( \frac{1+r_{\pi}^2}{z} - 1 \right) + \alpha_V(3-z+r_{\pi}^2) \right),
+\end{align}
+%
+\begin{align}
+B = -2 \alpha_V \times \frac{G_8 M_K^2 \alpha}{\pi},
+\end{align}
+
+\noindent
+where $r_{\pi} = M_{\pi}/M_K$, $F(z)$ is the loop function referring to \parencite{ChPT_loop_func}, and $\alpha_V$ is the free parameter governing the vector meson exchange. The determination of $\alpha_V$ relies on the diphoton invariant mass spectrum, as shown in Figure~\ref{fig:kpi0gg_mgg}. The quirky peak at the high mass region is the result of the pion loop contribution and the low-mass tail is induced by the vector meson exchange. 
+%
+
+\begin{figure}[h]
+\begin{center}
+\captionsetup{width=.99\linewidth}
+\includegraphics[width=0.75\textwidth]{Figures/Chapter1/KLpi0gg_mgg.pdf}
+\caption{$M_{\gamma\gamma}$ spectra with various theoretical models.}
+\label{fig:kpi0gg_mgg}
+\end{center}
+\end{figure}
+
+Depending on the parameter $\alpha_V$, the branching ratio of ${K_L^0\to\pi^0\gamma\gamma}$ is predicted to be~\parencite{KLpi0gg_ChPT_p6_VMD}
+%
+%\vspace{0.5em}
+
+\begin{align*}
+\mathcal{BR}(K_L^0 \to \pi^0 \gamma \gamma) =
+\begin{dcases}
+   1.12 \times 10^{-6}, \quad \alpha_V = -0.4 ,\\
+   1.50 \times 10^{-6}, \quad \alpha_V = -0.7 ,\\
+   2.06 \times 10^{-6}, \quad \alpha_V = -1.0 .
+\end{dcases}
+\end{align*}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 7 : BSM
+%----------------------------------------------------------------------------------------
+\section{New Physics Implications}
+\label{sec:bsm}
+
+%
+% (1) the chief NP models. (1 figure)
+% (2) GN bound loophole. 
+%
+
+\index{NP, new physics}
+
+%%%%
+% (1) KLpi0nn NP models
+%
+
+The ${K_L^0\to\pi^0\nu\overline{\nu}}$ decay provides a room for NP to take place because of its rareness and cleanness \parencite{KLpi0nn_SUSY, KLpi0nn_MSSM, KLpi0nn_LFU, KLpi0nn_leptoquark, KLpi0nn_gluino, KLpi0nn_NP_constraint, KLpi0nn_higgs_doublet}. A hypothetical particle can be mediated in the process without being aware and thus deviates the SM decay probability. As shown in Figure~\ref{fig:KLpi0nn_NP}, by coordinating with ${K^+\to\pi^+\nu\overline{\nu}}$ measurements, the region ruled out by the GN bound and SM predictions is sensitive to three types of NP models \parencite{KLpi0nn_BSM}. One is models with a CKM-like flavor structure, such as the minimal flavor violation (MFV) model; another is models with CP-violating interactions dominated by either left-handed (LH) or right-handed (RH) couplings, such as the $Z'$ model \parencite{KLpi0nn_Z_Zprime} and the littlest Higgs with T parity (LHT) model \parencite{KLpi0nn_LHT}; and the other is models without above constraints, such as the Randall-Sundrum models with custodial protection (RSc) \parencite{KLpi0nn_RSc}.
+
+\begin{figure}[h]
+\begin{center}
+\captionsetup{width=.99\linewidth}
+\includegraphics[width=0.7\textwidth]{Figures/Chapter1/KLpi0nn_NP.pdf}
+\caption[New Physics implications on $\mathit{BR}(K_L^0\to\pi^0\nu\overline{\nu})-\mathit{BR}(K^+\to\pi^+\nu\overline{\nu})$ plane (Figure courtesy of \parencite{KLpi0nn_BSM}). ]{New Physics implications on $\mathit{BR}(K_L^0\to\pi^0\nu\overline{\nu})-\mathit{BR}(K^+\to\pi^+\nu\overline{\nu})$ plane (Figure courtesy of \parencite{KLpi0nn_BSM}). The green region indicates the models with a CKM-like flavor structure. The blue region indicates the models with CP-violating interactions dominated by either LH or RH couplings. The red region indicates the models without above constraints.}
+\label{fig:KLpi0nn_NP}
+\end{center}
+\end{figure}
+
+%%%%%%%
+%% (2) Loophole of KLpi0X
+%
+Meanwhile, a model with the ${L_{\mu}-L_{\tau}}$ symmetry (the difference between the muon and the tauon numbers), which is motivated by the muon $(g-2)$ anomaly \parencite{g-2}, suggests the experimental test on ${K_L^0\to\pi^0X^0}$, where $X^0$ is a hypothetical invisible particle \parencite{KLpi0nn_Zprime}. Notably, the GN bound can be possibly circumvented if the mass ${M_{X^0} \approx M_{\pi^0}}$, where the events are excluded to suppress the ${K^+\to\pi^+\pi^0}$ background in the ${K^+\to\pi^+\nu\overline{\nu}}$ measurement \parencite{KpiX}, as shown in Figure~\ref{fig:KpiX}. KOTO is in a position to examine the $\pi^0$ mass region.
+
+\begin{figure}[h]
+\begin{center}
+\captionsetup{width=.99\linewidth}
+\includegraphics[width=0.5\textwidth]{Figures/Chapter1/KpiX.pdf}
+\caption{Upper limit of $\mathcal{BR}(K^+\to\pi^+X^0)$ at 90\% confidential level (C.L.) versus mass of $X^0$ ($X^0$ is invisible). This result is given by the E949 experiment (Figure courtesy of \parencite{KpiX}). }
+\label{fig:KpiX}
+\end{center}
+\end{figure}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 8 : Experimental status KLpi0nn 
+%----------------------------------------------------------------------------------------
+
+\section{Search History of $K_L^0\to\pi^0\nu\overline{\nu}$}
+
+The signal hunting for $K_L^0\to\pi^0\nu\overline{\nu}$ has been performed since late 1980s and the experimental achievements are summarized in Figure~\ref{fig:KLpi0nn_UL_history}  \parencite{KLpi0nn_golden, KLpi0nn_E751, KLpi0nn_E799, KLpi0nn_KTeV, KLpi0nn_KTeV_piDalitz, KLpi0nn_e391a, KLpi0nn_KOTO_2013, KLpi0nn_KOTO_2015}. In recent years, the KOTO experiment, which was carried over from the pilot experiment E391a, proceeded the search for the $K_L^0\to\pi^0\nu\overline{\nu}$ decay. KOTO began its first 100-hour physics run in 2013 and reached the comparable sensitivity as E391a \parencite{KLpi0nn_e391a, KLpi0nn_KOTO_2013}. KOTO continued the operation in 2015 and achieved the upper limit of $<$~3.0~$\times$~10$^{-9}$ at 90\% C.L. \parencite{KLpi0nn_KOTO_2015}, which was the worldwide best result to date. In this dissertation, we present the latest analysis result of $K_L^0\to\pi^0\nu\overline{\nu}$ from a larger data set collected from 2016 through 2018. 
+
+\begin{figure}[h]
+\begin{center}
+\captionsetup{width=.99\linewidth}
+\includegraphics[width=0.7\textwidth]{Figures/Chapter1/KLpi0nn_brUL_history.pdf}
+\caption[Experimental upper limits of $\mathcal{BR}(K_L^0\to\pi^0\nu\overline{\nu})$ at 90\% confidential level (C.L.).]{Experimental upper limits of $\mathcal{BR}(K_L^0\to\pi^0\nu\overline{\nu})$ at 90\% confidential level (C.L.). The experiments from left to right are arranged chronologically.}
+\label{fig:KLpi0nn_UL_history}
+\end{center}
+\end{figure}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 9 : Experimental status KLpi0gg
+%----------------------------------------------------------------------------------------
+
+\section{Measurements of $K_L^0\to\pi^0\gamma\gamma$}
+
+The $K_L^0\to\pi^0\gamma\gamma$ decay was first measured in early 1990s \parencite{KLpi0gg_1st, KLpi0gg_2nd, KLpi0gg_3rd} and found to be significantly larger than the predicted branching ratio of $(0.68 \times 10^{-6})$ by ChPT at $\mathcal{O}(p^4)$ \parencite{KLpi0gg_ChPT_p4}. An expansion of ChPT to $\mathcal{O}(p^6)$ with an extra free parameter $\alpha_V$ was hence proposed. Both the branching ratio and $\alpha_V$ had been precisely measured by NA48 \parencite{KLpi0gg_NA48} and KTeV \parencite{KLpi0gg_KTeV}, as shown in Figure~\ref{fig:KLpi0gg_history}. In this dissertation, we present the third measurement by the KOTO detector.
+
+\begin{figure}[h]
+\begin{center}
+\captionsetup{width=.99\linewidth}
+\includegraphics[width=0.49\textwidth]{Figures/Chapter1/KLpi0gg_br_history.pdf}
+\includegraphics[width=0.49\textwidth]{Figures/Chapter1/KLpi0gg_av_history.pdf}
+\caption[Measured $\mathcal{BR}(K_L^0\to\pi^0\gamma\gamma)$ and $\alpha_V$ from NA48 and KTeV. ]{Measured $\mathcal{BR}(K_L^0\to\pi^0\gamma\gamma)$ and $\alpha_V$ from NA48 and KTeV. The yellow region shows the $1-\sigma$ error band.}
+\label{fig:KLpi0gg_history}
+\end{center}
+\end{figure}

@@ -1,0 +1,67 @@
+\chapter{Dataset}
+\section{Geant4 Simulation}
+\section{CaloChallenge}
+Dataset1
+Dataset2
+
+\section{Data Preprocessing}
+Bucketing\\
+Preprocessor
+The reason of choosing x y coordinate rather than spherical coordinate
+
+\section{The Fast Calorimeter Simulation Challenge (CaloChallenge)}
+
+The Fast Calorimeter Simulation Challenge, or CaloChallenge, is an initiative designed to advance the development of fast, accurate, and efficient generative models for calorimeter shower simulations. This challenge bridges the gap between traditional simulation methods like GEANT4 and novel machine learning approaches, providing datasets, benchmarks, and metrics for evaluation \cite{calochallenge}.
+
+\subsection{Objectives}
+
+CaloChallenge has the following primary goals:
+
+\begin{itemize}
+    \item Encourage the development of generative models capable of fast and accurate calorimeter shower simulation.
+    \item Provide standardized datasets and metrics for consistent evaluation and benchmarking.
+    \item Foster collaboration across the high-energy physics and machine learning communities.
+\end{itemize}
+
+\subsection{Datasets}
+
+The CaloChallenge offers three distinct datasets, each increasing in complexity, to evaluate model performance in diverse scenarios. The datasets are as follows:
+
+\subsubsection{Dataset 1: Single-Layer Geometry}
+Dataset 1 features a simplified calorimeter geometry with a single cylindrical layer. The layer is segmented radially into 51 bins. This dataset is designed for testing the ability of generative models to simulate energy deposition in a straightforward configuration. It provides a foundation for understanding basic model capabilities before progressing to more complex geometries.
+
+\subsubsection{Dataset 2: Multi-Layer Geometry}
+Dataset 2 introduces a more complex geometry with a 3D arrangement of 45 cylindrical layers. Each layer is divided into 5 radial bins and 16 angular bins, creating a voxelized representation of the energy deposition. This dataset challenges models to handle both radial and angular dependencies, making it a significant step up from Dataset 1.
+
+\subsubsection{Dataset 3: Realistic Calorimeter Geometry}
+Dataset 3 simulates a realistic high-granularity calorimeter with 45 cylindrical layers, 5 radial bins, and 16 angular bins, but with additional complexities in the detector geometry and particle distributions. It is designed to evaluate a model's ability to generalize and simulate realistic scenarios encountered in particle physics experiments.
+
+\subsection{Data Format}
+
+Each dataset is stored as one or more HDF5 files created using Python's \texttt{h5py} module with gzip compression. The files include:
+
+\begin{itemize}
+    \item \texttt{incident\_energies}: An array of shape (\texttt{num\_events}, 1) containing the incoming particle energies in MeV.
+    \item \texttt{showers}: An array of shape (\texttt{num\_events}, \texttt{num\_voxels}) storing the energy depositions (in MeV) for each voxel, flattened in a specific order.
+\end{itemize}
+
+The mapping of voxel indices to spatial coordinates follows the detector segmentation. Helper functions are provided for reshaping and handling the data.
+
+\subsection{Evaluation Metrics}
+
+CaloChallenge evaluates the generative models using multiple metrics, including:
+
+\begin{itemize}
+    \item A binary classifier trained to distinguish between real GEANT4 samples and model-generated samples.
+    \item Chi-squared comparisons between histograms of high-level features, such as layer energies and shower shapes.
+    \item Speed and resource usage metrics, such as training time, generation time, and memory footprint.
+    \item Interpolation capabilities to test generalization across unseen particle energies.
+\end{itemize}
+
+\subsection{Community Engagement}
+
+Participants are encouraged to share their findings and contribute to community discussions. The challenge concludes with a workshop to present results, compare approaches, and collaborate on a community paper documenting the outcomes. For communication and updates, participants can join the ML4Jets Slack channel and the Google Groups mailing list \cite{calochallenge}.
+
+For further details, visit the official CaloChallenge GitHub repository: \url{https://github.com/CaloChallenge/homepage}.
+
+

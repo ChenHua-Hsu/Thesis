@@ -1,0 +1,406 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Masters/Doctoral Thesis
+% LaTeX Template
+% Version 2.4 (22/11/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Version 2.x major modifications by:
+% Vel (vel@latextemplates.com)
+%
+% This template is based on a template by:
+% Steve Gunn (http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/)
+% Sunil Patel (http://www.sunilpatel.co.uk/thesis-template/)
+%
+% Template license:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	THESIS TEMPLATE CONFIGURATION
+%----------------------------------------------------------------------------------------
+\documentclass[
+11pt, % The default document font size, options: 10pt, 11pt, 12pt
+%oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
+english, % ngerman for German
+%singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
+onehalfspacing,
+%doublespacing,
+%draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
+nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
+liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
+toctotoc, % Uncomment to add the main table of contents to the table of contents
+parskip, % Uncomment to add space between paragraphs
+%nohyperref, % Uncomment to not load the hyperref package
+headsepline, % Uncomment to get a line under the header
+%chapterinoneline, % Uncomment to place the chapter title next to the number on one line
+consistentlayout, % Uncomment to change the layout of the declaration, abstract and acknowledgements pages to match the default layout
+]{MastersDoctoralThesis} % The class file specifying the document structure
+
+%----------------------------------------------------------------------------------------
+%	Preamble: Font / Language
+%----------------------------------------------------------------------------------------
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{palatino} % Use the Palatino font by default
+
+\usepackage{lscape}
+\usepackage{amsmath}
+\allowdisplaybreaks
+
+\usepackage{xcolor}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{multicol}
+\usepackage{array}
+
+%%%%
+% Chineses package
+%%%%
+\usepackage{CJKutf8}
+
+\newenvironment{Chinese}{%
+\CJKfamily{min}%
+\CJKtilde
+\CJKnospace}{}
+
+\newcommand{\dochinese}[1]{%
+   \begin{CJK}{UTF8}{bkai}\begin{Chinese}#1\end{Chinese}\end{CJK}%
+}
+
+
+%%%%
+%% Japanese package %%
+%%%%%
+\newenvironment{Japanese}{%
+\CJKfamily{min}%
+\CJKtilde
+\CJKnospace}{}
+
+\newcommand{\dojapanese}[1]{%
+   \begin{CJK}{UTF8}{}\begin{Japanese}#1\end{Japanese}\end{CJK}%
+}
+
+
+%----------------------------------------------------------------------------------------
+%	Preamble: Paragraph, TOC
+%----------------------------------------------------------------------------------------
+
+\setlength{\parindent}{5mm}
+\setcounter{tocdepth}{2} % chapter / section / subsection in TOC
+
+% item prevent page break
+\makeatletter
+\newcommand\mynobreakpar{\par\nobreak\@afterheading}
+\makeatother
+
+%----------------------------------------------------------------------------------------
+%	Preamble: Page number
+%----------------------------------------------------------------------------------------
+
+\usepackage{calc} %for counting page number
+
+
+%----------------------------------------------------------------------------------------
+%	Preamble: Mathematics
+%----------------------------------------------------------------------------------------
+
+\usepackage{amsmath} % math package
+\usepackage{amssymb} % math symbol
+\usepackage{siunitx} % SI unit package. \SI{ number }{ unit }
+\usepackage{braket} %braket
+\usepackage{mathtools} % cases (condition)
+\usepackage{cases}
+\usepackage{xfrac}
+
+\DeclareMathOperator\erf{erf}
+\DeclareMathOperator\erfc{erfc}
+
+%----------------------------------------------------------------------------------------
+%	Preamble: Table
+%----------------------------------------------------------------------------------------
+
+% multiple rows
+\usepackage{multirow}
+
+\usepackage{xcolor,colortbl}
+\usepackage{etoolbox} % color table
+\definecolor{Gray}{gray}{0.85}
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+
+\newcommand{\mc}[2]{\multicolumn{#1}{c}{#2}}
+\newcolumntype{a}{>{\columncolor{Gray}}l}
+% \newcolumntype{b}{>{\columncolor{Gray}}c}
+
+\newcommand{\dtoprule}{\specialrule{1pt}{0pt}{0.4pt}%
+            \specialrule{0.3pt}{0pt}{\belowrulesep}%
+            }
+\newcommand{\dbottomrule}{\specialrule{0.3pt}{0pt}{0.4pt}%
+            \specialrule{1pt}{0pt}{\belowrulesep}%
+            }
+%\renewcommand\arraystretch{1.5} % add extra space between rows
+\usepackage{makecell}
+
+\usepackage{threeparttable}
+
+% self definition for table
+\def\VmSpace{1em}
+\def\VdSpace{0.5em}
+
+\captionsetup[figure]{width=\linewidth}
+\captionsetup[table]{width=\linewidth}
+%----------------------------------------------------------------------------------------
+%	Preamgle: Figure
+%----------------------------------------------------------------------------------------
+
+% side caption
+%\usepackage[capbesideposition={bottom,outside},facing=yes,capbesidesep=quad]{floatrow}
+%\usepackage[capbesideposition={center,outside}]{floatrow}
+
+\usepackage{caption}
+
+% potrait or landscape
+\usepackage{rotating}
+\usepackage{dcolumn}       % <--- added
+\usepackage{tablefootnote} % moved here (must be after `rotating`)
+
+
+% side caption
+\usepackage{graphicx}
+\usepackage[rightcaption]{sidecap}
+
+%  support captions for each sub-figure
+\usepackage{subcaption}
+
+%
+%\captionsetup{justification = raggedright, singlelinecheck=true, format=hang}
+%\captionsetup{singlelinecheck=true, format=hang}
+\captionsetup{justification=justified, singlelinecheck=true}
+%\renewcommand\arraystretch{1.5}
+
+% figure option [H]
+\usepackage{float}
+
+%% This part goes in preamble
+
+
+%----------------------------------------------------------------------------------------
+%	Preamble: math in title is set to be bold.
+%----------------------------------------------------------------------------------------
+\makeatletter
+\g@addto@macro\bfseries{\boldmath}
+\makeatother
+
+%----------------------------------------------------------------------------------------
+%	Preamble: Biblatex
+%----------------------------------------------------------------------------------------
+% \usepackage[backend=biber,sorting=none, style=numeric,natbib=true, url = false, eprint=false]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\usepackage[backend=bibtex,sorting=none, style=numeric,natbib=true, url = false, eprint=false]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\setlength\bibitemsep{0.8\baselineskip} %set the spacing between references
+
+\addbibresource{bib/Algorithm.bib} % The filename of the bibliography
+\addbibresource{bib/transformer.bib} % The filename of the bibliography
+\addbibresource{bib/introduction.bib}
+
+\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+
+%----------------------------------------------------------------------------------------
+%	Preamble: Index setting
+%----------------------------------------------------------------------------------------
+%\begin{filecontents*}{\jobname.mst}
+%headings_flag 1
+%heading_prefix "{\\textbf{"
+%heading_suffix "}}\\nopagebreak\n"
+%\end{filecontents*}
+
+\usepackage{makeidx}			 % index package
+\usepackage[totoc]{idxlayout} % Create index in the table of contents
+
+\makeindex
+
+%----------------------------------------------------------------------------------------
+%	Preamble: glossary
+%----------------------------------------------------------------------------------------
+%\usepackage{glossaries}
+%\newacronym{gcd}{GCD}{Greatest Common Divisor}\makeglossaries
+
+%----------------------------------------------------------------------------------------
+%	Preamble: others
+%----------------------------------------------------------------------------------------
+
+% random paragraph
+\usepackage{lipsum}
+
+% strikethrough
+\usepackage[normalem]{ulem}
+
+% quotation
+\makeatletter
+%\renewcommand{\@chapapp}{}% Not necessary...
+\newenvironment{chapquote}[2][2em]
+  {\setlength{\@tempdima}{#1}%
+   \def\chapquote@author{#2}%
+   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
+   \itshape}
+  {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
+\makeatother
+
+\usepackage{comment}
+
+
+
+
+% For draft package 
+% \usepackage{draft}
+% \usepackage{draftwatermark}                             %for draft watermark
+% \SetWatermarkAngle{45} 
+% \SetWatermarkLightness{.95}
+
+\usepackage{eso-pic}                                      %for NTU watermark
+\usepackage{transparent}
+% \usepackage{showframe}
+
+\usepackage{afterpage}
+
+\usepackage{lineno}
+\usepackage[colorinlistoftodos, textsize=tiny, disable]{todonotes}
+\setlength{\marginparwidth}{3cm}
+\reversemarginpar
+
+\newcommand{\indummyfig}[1]{
+  \fbox{
+    \begin{minipage}[c][0.33\textheight][c]{0.5\textwidth}
+    \centering{#1}
+    \end{minipage}
+  }
+}
+\newcommand{\dummyfig}[2]{
+  % \centering
+  \begin{figure}[h]
+  \begin{center}
+  \captionsetup{width=.99\linewidth}
+  \fbox{
+    \begin{minipage}[c][0.33\textheight][c]{0.5\textwidth}
+    \centering{#1}
+    \end{minipage}
+  }
+  \caption{#1}
+  \label{fig:#2}
+  \end{center}
+  \end{figure}
+}
+
+% \begin{figure}[h]
+%   \begin{center}
+  %   \captionsetup{width=.99\linewidth}
+  %   \includegraphics[width=0.95\textwidth]{Figures/Chapter1/feymann_gim.pdf}
+  %   \caption{Box diagrams for $K^0\to\mu^+\mu^-$.}
+  %   \label{fig:gim}
+%   \end{center}
+% \end{figure}
+
+
+\newcommand{\KLz}{K^0_L}
+\newcommand{\KLpinunu}{\KLz \to \pi^0 \nu\bar\nu}
+\newcommand{\KLtrpi}{\KLz \to 3\pi^0}
+\newcommand{\KLpipi}{\KLz \to \pi^0\pi^0}
+\newcommand{\KLgg}{\KLz \to 2\gamma}
+\newcommand{\KLgA}{\KLz \to \gamma\bar\gamma}
+
+\newcommand{\KLpipipizero}{\KLz \to \pi^+ \pi^- \pi^0 } % K0 → π+ π- π0
+\newcommand{\KeThree}{\KLz \to \pi^\pm e^\mp \nu_e}  % Full decay for K0e3
+\newcommand{\KmuThree}{\KLz \to \pi^\pm \mu^\mp \nu_\mu}  % Full decay for K0mu3
+\newcommand{\sKeThree}{K^0_{e3}}  % Short notation for K0e3
+\newcommand{\sKmuThree}{K^0_{\mu3}}  % Short notation for K0mu3
+
+\newcommand{\myalign}[1]{%
+  \vspace{1em}%
+  \begin{align}
+    #1
+  \end{align}%
+
+  \noindent%
+}
+
+
+% \def\bhline{\noalign{\ifnum0=`}\fi\hrule \@height  
+% \newcommand{\br}{\ms\bhline\ms}
+% \newcommand{\mr}{\ms\hline\ms}
+% \newcommand{\ms}{\noalign{\vspace{3\p@ plus2\p@ minus1\p@}}}
+
+%----------------------------------------------------------------------------------------
+%	MARGIN SETTINGS
+%----------------------------------------------------------------------------------------
+
+% Jay default
+% \geometry{
+% 	paper=a4paper, % Change to letterpaper for US letter
+% 	inner=3  cm, % Inner margin
+% 	outer=2.5cm, % Outer margin
+% 	bindingoffset=.5cm, % Binding offset
+% 	top=2cm, % Top margin
+% 	bottom=1.5cm, % Bottom margin
+% 	%showframe, % Uncomment to show how the type block is set on the page
+% }
+
+% NTU requirement
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	inner=3cm, % Inner margin
+	outer=3cm, % Outer margin
+	bindingoffset=.5cm, % Binding offset
+	top=3cm, % Top margin
+	bottom=2cm, % Bottom margin
+	% showframe, % Uncomment to show how the type block is set on the page
+}
+
+% todo note
+% \geometry{
+% 	paper=a4paper, % Change to letterpaper for US letter
+% 	inner=3cm, % Inner margin
+% 	outer=2.5cm, % Outer margin
+% 	bindingoffset=.5cm, % Binding offset
+% 	top=2cm, % Top margin
+% 	bottom=1.5cm, % Bottom margin
+% 	% showframe, % Uncomment to show how the type block is set on the page
+%   left=4cm,
+% }
+
+% % draft mode 
+% \reversemarginpar
+% \setlength{\marginparwidth}{2cm}
+% \paperwidth=\dimexpr \paperwidth + 6cm\relax
+% \oddsidemargin=\dimexpr\oddsidemargin + 3cm\relax
+% \evensidemargin=\dimexpr\evensidemargin + 3cm\relax
+% \marginparwidth=\dimexpr \marginparwidth + 3cm\relax
+
+
+%----------------------------------------------------------------------------------------
+%	THESIS INFORMATION
+%----------------------------------------------------------------------------------------
+
+%\thesistitle{Study of $K_L^0 \to \pi^0 \nu \bar{\nu}$ and $K_L^0 \to \pi^0 \gamma \gamma$ with Cluster-Finding Trigger at KOTO} % Your thesis title, this is used in the title and abstract, print it elsewhere with \ttitle
+\supervisor{Dr. Kai-Feng Chen} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
+\examiner{} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
+\degree{Master} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
+\author{Chen-Hua Hsu} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
+
+\subject{Physics} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
+\keywords{Diffusion model, CMS, Partical Physics, Machine Learning, SDE} % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
+\university{\href{http://www.ntu.edu.tw}{National Taiwan University}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
+\department{\href{http://www.phys.ntu.edu.tw}{Department or Physics}} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
+\group{\href{https://hep1.phys.ntu.edu.tw/hep-web/}{High Energy Physics}} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
+%\faculty{\href{http://faculty.university.com}{Faculty Name}} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
+
+%\AtBeginDocument{
+%\hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
+%\hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
+%\hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
+%}
+
+\begin{document}
+\input{documentHandler}
+\end{document}
