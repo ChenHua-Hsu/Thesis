@@ -32202,6 +32202,453 @@
     \field{year}{2018}
   \endentry
 
+  \entry{lhc_picture}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=F}{%
+         family={{Forthommel}},
+         familyi={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{F1}
+    \strng{fullhash}{F1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{shorttitle}{English}
+    \field{title}{English: {Map} of the {CERN} accelerator complex}
+    \verb{url}
+    \verb https://commons.wikimedia.org/wiki/File:Cern-accelerator-complex.svg
+    \endverb
+    \verb{file}
+    \verb Wikimedia Snapshot:files/67/FileCern-accelerator-complex.html:text/ht
+    \verb ml
+    \endverb
+    \field{month}{05}
+    \field{year}{2011}
+    \field{urlday}{08}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{linac4}{misc}{}
+    \list{language}{1}{%
+      {en}%
+    }
+    \field{labeltitlesource}{title}
+    \field{title}{Linear accelerator 4}
+    \verb{url}
+    \verb https://home.cern/science/accelerators/linear-accelerator-4
+    \endverb
+    \verb{file}
+    \verb Snapshot:files/73/linear-accelerator-4.html:text/html
+    \endverb
+    \field{journaltitle}{CERN}
+    \field{month}{12}
+    \field{year}{2024}
+    \field{urlday}{08}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{psb}{misc}{}
+    \list{language}{1}{%
+      {en}%
+    }
+    \field{labeltitlesource}{title}
+    \field{title}{The {Proton} {Synchrotron} {Booster}}
+    \verb{url}
+    \verb https://home.cern/science/accelerators/proton-synchrotron-booster
+    \endverb
+    \verb{file}
+    \verb Snapshot:files/75/proton-synchrotron-booster.html:text/html
+    \endverb
+    \field{journaltitle}{CERN}
+    \field{month}{12}
+    \field{year}{2024}
+    \field{urlday}{08}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{ps}{misc}{}
+    \list{language}{1}{%
+      {en}%
+    }
+    \field{labeltitlesource}{title}
+    \field{title}{The {Proton} {Synchrotron}}
+    \verb{url}
+    \verb https://home.cern/science/accelerators/proton-synchrotron
+    \endverb
+    \field{journaltitle}{CERN}
+    \field{month}{12}
+    \field{year}{2024}
+    \field{urlday}{08}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{sps}{misc}{}
+    \list{language}{1}{%
+      {en}%
+    }
+    \field{labeltitlesource}{title}
+    \field{title}{The {Super} {Proton} {Synchrotron}}
+    \verb{url}
+    \verb https://home.cern/science/accelerators/super-proton-synchrotron
+    \endverb
+    \field{journaltitle}{CERN}
+    \field{month}{12}
+    \field{year}{2024}
+    \field{urlday}{08}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{superconducting}{misc}{}
+    \list{language}{1}{%
+      {en}%
+    }
+    \field{labeltitlesource}{shorttitle}
+    \field{shorttitle}{Pulling together}
+    \field{title}{Pulling together: {Superconducting} electromagnets}
+    \verb{url}
+    \verb https://home.cern/science/engineering/pulling-together-superconductin
+    \verb g-electromagnets
+    \endverb
+    \verb{file}
+    \verb Snapshot:files/81/pulling-together-superconducting-electromagnets.htm
+    \verb l:text/html
+    \endverb
+    \field{journaltitle}{CERN}
+    \field{month}{12}
+    \field{year}{2024}
+    \field{urlday}{08}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{lhc_2024}{misc}{}
+    \list{language}{1}{%
+      {en}%
+    }
+    \field{labeltitlesource}{title}
+    \field{title}{The {Large} {Hadron} {Collider}}
+    \verb{url}
+    \verb https://home.cern/science/accelerators/large-hadron-collider
+    \endverb
+    \verb{file}
+    \verb Snapshot:files/83/large-hadron-collider.html:text/html
+    \endverb
+    \field{journaltitle}{CERN}
+    \field{month}{12}
+    \field{year}{2024}
+    \field{urlday}{08}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{superconducting_magnet}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HA}{%
+         family={Hervé},
+         familyi={H\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+    }
+    \strng{namehash}{HA1}
+    \strng{fullhash}{HA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/77.828255
+    \endverb
+    \field{number}{1}
+    \field{pages}{389\bibrangedash 94}
+    \field{title}{{The CMS detector magnet}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/438917
+    \endverb
+    \field{volume}{10}
+    \field{journaltitle}{IEEE Trans. Appl. Supercond.}
+    \field{year}{2000}
+  \endentry
+
+  \entry{4436524}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=FM}{%
+         family={Fouz},
+         familyi={F\bibinitperiod},
+         given={M.C},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{Collision mitigation;Mesons;Detectors;Solenoids;Large Hadron Collider;Superconducting magnets;Spectroscopy;Iron;Cathodes;Strips}
+    \strng{namehash}{FM1}
+    \strng{fullhash}{FM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2007 IEEE Nuclear Science Symposium Conference Record}
+    \verb{doi}
+    \verb 10.1109/NSSMIC.2007.4436524
+    \endverb
+    \field{pages}{1885\bibrangedash 1890}
+    \field{title}{The CMS Muon detectors}
+    \field{volume}{3}
+    \field{year}{2007}
+  \endentry
+
+  \entry{tracker_tdr}{report}{}
+    \name{author}{1}{}{%
+      {{hash=CC}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={CMS},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CC1}
+    \strng{fullhash}{CC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{CERN/LHCC 98-006}
+    \field{title}{The Tracker Technical Design Report}
+    \list{institution}{1}{%
+      {CERN}%
+    }
+    \field{type}{techreport}
+    \field{year}{1998}
+  \endentry
+
+  \entry{pixels}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Silicon {Pixels} {\textbar} {CMS} {Experiment}}
+    \verb{url}
+    \verb https://cms.cern/detector/identifying-tracks/silicon-pixels
+    \endverb
+    \verb{file}
+    \verb Silicon Pixels | CMS Experiment:files/89/silicon-pixels.html:text/htm
+    \verb l
+    \endverb
+    \field{urlday}{08}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{strips}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Silicon {Strips} {\textbar} {CMS} {Experiment}}
+    \verb{url}
+    \verb https://cms.cern/detector/identifying-tracks/silicon-strips
+    \endverb
+    \verb{file}
+    \verb Silicon Strips | CMS Experiment:files/92/silicon-strips.html:text/htm
+    \verb l
+    \endverb
+    \field{urlday}{08}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{ecal_tdr}{report}{}
+    \name{author}{1}{}{%
+      {{hash=CC}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={CMS},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CC1}
+    \strng{fullhash}{CC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{CERN/LHCC 97-033}
+    \field{title}{The Electromagnetic Calorimeter Technical Design Report}
+    \list{institution}{1}{%
+      {CERN}%
+    }
+    \field{type}{techreport}
+    \field{year}{1997}
+  \endentry
+
+  \entry{ecal_tdr_preshower}{report}{}
+    \name{author}{1}{}{%
+      {{hash=CC}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={CMS},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CC1}
+    \strng{fullhash}{CC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{CERN/LHCC 99-033}
+    \field{title}{The Preshower Detector Technical Design Report}
+    \list{institution}{1}{%
+      {CERN}%
+    }
+    \field{type}{techreport}
+    \field{year}{1999}
+  \endentry
+
+  \entry{ECAL}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=PR}{%
+         family={Pots},
+         familyi={P\bibinitperiod},
+         given={Rosalinde},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PR1}
+    \strng{fullhash}{PR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Inorganic scintillating crystals have been very successful in a variety of applications, such as high energy physics, medical physics, home land security and others. Next to the energy information these detectors deliver, also their potential to achieve precise timing information has become of increasing importance. Already today, recent developments in time-of-flight detectors based on scintillating crystals have reached coincidence time resolutions as high as {\textasciitilde}100 ps FWHM for 20 mm long crystals. The goal of this thesis is to pave the road towards the 10 ps regime, to make high energy physics cope with the future extreme luminosity and ultrashort bunch crossing intervals (as low as 500 ps) at the next generation of colliding beam accelerators. It may also serve to make medical physics benefit from simpler reconstruction algorithms, leading to higher image resolution and shorter imaging time in, e.g., PET. To reach this ambitious goal, an interdisciplinary approach in the domain of photodetection in general is needed. Therefore, this work must go hand in hand with advancements in the fields of scintillators, photodetectors and ultrafast electronics. Among these, this thesis focuses on the fields of scintillators and light transport. One aspect investigated in this thesis, is light transport inside- and light extraction from the crystal, based on the knowledge of the photon propagation modes in the crystal. Owing to the fact that scintillation light is emitted isotropically, the high refractive index of the crystal makes light rays undergo multiple reflections at the crystal surfaces, preventing an efficient and fast light extraction. To overcome the time spread generated by this effect, which ultimately limits the time resolution, photonic crystals slabs applied at the scintillator readout face might be a promising method to improve light extraction at the crystal-photodetector interface. The work in this thesis starts with a study on improving imaging quality of an existing, breast-dedicated, scanner by introducing photonic crystals on the readout surfaces of the existing large monolithic LYSO crystals, of order 50x50 mm2, already in use in the device. For that purpose, the author, in collaboration with partners of the TurboPET project, developed production methods for photonic crystals that were then applied and tested on the large LYSO crystals for the purpose of selecting the best method for a new prototype of this PET scanner. The best results were obtained with a sol-gel lithography process, that has produced a pattern of TiO2 cones (RI=2.4) with a 1.17 times increase in light output and a 1.3 times increase in energy resolution (at the single-crystal level). In total 10 such large crystals were produced with this pattern, which then led to an average increase in light output by a factor of 1.16 and an average improvement in energy resolution by a factor of 1.3. Following their implementation in the existing PET scanner, phantom tests were run to evaluate the overall performance of the device. These tests showed that the modified PET scanner benefited from an increase in signal-to-noise ratio of only {\textasciitilde}6\%, nonetheless a promising result taken the fact that this was a first attempt of improving an existing PET scanner. The second part of the thesis entailed a dedicated investigation of photonic crystals, applied to smaller crystals, to search for an improvement in light output and in addition an improvement in the timing behavior in terms of coincidence time resolution (CTR). The focal point was a comparison between two photonic patterns, one with TiO2 pillars (RI=2.4) and the other with polymer cones (RI=1.82), both in a square lattice and imprinted on 10 mm LYSO cubes. It turns out from this comparison that the polymer cone pattern is superior in both light output (x1.7 over unpatterned) and CTR (x1.5 over unpatterned) than the TiO2 pillar pattern (x1.5 and 1.2, respectively). Additional tests addressed the question how the classical methods of improving light output, i.e. wrapping and optical coupling of the crystals, would compare to the results obtained with the results derived from photonic patterning. The third subject investigated in this thesis is related to exploring intrinsically fast scintillation mechanisms. The reason for this is that the determining factor for the time resolution of a scintillator is the initial photon density upon gamma conversion in the crystal. To first approximation, this initial photon density is given by the light output of the crystal divided by its decay time. As such, a high light output and a short decay time are crucial ingredients for fast timing. To break the CTR bench mark of 58 ps FWHM, obtained with classical, 3 mm long, LSO:Ce:0.4\%Ca crystals, BaF2 was chosen as a promising candidate owing to its sub-nanosecond scintillation process due to cross-luminescence in this crystal. A true challenge coming from using cross-luminescence stems from the very short emission wavelengths, usually in the deep UV, like e.g. 210 nm and 195 nm in BaF2. This imposes significant constraints on the use of photodetectors, as well as optical coupling agents and reflective wrapping materials, to cope with this short wavelength region. This limits the choice of fast UV-sensitive SiPMs, and in the long run only two producers were found to manufacture adequate SiPMs, i.e. Fondazione Bruno Kessler (FBK) and Hamamatsu, albeit with still relatively low photon detection efficiencies of around 20\%. Comparing the two different producers it was found that, while both deliver adequate results, FBK clearly outperforms the Hamamatsu devices. As to the BaF2 crystals themselves, two different producers for their manufacture were chosen: Epic and Proteus. Among the two tested candidates, Epic and Proteus, the Epic crystal delivered consistently better results owing to its higher transparency at the cross-luminescence wavelengths. In first instance, the CTR measurements were made with air-coupling only. As such, from the arguments above an Epic crystal in conjunction with a Hamamatsu device delivered a CTR of 98+/-5 ps FWHM. In the case of coupling the same crystal to an FBK device, a clearly superior CTR of 54+/-6 ps FWHM was reached. Further to this, different optical coupling agents were tested in an attempt to see if the already very promising air-coupling results could still be improved. After initial selection tests, only glycerine and Viscasil remained as promising candidates for an eventual improvement in the CTR. While the behaviour of the two coupling agents, in particular glycerine, in terms of their potential improvement in CTR, is still debatable, the best result obtained with BaF2 coupled to a FBK SiPM with glycerine sets a new record in CTR of 51+/-6 ps FWHM, despite the FBK's significantly inferior photon detection efficiency in the deep UV. This thesis has shown that exploiting cross-luminescence in crystals like BaF2 is a promising road to further research in the domain of ultra-high time resolution with photons.%
+    }
+    \verb{doi}
+    \verb 10.18154/RWTH-2022-04865
+    \endverb
+    \field{title}{Investigation of new technologies to improve light collection from scintillating crystals for fast timing}
+    \verb{file}
+    \verb Full Text PDF:files/94/Pots - 2022 - Investigation of new technologie
+    \verb s to improve light collection from scintillating crystals for fast t.
+    \verb pdf:application/pdf
+    \endverb
+    \field{type}{phdthesis}
+    \field{month}{05}
+    \field{year}{2022}
+  \endentry
+
+  \entry{hcal_tdr}{report}{}
+    \name{author}{1}{}{%
+      {{hash=CC}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={CMS},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CC1}
+    \strng{fullhash}{CC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{CERN/LHCC 96-041}
+    \field{title}{The Hadronic Calorimeter Technical Design Report}
+    \list{institution}{1}{%
+      {CERN}%
+    }
+    \field{type}{techreport}
+    \field{year}{1997}
+  \endentry
+
+  \entry{hcal_tdr_forward}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CC}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={CMS},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CC1}
+    \strng{fullhash}{CC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Forward Hadron Calorimeter Design and Performance}
+    \field{journaltitle}{CERN-PH-EP/2006-002}
+    \field{year}{2006}
+  \endentry
+
+  \entry{hcal_tdr_outer}{report}{}
+    \name{author}{1}{}{%
+      {{hash=CC}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={CMS},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CC1}
+    \strng{fullhash}{CC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{CERN/LHCC 98-030}
+    \field{title}{Outer Hadron Calorimeter Technical Performance Report}
+    \list{institution}{1}{%
+      {CERN}%
+    }
+    \field{type}{techreport}
+    \field{year}{1998}
+  \endentry
+
+  \entry{hcal_cms_detector}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CC}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={CMS},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CC1}
+    \strng{fullhash}{CC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{S08004}
+    \field{title}{The CMS Detector at the LHC}
+    \field{volume}{3}
+    \field{journaltitle}{Journal of Instrumentation}
+    \field{year}{2008}
+  \endentry
+
+  \entry{cms_tdr_hcal}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={{CMS Collaboration}},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{CERN/LHCC 96-041}
+    \field{title}{The Hadronic Calorimeter Technical Design Report}
+    \verb{url}
+    \verb https://cds.cern.ch/record/321167
+    \endverb
+    \field{year}{1996}
+    \field{urlday}{08}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{cms_tdr_muon}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={{CMS Collaboration}},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{CERN/LHCC 97-032}
+    \field{title}{The Muon Technical Design Report}
+    \verb{url}
+    \verb https://cds.cern.ch/record/343814
+    \endverb
+    \field{year}{1997}
+    \field{urlday}{08}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
+  \endentry
+
   \entry{song_generative_2020}{misc}{}
     \name{author}{2}{}{%
       {{hash=SY}{%

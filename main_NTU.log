@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.4)  3 JAN 2025 15:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.4)  9 JAN 2025 20:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1228,7 +1228,7 @@ package with kernel methods
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
-(scrhack)             need that hack, on input line 404.
+(scrhack)             need that hack, on input line 405.
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
@@ -1247,11 +1247,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip103
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 404.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 404.
-Package hyperref Info: Option `colorlinks' set `true' on input line 404.
-Package hyperref Info: Option `unicode' set `true' on input line 404.
-Package hyperref Info: Option `breaklinks' set `true' on input line 404.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 405.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 405.
+Package hyperref Info: Option `colorlinks' set `true' on input line 405.
+Package hyperref Info: Option `unicode' set `true' on input line 405.
+Package hyperref Info: Option `breaklinks' set `true' on input line 405.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/ragged2e/ragged2e.sty
@@ -1273,92 +1273,92 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 ) (./main_NTU.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux) (./Chapters/Chapter6.aux) (./Chapters/Chapter7.aux))
 \openout1 = `main_NTU.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 404.
-LaTeX Font Info:    ... okay on input line 404.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 405.
+LaTeX Font Info:    ... okay on input line 405.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 404.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 405.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count514
@@ -1421,12 +1421,12 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemargintrue
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package scrbase Info: activating english \abbrevname on input line 404.
-Package scrbase Info: activating english \abstractname on input line 404.
-Package scrbase Info: activating english \acknowledgementname on input line 404.
-Package scrbase Info: activating english \authorshipname on input line 404.
-Package scrbase Info: activating english \constantsname on input line 404.
-Package scrbase Info: activating english \symbolsname on input line 404.
+Package scrbase Info: activating english \abbrevname on input line 405.
+Package scrbase Info: activating english \abstractname on input line 405.
+Package scrbase Info: activating english \acknowledgementname on input line 405.
+Package scrbase Info: activating english \authorshipname on input line 405.
+Package scrbase Info: activating english \constantsname on input line 405.
+Package scrbase Info: activating english \symbolsname on input line 405.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1454,9 +1454,9 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 404.
-Package biblatex Info: Reference segment=0 on input line 404.
-Package hyperref Info: Link coloring ON on input line 404.
+Package biblatex Info: Reference section=0 on input line 405.
+Package biblatex Info: Reference segment=0 on input line 405.
+Package hyperref Info: Link coloring ON on input line 405.
  (./main_NTU.out) (./main_NTU.out)
 \@outlinefile=\write7
 \openout7 = `main_NTU.out'.
@@ -1484,7 +1484,7 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-<Figures/watermark-05.pdf, id=268, 207.77625pt x 207.77625pt>
+<Figures/watermark-05.pdf, id=384, 207.77625pt x 207.77625pt>
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 68.
@@ -1511,7 +1511,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 89.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Figures/NTU.jpg, id=324, 256.5585pt x 254.3904pt>
+<Figures/NTU.jpg, id=440, 256.5585pt x 254.3904pt>
 File: Figures/NTU.jpg Graphic file (type jpg)
 <use Figures/NTU.jpg>
 Package pdftex.def Info: Figures/NTU.jpg  used on input line 111.
@@ -1623,9 +1623,14 @@ Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 72.
 1: section
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 35.
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 37.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[7])
+[7]
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 78.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+ [8])
 \tf@toc=\write8
 \openout8 = `main_NTU.toc'.
 
@@ -1633,7 +1638,14 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 75.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [8] (./main_NTU.lof)
+ [9]
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 75.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+ [10
+
+] (./main_NTU.lof)
 \tf@lof=\write9
 \openout9 = `main_NTU.lof'.
 
@@ -1643,14 +1655,12 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 76.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[9
-
-]
+[11]
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 76.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [10
+ [12
 
 ] (./main_NTU.lot)
 \tf@lot=\write10
@@ -1662,12 +1672,12 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 82.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[11]
+[13]
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 82.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [12
+ [14
 
 ]
 1: section
@@ -1675,7 +1685,7 @@ Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 82.
 
 (./Chapters/Chapter1.tex
 Chapter 1.
-<Figures/simulation.png, id=532, 1227.58624pt x 650.43pt>
+<Figures/simulation.png, id=698, 1227.58624pt x 650.43pt>
 File: Figures/simulation.png Graphic file (type png)
 <use Figures/simulation.png>
 Package pdftex.def Info: Figures/simulation.png  used on input line 13.
@@ -1707,7 +1717,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 31.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
 [3]
-<Figures/fast.png, id=585, 493.845pt x 356.33125pt>
+<Figures/fast.png, id=751, 493.845pt x 356.33125pt>
 File: Figures/fast.png Graphic file (type png)
 <use Figures/fast.png>
 Package pdftex.def Info: Figures/fast.png  used on input line 34.
@@ -1736,13 +1746,144 @@ Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 1.
 
 ]
 Chapter 2.
-)
+<Figures/Cern_Accelerator_Complex.png, id=765, 1606.0pt x 1045.9075pt>
+File: Figures/Cern_Accelerator_Complex.png Graphic file (type png)
+<use Figures/Cern_Accelerator_Complex.png>
+Package pdftex.def Info: Figures/Cern_Accelerator_Complex.png  used on input line 7.
+(pdftex.def)             Requested size: 330.05324pt x 214.93907pt.
 1: section
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 13.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+[7 <./Figures/Cern_Accelerator_Complex.png>]
+Overfull \hbox (3.84859pt too wide) in paragraph at lines 29--30
+[]\T1/ppl/b/n/10.95 Superconducting Mag-nets: \T1/ppl/m/n/10.95 Ap-prox-i-mately 1,232 dipole mag-nets steer the beams
+ []
+
+
+Overfull \hbox (3.33334pt too wide) in paragraph at lines 30--31
+[]\T1/ppl/b/n/10.95 Cryogenics: \T1/ppl/m/n/10.95 The su-per-con-duct-ing mag-nets op-er-ate at 1.9 Kelvin (-271  ), achieved
+ []
+
+
+Overfull \hbox (12.15854pt too wide) in paragraph at lines 39--40
+[]\T1/ppl/b/n/10.95 LHCb (LHC Beauty Ex-per-i-ment): \T1/ppl/m/n/10.95 Ded-i-cated to in-ves-ti-gat-ing the matter-antimatter
+ []
+
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 40.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+[8]
+<Figures/CMS Detector Schematic.png, id=797, 284.39583pt x 201.08458pt>
+File: Figures/CMS Detector Schematic.png Graphic file (type png)
+<use Figures/CMS Detector Schematic.png>
+Package pdftex.def Info: Figures/CMS Detector Schematic.png  used on input line 68.
+(pdftex.def)             Requested size: 330.05324pt x 233.38098pt.
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 74.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+ [9]
+<Figures/CMS Slice White Background.png, id=806, 6022.5pt x 3982.88pt>
+File: Figures/CMS Slice White Background.png Graphic file (type png)
+<use Figures/CMS Slice White Background.png>
+Package pdftex.def Info: Figures/CMS Slice White Background.png  used on input line 79.
+(pdftex.def)             Requested size: 330.05324pt x 218.23863pt.
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 92.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+ [10 <./Figures/CMS Detector Schematic.png>]
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 103.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+ [11 <./Figures/CMS Slice White Background.png>]
+Overfull \hbox (5.86469pt too wide) in paragraph at lines 106--107
+[]\T1/ppl/m/n/10.95 The tracker achieves a trans-verse mo-men-tum res-o-lu-tion of ap-prox-i-mately $\OT1/cmr/m/n/10.95 ^^A\OML/cmm/m/it/10.95 p[]=p[] \OT1/cmr/m/n/10.95 =
+ []
+
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 157.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+[12]
+<Figures/ECAL Schematic Overview.png, id=841, 853.1875pt x 486.81876pt>
+File: Figures/ECAL Schematic Overview.png Graphic file (type png)
+<use Figures/ECAL Schematic Overview.png>
+Package pdftex.def Info: Figures/ECAL Schematic Overview.png  used on input line 167.
+(pdftex.def)             Requested size: 330.05324pt x 188.32832pt.
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 175.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+ [13 <./Figures/ECAL Schematic Overview.png>]
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 195.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+ [14]
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 209.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+ [15]
+Overfull \hbox (12.17973pt too wide) in paragraph at lines 211--212
+\T1/ppl/m/n/10.95 as its ab-sorber, with ad-di-tional lay-ers of plas-tic scin-til-la-tors serv-ing as the ac-tive medium.
+ []
+
+<Figures/HCAL.jpg, id=866, 238.78008pt x 126.4725pt>
+File: Figures/HCAL.jpg Graphic file (type jpg)
+<use Figures/HCAL.jpg>
+Package pdftex.def Info: Figures/HCAL.jpg  used on input line 222.
+(pdftex.def)             Requested size: 330.05324pt x 174.83713pt.
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 236.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+[16]
+
+LaTeX Warning: Citation 'muon_tdr' on page 17 undefined on input line 238.
+
+
+LaTeX Warning: Citation 'muon_tdr' on page 17 undefined on input line 243.
+
+
+LaTeX Warning: Citation 'muon_tdr' on page 17 undefined on input line 245.
+
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 246.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+[17 <./Figures/HCAL.jpg>]
+
+LaTeX Warning: Citation 'muon_tdr' on page 18 undefined on input line 248.
+
+
+LaTeX Warning: Citation 'muon_tdr' on page 18 undefined on input line 260.
+
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 273.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+[18]
+
+LaTeX Warning: Citation 'trigger_tdr' on page 19 undefined on input line 275.
+
+
+LaTeX Warning: Citation 'trigger_tdr' on page 19 undefined on input line 277.
+
+
+LaTeX Warning: Citation 'trigger_tdr' on page 19 undefined on input line 280.
+
+)
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 91.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[7]
+ [19]
 \openout2 = `Chapters/Chapter3.aux'.
 
  (./Chapters/Chapter3.tex
@@ -1750,7 +1891,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 1.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [8
+ [20
 
 
 
@@ -1763,14 +1904,14 @@ Overfull \hbox (11.85785pt too wide) in paragraph at lines 12--12
  []
 
 
-LaTeX Warning: Citation 'calochallenge' on page 9 undefined on input line 14.
+LaTeX Warning: Citation 'calochallenge' on page 21 undefined on input line 14.
 
 1: section
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 30.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[9]
+[21]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 41.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1779,16 +1920,16 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 56.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [10]
+ [22]
 
-LaTeX Warning: Citation 'calochallenge' on page 11 undefined on input line 63.
+LaTeX Warning: Citation 'calochallenge' on page 23 undefined on input line 63.
 
 )
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 94.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [11]
+ [23]
 \openout2 = `Chapters/Chapter4.aux'.
 
  (./Chapters/Chapter4.tex
@@ -1796,7 +1937,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 1.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [12
+ [24
 
 
 
@@ -1808,7 +1949,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 12.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[13]
+[25]
 Overfull \hbox (10.1729pt too wide) in paragraph at lines 36--37
 \T1/ppl/m/n/10.95 the con-di-tional prob-a-bil-ity dis-tri-bu-tion as fol-lows: $\OML/cmm/m/it/10.95 p\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x[]\OMS/cmsy/m/n/10.95 j\OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95 ) = \OMS/cmsy/m/n/10.95 N []$\T1/ppl/m/n/10.95 . 
  []
@@ -1817,7 +1958,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 39.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[14]
+[26]
 Overfull \hbox (44.0705pt too wide) in paragraph at lines 48--49
 []\T1/ppl/m/n/10.95 What's more, we can de-fine the per-turbed data dis-tri-bu-tion as $\OML/cmm/m/it/10.95 p[]\OT1/cmr/m/n/10.95 ([]) := [] \OML/cmm/m/it/10.95 p[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 p[]\OT1/cmr/m/n/10.95 ([]\OMS/cmsy/m/n/10.95 j\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 dx$\T1/ppl/m/n/10.95 .
  []
@@ -1826,22 +1967,22 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 70.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[15]
+[27]
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 105.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [16]
+ [28]
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 143.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [17]
+ [29]
 Overfull \hbox (21.41852pt too wide) in paragraph at lines 145--146
 \T1/ppl/m/n/10.95 min-is-tic part and a stochas-tic part. The de-ter-min-is-tic part con-sists of $\OT1/cmr/bx/n/10.95 f[]\OT1/cmr/m/n/10.95 (\OT1/cmr/bx/n/10.95 x[]\OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 g[]\OMS/cmsy/m/n/10.95 r[] [] \OML/cmm/m/it/10.95 p\OT1/cmr/m/n/10.95 (\OT1/cmr/bx/n/10.95 x[]\OT1/cmr/m/n/10.95 )$\T1/ppl/m/n/10.95 ,
  []
 
-<Figures/diffusion.png, id=684, 658.46pt x 234.8775pt>
+<Figures/diffusion.png, id=965, 658.46pt x 234.8775pt>
 File: Figures/diffusion.png Graphic file (type png)
 <use Figures/diffusion.png>
 Package pdftex.def Info: Figures/diffusion.png  used on input line 156.
@@ -1850,27 +1991,27 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 172.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[18 <./Figures/diffusion.png>]
+[30 <./Figures/diffusion.png>]
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 221.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [19]
+ [31]
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 263.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [20]
+ [32]
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 306.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [21])
+ [33])
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 97.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [22]
+ [34]
 \openout2 = `Chapters/Chapter5.aux'.
 
  (./Chapters/Chapter5.tex
@@ -1885,7 +2026,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 11.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[23
+[35
 
 
 
@@ -1899,18 +2040,18 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 24.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[24]
-<Figures/rnn.jpeg, id=752, 2291.56125pt x 1003.75pt>
+[36]
+<Figures/rnn.jpeg, id=1033, 2291.56125pt x 1003.75pt>
 File: Figures/rnn.jpeg Graphic file (type jpg)
 <use Figures/rnn.jpeg>
 Package pdftex.def Info: Figures/rnn.jpeg  used on input line 29.
 (pdftex.def)             Requested size: 185.65298pt x 81.31248pt.
-<Figures/transformer.jpeg, id=753, 1728.4575pt x 1003.75pt>
+<Figures/transformer.jpeg, id=1034, 1728.4575pt x 1003.75pt>
 File: Figures/transformer.jpeg Graphic file (type jpg)
 <use Figures/transformer.jpeg>
 Package pdftex.def Info: Figures/transformer.jpeg  used on input line 36.
 (pdftex.def)             Requested size: 185.65298pt x 107.80913pt.
-<Figures/transformerblock.png, id=754, 526.96875pt x 452.69125pt>
+<Figures/transformerblock.png, id=1035, 526.96875pt x 452.69125pt>
 File: Figures/transformerblock.png Graphic file (type png)
 <use Figures/transformerblock.png>
 Package pdftex.def Info: Figures/transformerblock.png  used on input line 49.
@@ -1919,12 +2060,12 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 66.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [25 <./Figures/rnn.jpeg> <./Figures/transformer.jpeg>]
+ [37 <./Figures/rnn.jpeg> <./Figures/transformer.jpeg>]
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 79.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [26 <./Figures/transformerblock.png>]
+ [38 <./Figures/transformerblock.png>]
 Overfull \hbox (4.55891pt too wide) in paragraph at lines 82--83
 \T1/ppl/m/n/10.95 The Gaus-sian Fourier Pro-jec-tion com-po-nent en-codes tem-po-ral in-for-ma-tion us-ing Gaus-
  []
@@ -1933,13 +2074,13 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 105.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[27]
-<Figures/selfattention.jpeg, id=775, 1003.75pt x 1278.7775pt>
+[39]
+<Figures/selfattention.jpeg, id=1056, 1003.75pt x 1278.7775pt>
 File: Figures/selfattention.jpeg Graphic file (type jpg)
 <use Figures/selfattention.jpeg>
 Package pdftex.def Info: Figures/selfattention.jpeg  used on input line 110.
 (pdftex.def)             Requested size: 144.40025pt x 183.9643pt.
-<Figures/meanfield.jpeg, id=776, 1074.0125pt x 1002.74625pt>
+<Figures/meanfield.jpeg, id=1057, 1074.0125pt x 1002.74625pt>
 File: Figures/meanfield.jpeg Graphic file (type jpg)
 <use Figures/meanfield.jpeg>
 Package pdftex.def Info: Figures/meanfield.jpeg  used on input line 117.
@@ -1948,12 +2089,12 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 138.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [28 <./Figures/selfattention.jpeg> <./Figures/meanfield.jpeg>])
+ [40 <./Figures/selfattention.jpeg> <./Figures/meanfield.jpeg>])
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 100.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [29]
+ [41]
 \openout2 = `Chapters/Chapter6.aux'.
 
  (./Chapters/Chapter6.tex
@@ -1961,7 +2102,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 1.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [30
+ [42
 
 
 
@@ -1969,27 +2110,27 @@ Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 1.
 ]
 Chapter 6.
 
-LaTeX Warning: Citation 'inceptionv3' on page 31 undefined on input line 5.
+LaTeX Warning: Citation 'inceptionv3' on page 43 undefined on input line 5.
 
 
-LaTeX Warning: Citation 'pytorch' on page 31 undefined on input line 5.
+LaTeX Warning: Citation 'pytorch' on page 43 undefined on input line 5.
 
 1: section
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 29.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[31]
+[43]
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 58.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [32])
+ [44])
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 103.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [33]
+ [45]
 \openout2 = `Chapters/Chapter7.aux'.
 
  (./Chapters/Chapter7.tex
@@ -1997,7 +2138,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 1.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [34
+ [46
 
 
 
@@ -2005,7 +2146,7 @@ Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 1.
 ]
 Chapter 7.
 
-LaTeX Warning: Citation 'restart' on page 35 undefined on input line 6.
+LaTeX Warning: Citation 'restart' on page 47 undefined on input line 6.
 
 )
 1: section
@@ -2013,12 +2154,12 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 106.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[35]
+[47]
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 127.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [36
+ [48
 
 
 
@@ -2042,7 +2183,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 127.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[37]
+[49]
 Overfull \hbox (13.31866pt too wide) in paragraph at lines 127--127
 []\T1/ppl/m/n/10.95 S. Ver-heyen and B. Kris-lock. ^^P  CaloFlow: Fast and Ac-cu-rate Gen-er-a-tion of Calorime-
  []
@@ -2050,6 +2191,20 @@ Overfull \hbox (13.31866pt too wide) in paragraph at lines 127--127
 
 Overfull \hbox (47.5565pt too wide) in paragraph at lines 127--127
 \T1/ppl/m/n/10.95 a-tion of Calorime-ter Show-ers with Nor-mal-iz-ing Flows^^Q. In: \T1/ppl/m/it/10.95 arXiv preprint arXiv:2107.13684
+ []
+
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 127.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+[50]
+Overfull \hbox (6.72151pt too wide) in paragraph at lines 127--127
+\T1/ppl/m/n/10.95 from scin-til-lat-ing crys-tals for fast tim-ing^^Q. PhD the-sis. May 2022. \T1/ppl/m/sc/10.95 doi\T1/ppl/m/n/10.95 : [][]$\T1/pcr/m/n/10.95 10 . 18154 /
+ []
+
+
+Overfull \hbox (10.70993pt too wide) in paragraph at lines 127--127
+[]\T1/ppl/m/n/10.95 CMS Col-lab-o-ra-tion. \T1/ppl/m/it/10.95 The Hadronic Calorime-ter Tech-ni-cal De-sign Re-port\T1/ppl/m/n/10.95 . CERN/LHCC
  []
 
 No file main_NTU.ind.
@@ -2060,9 +2215,9 @@ See the caption package documentation for explanation.
 
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 406.
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 407.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[38] (./main_NTU.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux) (./Chapters/Chapter6.aux) (./Chapters/Chapter7.aux))
+[51] (./main_NTU.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux) (./Chapters/Chapter6.aux) (./Chapters/Chapter7.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2075,7 +2230,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main_NTU.out' has not changed.
-(rerunfilecheck)             Checksum: CA639DDF90F513C36DA001853F76A118;8903.
+(rerunfilecheck)             Checksum: 99DAA227F9EB9622AC1AC96DC3519133;14410.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main_NTU
@@ -2086,18 +2241,18 @@ Package logreq Info: Writing requests to 'main_NTU.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46718 strings out of 474116
- 996597 string characters out of 5743682
- 2612617 words of memory out of 5000000
- 67883 multiletter control sequences out of 15000+600000
+ 46948 strings out of 474116
+ 1003288 string characters out of 5743682
+ 2630004 words of memory out of 5000000
+ 68037 multiletter control sequences out of 15000+600000
  640816 words of font info for 232 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,20n,106p,1957b,3364s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,20n,106p,7177b,3364s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu30.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu4e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu4f.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu50.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu51.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu52.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu53.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu54.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu56.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu57.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu58.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu59.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5b.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5c.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5d.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5f.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu60.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu62.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu63.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu64.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu65.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu66.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu67.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu68.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6b.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6c.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6f.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu70.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu72.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu73.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu74.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu75.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu76.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu78.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu79.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7b.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7c.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7d.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu80.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu81.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu82.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu83.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu84.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu89.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8c.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8d.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu90.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu91.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu93.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu95.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu96.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu97.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu98.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu9a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu9e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiuff.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main_NTU.pdf (54 pages, 4168222 bytes).
+Output written on main_NTU.pdf (69 pages, 5367999 bytes).
 PDF statistics:
- 1208 PDF objects out of 1440 (max. 8388607)
- 899 compressed objects within 9 object streams
- 198 named destinations out of 1000 (max. 500000)
- 771 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1517 PDF objects out of 1728 (max. 8388607)
+ 1182 compressed objects within 12 object streams
+ 274 named destinations out of 1000 (max. 500000)
+ 1028 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,17 +3,23 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces The importance of simulation. credit: Joshuha Thomas-Wilsker}}{2}{figure.caption.8}%
 \contentsline {figure}{\numberline {1.2}{\ignorespaces The balance between accuracy and speed in simulation. credit: Joshuha Thomas-Wilsker}}{4}{figure.caption.9}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The schema of LHC}}{7}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Exploded view of the CMS detector, showing its main components.}}{10}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Cross-sectional schematic of the CMS detector}}{11}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Structure of the ECAL showing barrel and endcap regions.}}{13}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Schematic of the HCAL with barrel, endcap, and forward sections.}}{17}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces CMS Muon System layout, showing DTs, CSCs, and RPCs.}}{18}{figure.caption.47}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Forward and Backward Processes in Diffusion Models (The picture is from Song and Ermon (2019))}}{18}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Forward and Backward Processes in Diffusion Models (The picture is from Song and Ermon (2019))}}{30}{figure.caption.88}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Comparison of RNN and Transformer architectures.}}{25}{figure.caption.89}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces The structure of the original Transformer model. Adapted from \textit {"Attention is All You Need,"} with additional annotations.}}{26}{figure.caption.91}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Comparison of self-attention and mean-field attention mechanisms.}}{28}{figure.caption.99}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Comparison of RNN and Transformer architectures.}}{37}{figure.caption.129}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The structure of the original Transformer model. Adapted from \textit {"Attention is All You Need,"} with additional annotations.}}{38}{figure.caption.131}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Comparison of self-attention and mean-field attention mechanisms.}}{40}{figure.caption.139}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Comparison of training loss curves for VE and VP methods.}}{31}{figure.caption.107}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Comparison of FID scores for VE and VP methods.}}{31}{figure.caption.108}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Comparison of FID scores for VE and VP methods.}}{32}{figure.caption.109}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Visualization of parameter sweeping results.}}{32}{figure.caption.111}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces The Picture after adding the correlation term.}}{33}{figure.caption.116}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Comparison of training loss curves for VE and VP methods.}}{43}{figure.caption.147}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Comparison of FID scores for VE and VP methods.}}{43}{figure.caption.148}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Comparison of FID scores for VE and VP methods.}}{44}{figure.caption.149}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Visualization of parameter sweeping results.}}{44}{figure.caption.151}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces The Picture after adding the correlation term.}}{45}{figure.caption.156}%
 \addvspace {10\p@ }
