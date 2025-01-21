@@ -74,8 +74,15 @@ Self-attention is central to the Transformer model, enabling each token in a seq
 This mechanism allows the model to capture relationships between distant tokens, which is crucial for high-dimensional data, such as particle detector simulations. Figure ?? illustrates the self-attention mechanism, showcasing how each token dynamically weights other tokens in the sequence.
 
 \section{Our Model Structure}
-Our model architecture builds upon the Transformer framework, with specific modifications to optimize performance in detector simulations, as shown in Figure ??.
+Our model architecture builds upon the Transformer framework, with specific modifications to optimize performance in detector simulations, as shown in Figure .
 
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Figures/model_structure.png}
+    \caption{Custom Transformer model structure for detector simulations.}
+    \label{fig:model_structure}
+
+\end{figure}
 We incorporate \textbf{Gaussian Fourier Projections} \cite{tancik_fourier_2020} to effectively encode temporal information, dense layers to transform conditional variables, and \textbf{mean-field attention} \cite{kach_pay_2024} to efficiently aggregate global context. These architectural choices enable our model to capture complex dependencies, thereby enhancing the fidelity and accuracy of simulation outcomes.
 
 \subsection{Gaussian Fourier Projection for Temporal Encoding}

@@ -32612,8 +32612,8 @@
          familyi={C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{C1}
-    \strng{fullhash}{C1}
+    \strng{namehash}{C2}
+    \strng{fullhash}{C2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{CERN/LHCC 96-041}
@@ -32627,6 +32627,47 @@
     \field{urlyear}{2025}
   \endentry
 
+  \entry{muon_tdr}{report}{}
+    \name{author}{1}{}{%
+      {{hash=CC}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={CMS},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CC1}
+    \strng{fullhash}{CC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{CERN/LHCC 97-032}
+    \field{title}{The Muon Technical Design Report}
+    \list{institution}{1}{%
+      {CERN}%
+    }
+    \field{type}{techreport}
+    \field{year}{1997}
+  \endentry
+
+  \entry{muon_detector}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={ChristopherStephen},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{The CMS Muon Detector}
+    \verb{url}
+    \verb https://indico.cern.ch/event/424458/attachments/899229/1267455/Christ
+    \verb opherStephen.pdf
+    \endverb
+    \field{year}{2025}
+  \endentry
+
   \entry{cms_tdr_muon}{misc}{}
     \name{author}{1}{}{%
       {{hash=C}{%
@@ -32634,8 +32675,8 @@
          familyi={C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{C1}
-    \strng{fullhash}{C1}
+    \strng{namehash}{C2}
+    \strng{fullhash}{C2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{CERN/LHCC 97-032}
@@ -32647,6 +32688,190 @@
     \field{urlday}{08}
     \field{urlmonth}{01}
     \field{urlyear}{2025}
+  \endentry
+
+  \entry{trigger_tdr}{report}{}
+    \name{author}{1}{}{%
+      {{hash=CC}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={CMS},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CC1}
+    \strng{fullhash}{CC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{CERN/LHCC 2000-038}
+    \field{title}{The Trigger and Data Acquisition Technical Design Report}
+    \list{institution}{1}{%
+      {CERN}%
+    }
+    \field{type}{techreport}
+    \field{year}{2000}
+  \endentry
+
+  \entry{hgcal_tdr}{report}{}
+    \name{author}{1}{}{%
+      {{hash=CC}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={CMS},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CC1}
+    \strng{fullhash}{CC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{CERN-LHCC-2017-023}
+    \field{title}{The Technical Design Report for the High-Granularity Calorimeter for the Phase-2 Upgrade of the CMS Experiment}
+    \list{institution}{1}{%
+      {CERN}%
+    }
+    \field{type}{techreport}
+    \field{year}{2017}
+  \endentry
+
+  \entry{HGCal}{article}{}
+    \name{author}{20}{}{%
+      {{hash=AN}{%
+         family={Akchurin},
+         familyi={A\bibinitperiod},
+         given={Nural},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Apreysan},
+         familyi={A\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Banerjee},
+         familyi={B\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Barney},
+         familyi={B\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={Bilki},
+         familyi={B\bibinitperiod},
+         given={Burak},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bornheim},
+         familyi={B\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bueghly},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Callier},
+         familyi={C\bibinitperiod},
+         given={Stephane},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CV}{%
+         family={Candelise},
+         familyi={C\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=CYH}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Yeong-Hwa},
+         giveni={Y\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=CYW}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Y.-W},
+         giveni={Y\bibinithyphendelim W},
+      }}%
+      {{hash=CR}{%
+         family={Chatterjee},
+         familyi={C\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CKY}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={K-Y},
+         giveni={K\bibinithyphendelim Y\bibinitperiod},
+      }}%
+      {{hash=CCH}{%
+         family={Chien},
+         familyi={C\bibinitperiod},
+         given={C-H},
+         giveni={C\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=RE}{%
+         family={Rivera},
+         familyi={R\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=dLTC}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={La\bibnamedelima Taille},
+         familyi={L\bibinitperiod\bibinitdelim T\bibinitperiod},
+         given={Christophe},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Eckdahl},
+         familyi={E\bibinitperiod},
+         given={Johan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FE}{%
+         family={Frahm},
+         familyi={F\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=FN}{%
+         family={Frank},
+         familyi={F\bibinitperiod},
+         given={Nigel},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=ZZ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Z.},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AN+1}
+    \strng{fullhash}{ANAABSBDBBBABJCSCVCYHCYWCRCKYCCHRELTCdEJFEFNZZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1748-0221/13/10/P10023
+    \endverb
+    \field{pages}{P10023\bibrangedash P10023}
+    \field{title}{First beam tests of prototype silicon modules for the CMS High Granularity Endcap Calorimeter}
+    \field{volume}{13}
+    \field{journaltitle}{Journal of Instrumentation}
+    \field{month}{10}
+    \field{year}{2018}
   \endentry
 
   \entry{song_generative_2020}{misc}{}

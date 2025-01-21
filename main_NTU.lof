@@ -8,18 +8,26 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Cross-sectional schematic of the CMS detector}}{11}{figure.caption.23}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Structure of the ECAL showing barrel and endcap regions.}}{13}{figure.caption.32}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Schematic of the HCAL with barrel, endcap, and forward sections.}}{17}{figure.caption.40}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces CMS Muon System layout, showing DTs, CSCs, and RPCs.}}{18}{figure.caption.47}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces CMS Muon System layout, showing DTs, CSCs, and RPCs.}}{19}{figure.caption.47}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Schematic of the HGCal showing its layered structure and segmentation. (Image credit: CMS Collaboration)}}{21}{figure.caption.57}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Visualization of a Geant4 simulation for the HGCal, showing particle showers in the calorimeter layers. (Image credit: Geant4 Collaboration)}}{24}{figure.caption.64}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Forward and Backward Processes in Diffusion Models (The picture is from Song and Ermon (2019))}}{30}{figure.caption.88}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Forward and Backward Processes in Diffusion Models (The picture is from Song and Ermon (2019))}}{32}{figure.caption.97}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Comparison of RNN and Transformer architectures.}}{37}{figure.caption.129}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces The structure of the original Transformer model. Adapted from \textit {"Attention is All You Need,"} with additional annotations.}}{38}{figure.caption.131}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Comparison of self-attention and mean-field attention mechanisms.}}{40}{figure.caption.139}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Comparison of RNN and Transformer architectures.}}{39}{figure.caption.138}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The structure of the original Transformer model. Adapted from \textit {"Attention is All You Need,"} with additional annotations.}}{40}{figure.caption.140}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Custom Transformer model structure for detector simulations.}}{41}{figure.caption.145}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Comparison of self-attention and mean-field attention mechanisms.}}{42}{figure.caption.149}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Comparison of training loss curves for VE and VP methods.}}{43}{figure.caption.147}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Comparison of FID scores for VE and VP methods.}}{43}{figure.caption.148}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Comparison of FID scores for VE and VP methods.}}{44}{figure.caption.149}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Visualization of parameter sweeping results.}}{44}{figure.caption.151}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces The Picture after adding the correlation term.}}{45}{figure.caption.156}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces RobustScalar}}{46}{figure.caption.156}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces RobustScalar}}{46}{figure.caption.157}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces RobustScalar}}{46}{figure.caption.158}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces RobustScalar}}{47}{figure.caption.159}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces RobustScalar}}{47}{figure.caption.160}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Comparison of training loss curves for VE and VP methods.}}{47}{figure.caption.165}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Comparison of FID scores for VE and VP methods.}}{47}{figure.caption.166}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Comparison of FID scores for VE and VP methods.}}{48}{figure.caption.167}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Visualization of parameter sweeping results.}}{48}{figure.caption.169}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces The Picture after adding the correlation term.}}{49}{figure.caption.174}%
 \addvspace {10\p@ }

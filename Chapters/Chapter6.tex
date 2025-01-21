@@ -1,5 +1,55 @@
 \chapter{Strategies and Results}
+\section{Data Preprocessing}
 
+\subsection{Bucketing}
+Before we explain why we need bucketing, we can first explain the structure of our data. When one particle interacts with the detector, it will produce a series of hits, which we call one shower. So in one shower, we have several hits, while one hit means one point in the detector labeled by the energy. One hit has several features, such as the hit energy, x, y and z coordinates. What's more, we will send several showers make it to be one batches to our model. So the structure of our data is actually a 3D tensor, where the first dimension is the number of showers, the second dimension is the number of hits in one shower, and the third dimension is the number of features in one hit.
+
+In chapter 5, we have discussed that our model is a transformer-based model. While transformer implement the self-attention mechanism, it requires the length of the sequence to be fixed in each batches. However, the number of hits in each event varies, which makes it difficult to feed the data into the transformer. To address this issue, we would need to pad the sequences to a fixed length. What's more, the length of the data can vary from 1 to 5500, which means that the padding will be very large. This will lead to a waste of memory and computation. To solve this problem, we employed a bucketing strategy to group events with similar numbers of hits into the same bucket. This allowed us to pad the sequences within each bucket to a fixed length, making it easier to feed the data into the transformer. Based on the principle of similar memory usage, we divided the data into 45 buckets, each containing events with a similar number of hits. This bucketing strategy significantly improved the efficiency of the model and reduced the computational burden. Another advantage of bucketing is that we can first train the model on a smaller bucket to see if the model can learn the data well. If the model can learn the data well, we can then train the model on a larger bucket. This allows us to gradually increase the complexity of the data and ensure that the model can handle the data effectively.
+\subsection{Preprocessor}
+
+Preprocessing is a crucial step in preparing data for machine learning. Raw data often contains missing values, outliers, and features on different scales, which can negatively impact model performance. Effective preprocessing cleans and standardizes the data, ensuring consistency and enabling accurate predictions. It also helps models learn specific relationships between features more effectively.
+
+A key role of preprocessing is improving data quality. Techniques like imputation, normalization, and outlier removal address missing or noisy values, allowing models to focus on meaningful patterns rather than irrelevant or erroneous information. Preprocessing also standardizes feature scales, ensuring equal contributions to models, which is especially critical for distance-based algorithms like neural networks or support vector machines.
+
+Additionally, preprocessing optimizes computational efficiency by simplifying data complexity through methods like dimensionality reduction or sampling. This is vital for large-scale datasets, enabling faster and more resource-efficient training while preserving essential information. Overall, preprocessing is foundational for reliable, robust machine learning systems.
+
+From the reasons above, studying which preprocessing method is the best for our data is necessary. Below are some preprocessing methods we have tried and their results.
+
+\begin{itemize}
+    \item \textbf{RobustScalar}
+    \begin{figure}[ht]
+        \centering
+        % Include your figure here
+        \caption{RobustScalar}
+    \end{figure}
+    \item \textbf{QuantileTransformer}
+    \begin{figure}[ht]
+        \centering
+        % Include your figure here
+        \caption{RobustScalar}
+    \end{figure}
+    \item \textbf{StandardScaler}
+    \begin{figure}[ht]
+        \centering
+        % Include your figure here
+        \caption{RobustScalar}
+    \end{figure}
+    \item \textbf{MinMaxScaler}
+    \begin{figure}[ht]
+        \centering
+        % Include your figure here
+        \caption{RobustScalar}
+    \end{figure}
+    \item \textbf{Specail Transformation from other papers}
+    \begin{figure}[ht]
+        \centering
+        % Include your figure here
+        \caption{RobustScalar}
+    \end{figure}
+\end{itemize}
+
+
+The reason of choosing x y coordinate rather than spherical coordinate
 \section{Metrics}
 \subsection{FID Score}
 To evaluate the performance of our model, we employed the Fréchet Inception Distance (FID) score as a key metric. The FID score is widely used to assess the quality of generated samples by measuring the distance between the feature representations of real and generated images using the InceptionV3 model \cite{inceptionv3}. A lower FID score indicates that the generated samples are closer to the real samples in terms of their statistical distribution. We utilized the PyTorch library's implementation of the FID score \cite{pytorch} for our calculations.
@@ -75,6 +125,8 @@ However, although the correlation term was added to the loss function and it ind
     % Include any relevant results or visualizations here
     \caption{The Picture after adding the correlation term.}
 \end{figure}
+
+\section{Conditioning Issue}
 
 
 

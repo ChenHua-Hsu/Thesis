@@ -145,7 +145,7 @@ The tracker is designed to withstand high radiation levels and provides a moment
 % \]
 % where $S$, $N$, and $C$ are the stochastic, noise, and constant terms, respectively. The ECAL achieves an exceptional energy resolution of approximately 1\% for electrons and photons at $E = 100~\mathrm{GeV}$.
 
-The Electromagnetic Calorimeter (ECAL) in the CMS detector is a crucial subsystem designed to measure the energy of electrons and photons with high precision. The ECAL achieves this by utilizing scintillating lead tungstate (PbWO$_4$) crystals as the active medium, coupled with photodetectors to convert scintillation light into electrical signals. Its design, divided into the Barrel (EB), Endcap (EE), and Preshower Detector (ES), ensures optimal performance across a wide range of pseudorapidity. In this research, because our dataset is mainly focused on photons and electrons, the ECAL is actually the region we mainly focus on. In later Chapter, the detector we called is actually reference to the ECAL.
+The Electromagnetic Calorimeter (ECAL) in the CMS detector is a crucial subsystem designed to measure the energy of electrons and photons with high precision. The ECAL achieves this by utilizing scintillating lead tungstate (PbWO$_4$) crystals as the active medium, coupled with photodetectors to convert scintillation light into electrical signals. Its design, divided into the Barrel (EB), Endcap (EE), and Preshower Detector (ES), ensures optimal performance across a wide range of pseudorapidity. In this research, because our dataset is mainly focused on photons and electrons, the ECAL is actually the region we mainly focus on. 
 
 \subsection{The ECAL Barrel (EB)}
 The ECAL Barrel covers the central pseudorapidity region, $|\eta| < 1.479$, and consists of approximately 61,200 PbWO$_4$ crystals. These crystals are characterized by their high density, fast scintillation time, and radiation hardness \cite{ecal_tdr}. Lead tungstate is chosen due to its high density and short radiation length, which allows electromagnetic showers to develop within a compact volume. This compactness ensures that the ECAL can achieve high resolution while fitting within the spatial constraints of the CMS detector.
@@ -220,7 +220,7 @@ This careful selection of materials and their strategic placement within the HCA
 \begin{figure}[ht]
     \centering
     \includegraphics[width=0.8\textwidth]{Figures/HCAL.jpg} % Replace with an HCAL diagram
-    \caption{Schematic of the HCAL with barrel, endcap, and forward sections.}
+    \caption{Schematic of the HCAL with barrel, endcap, and forward sections.} \cite{hgcal_picture}
     \label{fig:hcal}
 \end{figure}
 
@@ -261,8 +261,8 @@ The muon system achieves a momentum resolution of $\Delta p / p \sim 10\%$ at $1
 
 \begin{figure}[ht]
     \centering
-    %\includegraphics[width=0.8\textwidth]{muon_detector.png} % Replace with a Muon Detector diagram
-    \caption{CMS Muon System layout, showing DTs, CSCs, and RPCs.}
+    \includegraphics[width=0.8\textwidth]{Figures/muon_detector.png} % Replace with a Muon Detector diagram
+    \caption{CMS Muon System layout, showing DTs, CSCs, and RPCs.}  \cite{muon_detector}
     \label{fig:muon_detector}
 \end{figure}
 
@@ -280,6 +280,48 @@ The Level-1 Trigger ensures that only events with significant physics potential,
 The High-Level Trigger is a software-based system that further reduces the event rate from 100 kHz to approximately 1 kHz, suitable for storage and offline analysis \cite{trigger_tdr}. The HLT uses a computing farm to reconstruct full events in real time, applying more sophisticated algorithms to refine the selection criteria.
 
 This stage enables detailed analysis of particle trajectories and energy deposits, ensuring that only the most promising events are retained for later study. The combination of the Level-1 Trigger and HLT allows CMS to efficiently manage the enormous data flow while preserving the ability to capture rare and significant physics phenomena.
+
+\section{The High-Granularity Calorimeter (HGCal)}
+
+The High-Granularity Calorimeter (HGCal) is a significant upgrade to the Compact Muon Solenoid (CMS) detector at the Large Hadron Collider (LHC). It is designed to operate efficiently in the intense radiation environment of the High-Luminosity LHC (HL-LHC). Replacing the endcap electromagnetic and hadronic calorimeters, the HGCal features a highly granular sampling calorimeter, enabling precise energy measurements and particle identification under challenging conditions.
+
+However, the unprecedented granularity of the HGCal introduces substantial computational challenges for traditional simulation methods, which struggle to efficiently model the complex detector geometry and interactions. To address this, our research focuses on leveraging deep learning methods to improve simulation performance. By integrating these advanced techniques, we aim to enable faster and more accurate simulations, making the study of high-granularity detectors both feasible and impactful. This goal is crucial to unlocking the full potential of the HGCal and advancing our understanding of fundamental physics.
+
+\subsection{Structure and Components}
+
+The HGCal comprises two main sections: the electromagnetic calorimeter (CE-E) and the hadronic calorimeter (CE-H). Each section is constructed from a series of hexagonal sensor modules, arranged in layers and interleaved with absorber plates.
+
+\paragraph{CE-E: Electromagnetic Section}
+The CE-E is designed to measure the energy of electromagnetic particles such as photons and electrons. It uses silicon sensors as the active material, chosen for their excellent resolution and radiation hardness. These sensors are segmented into hexagonal cells, with each cell covering an area of approximately 1 cm$^2$. The absorber plates, made of lead, are optimized to initiate electromagnetic showers within a compact volume \cite{hgcal_tdr}.
+
+\paragraph{CE-H: Hadronic Section}
+The CE-H is responsible for measuring the energy of hadrons and providing complementary information for jet reconstruction. This section uses a combination of silicon sensors and scintillator tiles as active materials, interleaved with steel absorber plates. The hybrid design balances cost and performance, ensuring robust measurements across a wide range of particle energies \cite{hgcal_tdr}.
+
+\subsection{Design and Innovations}
+
+The HGCal introduces several innovations to meet the demands of the HL-LHC environment:
+\begin{itemize}
+    \item \textbf{High Granularity:} With over six million readout channels, the HGCal provides unparalleled spatial resolution, allowing for detailed reconstruction of particle showers.
+    \item \textbf{Radiation Hardness:} The use of radiation-tolerant silicon sensors ensures long-term performance under intense radiation conditions.
+    \item \textbf{Timing Capability:} The HGCal incorporates timing measurements with a precision of a few tens of picoseconds, enabling precise identification of collision vertices and pile-up mitigation \cite{hgcal_tdr}.
+\end{itemize}
+
+\subsection{Performance and Applications}
+
+The high granularity and timing capabilities of the HGCal significantly enhance the CMS detector's performance in several areas:
+\begin{itemize}
+    \item \textbf{Particle Flow Reconstruction:} The fine segmentation enables accurate separation of overlapping showers, improving the resolution of energy measurements for jets and missing transverse energy.
+    \item \textbf{Pile-Up Mitigation:} The timing information allows for the discrimination of signals from different interaction vertices, reducing the impact of pile-up.
+\end{itemize}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Figures/HGCal.jpg}
+    \caption{Schematic of the HGCal showing its layered structure and segmentation. (Image credit: CMS Collaboration)} \cite{HGCal}
+    \label{fig:hgcal}
+\end{figure}
+
+The HGCal represents a major technological advancement for calorimetry in high-energy physics, providing the tools necessary to explore the physics potential of the HL-LHC.
 
 
 \section{Conclusion}
