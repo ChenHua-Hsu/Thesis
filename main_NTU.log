@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.4)  22 JAN 2025 01:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.4)  22 JAN 2025 18:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1484,7 +1484,7 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-<Figures/watermark-05.pdf, id=420, 207.77625pt x 207.77625pt>
+<Figures/watermark-05.pdf, id=436, 207.77625pt x 207.77625pt>
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 68.
@@ -1511,7 +1511,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 89.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Figures/NTU.jpg, id=477, 256.5585pt x 254.3904pt>
+<Figures/NTU.jpg, id=493, 256.5585pt x 254.3904pt>
 File: Figures/NTU.jpg Graphic file (type jpg)
 <use Figures/NTU.jpg>
 Package pdftex.def Info: Figures/NTU.jpg  used on input line 111.
@@ -1645,17 +1645,16 @@ Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 75.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
  [10
 
-] (./main_NTU.lof)
-\tf@lof=\write9
-\openout9 = `main_NTU.lof'.
-
-
+] (./main_NTU.lof
 1: section
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 76.
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 33.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[11]
+[11])
+\tf@lof=\write9
+\openout9 = `main_NTU.lof'.
+
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 76.
@@ -1685,7 +1684,7 @@ Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 82.
 
 (./Chapters/Chapter1.tex
 Chapter 1.
-<Figures/simulation.png, id=761, 1227.58624pt x 650.43pt>
+<Figures/simulation.png, id=800, 1227.58624pt x 650.43pt>
 File: Figures/simulation.png Graphic file (type png)
 <use Figures/simulation.png>
 Package pdftex.def Info: Figures/simulation.png  used on input line 13.
@@ -1717,7 +1716,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 31.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
 [3]
-<Figures/fast.png, id=815, 493.845pt x 356.33125pt>
+<Figures/fast.png, id=853, 493.845pt x 356.33125pt>
 File: Figures/fast.png Graphic file (type png)
 <use Figures/fast.png>
 Package pdftex.def Info: Figures/fast.png  used on input line 34.
@@ -1746,7 +1745,7 @@ Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 1.
 
 ]
 Chapter 2.
-<Figures/Cern_Accelerator_Complex.png, id=829, 1606.0pt x 1045.9075pt>
+<Figures/Cern_Accelerator_Complex.png, id=867, 1606.0pt x 1045.9075pt>
 File: Figures/Cern_Accelerator_Complex.png Graphic file (type png)
 <use Figures/Cern_Accelerator_Complex.png>
 Package pdftex.def Info: Figures/Cern_Accelerator_Complex.png  used on input line 7.
@@ -1776,7 +1775,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 40.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
 [8]
-<Figures/CMS Detector Schematic.png, id=860, 284.39583pt x 201.08458pt>
+<Figures/CMS Detector Schematic.png, id=898, 284.39583pt x 201.08458pt>
 File: Figures/CMS Detector Schematic.png Graphic file (type png)
 <use Figures/CMS Detector Schematic.png>
 Package pdftex.def Info: Figures/CMS Detector Schematic.png  used on input line 68.
@@ -1786,7 +1785,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 74.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
  [9]
-<Figures/CMS Slice White Background.png, id=869, 6022.5pt x 3982.88pt>
+<Figures/CMS Slice White Background.png, id=907, 6022.5pt x 3982.88pt>
 File: Figures/CMS Slice White Background.png Graphic file (type png)
 <use Figures/CMS Slice White Background.png>
 Package pdftex.def Info: Figures/CMS Slice White Background.png  used on input line 79.
@@ -1810,7 +1809,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 157.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
 [12]
-<Figures/ECAL Schematic Overview.png, id=904, 853.1875pt x 486.81876pt>
+<Figures/ECAL Schematic Overview.png, id=941, 853.1875pt x 486.81876pt>
 File: Figures/ECAL Schematic Overview.png Graphic file (type png)
 <use Figures/ECAL Schematic Overview.png>
 Package pdftex.def Info: Figures/ECAL Schematic Overview.png  used on input line 167.
@@ -1834,7 +1833,7 @@ Overfull \hbox (12.17973pt too wide) in paragraph at lines 211--212
 \T1/ppl/m/n/10.95 as its ab-sorber, with ad-di-tional lay-ers of plas-tic scin-til-la-tors serv-ing as the ac-tive medium.
  []
 
-<Figures/HCAL.jpg, id=930, 238.78008pt x 126.4725pt>
+<Figures/HCAL.jpg, id=966, 238.78008pt x 126.4725pt>
 File: Figures/HCAL.jpg Graphic file (type jpg)
 <use Figures/HCAL.jpg>
 Package pdftex.def Info: Figures/HCAL.jpg  used on input line 222.
@@ -1852,7 +1851,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 246.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
  [17 <./Figures/HCAL.jpg>]
-<Figures/muon_detector.png, id=950, 843.15pt x 307.1475pt>
+<Figures/muon_detector.png, id=986, 843.15pt x 307.1475pt>
 File: Figures/muon_detector.png Graphic file (type png)
 <use Figures/muon_detector.png>
 Package pdftex.def Info: Figures/muon_detector.png  used on input line 264.
@@ -1876,7 +1875,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 306.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
 [20]
-<Figures/HGCal.jpg, id=979, 642.4pt x 456.70625pt>
+<Figures/HGCal.jpg, id=1015, 642.4pt x 456.70625pt>
 File: Figures/HGCal.jpg Graphic file (type jpg)
 <use Figures/HGCal.jpg>
 Package pdftex.def Info: Figures/HGCal.jpg  used on input line 319.
@@ -1990,7 +1989,7 @@ Overfull \hbox (21.41852pt too wide) in paragraph at lines 145--146
 \T1/ppl/m/n/10.95 min-is-tic part and a stochas-tic part. The de-ter-min-is-tic part con-sists of $\OT1/cmr/bx/n/10.95 f[]\OT1/cmr/m/n/10.95 (\OT1/cmr/bx/n/10.95 x[]\OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 g[]\OMS/cmsy/m/n/10.95 r[] [] \OML/cmm/m/it/10.95 p\OT1/cmr/m/n/10.95 (\OT1/cmr/bx/n/10.95 x[]\OT1/cmr/m/n/10.95 )$\T1/ppl/m/n/10.95 ,
  []
 
-<Figures/diffusion.png, id=1061, 658.46pt x 234.8775pt>
+<Figures/diffusion.png, id=1097, 658.46pt x 234.8775pt>
 File: Figures/diffusion.png Graphic file (type png)
 <use Figures/diffusion.png>
 Package pdftex.def Info: Figures/diffusion.png  used on input line 156.
@@ -2049,17 +2048,17 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 24.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
 [38]
-<Figures/rnn.jpeg, id=1129, 2291.56125pt x 1003.75pt>
+<Figures/rnn.jpeg, id=1165, 2291.56125pt x 1003.75pt>
 File: Figures/rnn.jpeg Graphic file (type jpg)
 <use Figures/rnn.jpeg>
 Package pdftex.def Info: Figures/rnn.jpeg  used on input line 29.
 (pdftex.def)             Requested size: 185.65298pt x 81.31248pt.
-<Figures/transformer.jpeg, id=1130, 1728.4575pt x 1003.75pt>
+<Figures/transformer.jpeg, id=1166, 1728.4575pt x 1003.75pt>
 File: Figures/transformer.jpeg Graphic file (type jpg)
 <use Figures/transformer.jpeg>
 Package pdftex.def Info: Figures/transformer.jpeg  used on input line 36.
 (pdftex.def)             Requested size: 185.65298pt x 107.80913pt.
-<Figures/transformerblock.png, id=1131, 526.96875pt x 452.69125pt>
+<Figures/transformerblock.png, id=1167, 526.96875pt x 452.69125pt>
 File: Figures/transformerblock.png Graphic file (type png)
 <use Figures/transformerblock.png>
 Package pdftex.def Info: Figures/transformerblock.png  used on input line 49.
@@ -2069,7 +2068,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 66.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
  [39 <./Figures/rnn.jpeg> <./Figures/transformer.jpeg>]
-<Figures/model_structure.png, id=1136, 1321.93875pt x 201.75375pt>
+<Figures/model_structure.png, id=1172, 1321.93875pt x 201.75375pt>
 File: Figures/model_structure.png Graphic file (type png)
 <use Figures/model_structure.png>
 Package pdftex.def Info: Figures/model_structure.png  used on input line 81.
@@ -2088,12 +2087,12 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 110.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
 [41 <./Figures/model_structure.png>]
-<Figures/selfattention.jpeg, id=1153, 1003.75pt x 1278.7775pt>
+<Figures/selfattention.jpeg, id=1189, 1003.75pt x 1278.7775pt>
 File: Figures/selfattention.jpeg Graphic file (type jpg)
 <use Figures/selfattention.jpeg>
 Package pdftex.def Info: Figures/selfattention.jpeg  used on input line 117.
 (pdftex.def)             Requested size: 144.40025pt x 183.9643pt.
-<Figures/meanfield.jpeg, id=1154, 1074.0125pt x 1002.74625pt>
+<Figures/meanfield.jpeg, id=1190, 1074.0125pt x 1002.74625pt>
 File: Figures/meanfield.jpeg Graphic file (type jpg)
 <use Figures/meanfield.jpeg>
 Package pdftex.def Info: Figures/meanfield.jpeg  used on input line 124.
@@ -2132,35 +2131,116 @@ Overfull \hbox (0.84908pt too wide) in paragraph at lines 14--15
 []\T1/ppl/m/n/10.95 Additionally, pre-pro-cess-ing op-ti-mizes com-pu-ta-tional ef-fi-ciency by sim-pli-fy-ing data
  []
 
-
-LaTeX Warning: Citation 'inceptionv3' on page 46 undefined on input line 55.
-
-
-LaTeX Warning: Citation 'pytorch' on page 46 undefined on input line 55.
-
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 56.
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 45.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
 [46]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Citation 'inceptionv3' on page 47 undefined on input line 57.
+
+
+LaTeX Warning: Citation 'pytorch' on page 47 undefined on input line 57.
 
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 88.
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 72.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
 [47]
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 116.
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 96.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [48])
+ [48]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\sigma' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\sigma' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 113.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\sigma' on input line 113.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 113.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 113.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 113.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\sigma' on input line 113.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 113.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 113.
+
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 118.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+[49]
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 144.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+ [50]
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 186.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+ [51]
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 227.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+ [52])
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 103.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [49]
+ [53]
 \openout2 = `Chapters/Chapter7.aux'.
 
  (./Chapters/Chapter7.tex
@@ -2168,7 +2248,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 1.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [50
+ [54
 
 
 
@@ -2176,7 +2256,7 @@ Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 1.
 ]
 Chapter 7.
 
-LaTeX Warning: Citation 'restart' on page 51 undefined on input line 6.
+LaTeX Warning: Citation 'restart' on page 55 undefined on input line 6.
 
 )
 1: section
@@ -2184,12 +2264,12 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 106.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[51]
+[55]
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 127.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [52
+ [56
 
 
 
@@ -2213,7 +2293,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 127.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[53]
+[57]
 Overfull \hbox (13.31866pt too wide) in paragraph at lines 127--127
 []\T1/ppl/m/n/10.95 S. Ver-heyen and B. Kris-lock. ^^P  CaloFlow: Fast and Ac-cu-rate Gen-er-a-tion of Calorime-
  []
@@ -2227,7 +2307,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 127.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[54]
+[58]
 Overfull \hbox (6.72151pt too wide) in paragraph at lines 127--127
 \T1/ppl/m/n/10.95 from scin-til-lat-ing crys-tals for fast tim-ing^^Q. PhD the-sis. May 2022. \T1/ppl/m/sc/10.95 doi\T1/ppl/m/n/10.95 : [][]$\T1/pcr/m/n/10.95 10 . 18154 /
  []
@@ -2247,7 +2327,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 407.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[55] (./main_NTU.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux) (./Chapters/Chapter6.aux) (./Chapters/Chapter7.aux))
+[59] (./main_NTU.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux) (./Chapters/Chapter6.aux) (./Chapters/Chapter7.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2260,7 +2340,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main_NTU.out' has not changed.
-(rerunfilecheck)             Checksum: 585E5062A015E8D7D58D79804821C12F;16051.
+(rerunfilecheck)             Checksum: 0A2F88E3B9C5B902B8E061DEB9511886;16623.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main_NTU
@@ -2271,18 +2351,18 @@ Package logreq Info: Writing requests to 'main_NTU.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47042 strings out of 474116
- 1005457 string characters out of 5743682
- 2634435 words of memory out of 5000000
- 68097 multiletter control sequences out of 15000+600000
- 642657 words of font info for 238 fonts, out of 8000000 for 9000
+ 47091 strings out of 474116
+ 1006086 string characters out of 5743682
+ 2634589 words of memory out of 5000000
+ 68122 multiletter control sequences out of 15000+600000
+ 648346 words of font info for 259 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,20n,106p,7177b,3401s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu30.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu4e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu4f.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu50.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu51.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu52.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu53.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu54.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu56.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu57.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu58.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu59.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5b.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5c.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5d.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5f.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu60.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu62.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu63.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu64.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu65.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu66.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu67.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu68.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6b.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6c.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6f.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu70.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu72.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu73.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu74.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu75.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu76.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu78.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu79.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7b.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7c.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7d.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu80.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu81.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu82.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu83.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu84.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu89.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8c.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8d.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu90.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu91.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu93.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu95.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu96.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu97.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu98.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu9a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu9e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiuff.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main_NTU.pdf (73 pages, 5817982 bytes).
+ 103i,21n,106p,7177b,3401s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu30.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu4e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu4f.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu50.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu51.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu52.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu53.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu54.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu56.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu57.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu58.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu59.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5b.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5c.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5d.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5f.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu60.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu62.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu63.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu64.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu65.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu66.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu67.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu68.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6b.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6c.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6f.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu70.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu72.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu73.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu74.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu75.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu76.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu78.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu79.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7b.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7c.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7d.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu80.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu81.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu82.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu83.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu84.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu89.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8c.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8d.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu90.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu91.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu93.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu95.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu96.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu97.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu98.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu9a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu9e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiuff.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main_NTU.pdf (77 pages, 5858833 bytes).
 PDF statistics:
- 1631 PDF objects out of 1728 (max. 8388607)
- 1286 compressed objects within 13 object streams
- 302 named destinations out of 1000 (max. 500000)
- 1115 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1704 PDF objects out of 1728 (max. 8388607)
+ 1348 compressed objects within 14 object streams
+ 319 named destinations out of 1000 (max. 500000)
+ 1147 words of extra memory for PDF output out of 10000 (max. 10000000)
 

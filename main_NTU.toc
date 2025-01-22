@@ -94,13 +94,17 @@
 \contentsline {subsection}{\numberline {6.1.2}Preprocessor}{46}{subsection.155}%
 \contentsline {section}{\numberline {6.2}Metrics}{47}{section.161}%
 \contentsline {subsection}{\numberline {6.2.1}FID Score}{47}{subsection.162}%
-\contentsline {subsection}{\numberline {6.2.2}Classifier}{47}{subsection.163}%
-\contentsline {section}{\numberline {6.3}VE and VP Studies}{47}{section.164}%
-\contentsline {section}{\numberline {6.4}Parameter Sweeping}{48}{section.168}%
-\contentsline {section}{\numberline {6.5}Energy Distribution}{48}{section.170}%
-\contentsline {section}{\numberline {6.6}Centralization}{48}{section.171}%
-\contentsline {section}{\numberline {6.7}Conditioning Issue}{49}{section.175}%
-\contentsline {chapter}{\numberline {7}Future Goals}{51}{chapter.176}%
-\contentsline {section}{\numberline {7.1}Further Acceleration of the Model}{51}{section.177}%
-\contentsline {section}{\numberline {7.2}Layer Relationship Learning and Tracking}{51}{section.178}%
-\contentsline {chapter}{Bibliography}{53}{appendix*.179}%
+\contentsline {subsection}{\numberline {6.2.2}Classifier}{48}{subsection.165}%
+\contentsline {section}{\numberline {6.3}VE and VP Studies}{48}{section.166}%
+\contentsline {section}{\numberline {6.4}$\sigma _{max}$ and $\sigma _{min}$ Studies}{49}{section.170}%
+\contentsline {subsection}{\numberline {6.4.1}The Role of $\sigma _{max}$ and $\sigma _{min}$}{49}{subsection.171}%
+\contentsline {subsection}{\numberline {6.4.2}Conclusions}{50}{subsection.173}%
+\contentsline {section}{\numberline {6.5}Overall Parameter Sweeping}{50}{section.174}%
+\contentsline {section}{\numberline {6.6}Centralization}{51}{section.176}%
+\contentsline {section}{\numberline {6.7}Conditioning Issue}{52}{section.181}%
+\contentsline {subsection}{\numberline {6.7.1}incident energy}{52}{subsection.182}%
+\contentsline {subsection}{\numberline {6.7.2}time}{52}{subsection.187}%
+\contentsline {chapter}{\numberline {7}Future Goals}{55}{chapter.189}%
+\contentsline {section}{\numberline {7.1}Further Acceleration of the Model}{55}{section.190}%
+\contentsline {section}{\numberline {7.2}Layer Relationship Learning and Tracking}{55}{section.191}%
+\contentsline {chapter}{Bibliography}{57}{appendix*.192}%
