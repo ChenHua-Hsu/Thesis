@@ -92,19 +92,19 @@
 \contentsline {section}{\numberline {6.1}Data Preprocessing}{45}{section.153}%
 \contentsline {subsection}{\numberline {6.1.1}Bucketing}{45}{subsection.154}%
 \contentsline {subsection}{\numberline {6.1.2}Preprocessor}{46}{subsection.155}%
-\contentsline {section}{\numberline {6.2}Metrics}{47}{section.161}%
-\contentsline {subsection}{\numberline {6.2.1}FID Score}{47}{subsection.162}%
-\contentsline {subsection}{\numberline {6.2.2}Classifier}{48}{subsection.165}%
-\contentsline {section}{\numberline {6.3}VE and VP Studies}{48}{section.166}%
-\contentsline {section}{\numberline {6.4}$\sigma _{max}$ and $\sigma _{min}$ Studies}{49}{section.170}%
-\contentsline {subsection}{\numberline {6.4.1}The Role of $\sigma _{max}$ and $\sigma _{min}$}{49}{subsection.171}%
-\contentsline {subsection}{\numberline {6.4.2}Conclusions}{50}{subsection.173}%
-\contentsline {section}{\numberline {6.5}Overall Parameter Sweeping}{50}{section.174}%
-\contentsline {section}{\numberline {6.6}Centralization}{51}{section.176}%
-\contentsline {section}{\numberline {6.7}Conditioning Issue}{52}{section.181}%
-\contentsline {subsection}{\numberline {6.7.1}incident energy}{52}{subsection.182}%
-\contentsline {subsection}{\numberline {6.7.2}time}{52}{subsection.187}%
-\contentsline {chapter}{\numberline {7}Future Goals}{55}{chapter.189}%
-\contentsline {section}{\numberline {7.1}Further Acceleration of the Model}{55}{section.190}%
-\contentsline {section}{\numberline {7.2}Layer Relationship Learning and Tracking}{55}{section.191}%
-\contentsline {chapter}{Bibliography}{57}{appendix*.192}%
+\contentsline {section}{\numberline {6.2}Metrics}{47}{section.160}%
+\contentsline {subsection}{\numberline {6.2.1}FID Score}{47}{subsection.161}%
+\contentsline {subsection}{\numberline {6.2.2}Classifier}{48}{subsection.164}%
+\contentsline {section}{\numberline {6.3}VE and VP Studies}{48}{section.165}%
+\contentsline {section}{\numberline {6.4}$\sigma _{max}$ and $\sigma _{min}$ Studies}{50}{section.172}%
+\contentsline {subsection}{\numberline {6.4.1}The Role of $\sigma _{max}$ and $\sigma _{min}$}{51}{subsection.173}%
+\contentsline {subsection}{\numberline {6.4.2}Conclusions}{51}{subsection.178}%
+\contentsline {section}{\numberline {6.5}Overall Parameter Sweeping}{51}{section.179}%
+\contentsline {section}{\numberline {6.6}Centralization}{55}{section.182}%
+\contentsline {section}{\numberline {6.7}Conditioning Issue}{56}{section.187}%
+\contentsline {subsection}{\numberline {6.7.1}incident energy}{56}{subsection.188}%
+\contentsline {subsection}{\numberline {6.7.2}Time}{56}{subsection.193}%
+\contentsline {chapter}{\numberline {7}Future Goals}{59}{chapter.195}%
+\contentsline {section}{\numberline {7.1}Further Acceleration of the Model}{59}{section.196}%
+\contentsline {section}{\numberline {7.2}Layer Relationship Learning and Tracking}{59}{section.197}%
+\contentsline {chapter}{Bibliography}{61}{appendix*.198}%

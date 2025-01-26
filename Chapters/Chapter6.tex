@@ -30,12 +30,6 @@ From the reasons above, studying which preprocessing method is the best for our 
         % Include your figure here
         \caption{RobustScalar}
     \end{figure}
-    \item \textbf{StandardScaler}
-    \begin{figure}[ht]
-        \centering
-        % Include your figure here
-        \caption{RobustScalar}
-    \end{figure}
     \item \textbf{MinMaxScaler}
     \begin{figure}[ht]
         \centering
@@ -79,29 +73,56 @@ However, our classifiers consistently achieve very high performance, with an AUC
 % Add this section's details as necessary.
 
 \section{VE and VP Studies}
-As mentioned before, there are two main ways to add the noise into the data, which are Variance Exploding (VE) and Variance Preserving (VP). In this section, we will discuss the performance of the model trained with these two methods. First, we can observe the standard deviation of the data after adding the noise. We can see that the change of the standard deviation is more steep at the begining in VE method than VP method. This means that the VE method has more power to push the data to the random noise, which is the initial state of the sampling space. That is why we guess the VE method will have a better performance than the VP method.
+As mentioned before, there are two main ways to add the noise into the data, which are Variance Exploding (VE) and Variance Preserving (VP). In this section, we will discuss the performance of the model trained with these two methods. First, we can observe the standard deviation times the noise we add in, which is the change of every step. We can see that it is more steep and the value is bigger for VE method. This means that the VE method has more power to push the data to the random noise, which is the initial state of the sampling space. That is why we guess the VE method will have a better performance than the VP method.
 
 \begin{figure}[h!]
     \centering
+    \includegraphics[width=0.8\textwidth,height= 0.35\textwidth]{Figures/sde1.png}
     % Include your loss shape figure here
-    \caption{Mean std*noise for energy distribution.}
+    \caption{Comparison of VE and VP methods for both $\sigma_{max} = 1, \sigma_{min} = 0.0001$} \label{fig:sde1}
+\end{figure}
+
+From Figure \ref{fig:sde1}, it may not be obvious that the value of VE is larger, but later if we see Figure \ref{fig:sde5} and \ref{fig:sde10} when $\sigma_{max} = 5, \sigma_{max} = 10$, we can see that the value of VE is larger than VP.(0.3 vs 0.075) This is consistent with our guess that the VE method will have a better performance than the VP method.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth,height = 0.35\textwidth]{Figures/sde5.png}
+    % Include your loss shape figure here
+    \caption{Comparison of VE and VP methods for both $\sigma_{max} = 5, \sigma_{min} = 0.0001$}\label{fig:sde5}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth, height = 0.35\textwidth]{Figures/sde10.png}
+    % Include your loss shape figure here
+    \caption{Comparison of VE and VP methods for both $\sigma_{max} = 10, \sigma_{min} = 0.0001$}\label{fig:sde10}
 \end{figure}
 
 Next, we can further compare the actual distribution change after adding the noise. We can see that the distribution of the data after adding the noise in the VE method is more close to the random noise than the VP method. This is consistent with our guess that the VE method will have a better performance than the VP method.
 
 \begin{figure}[h!]
     \centering
+    \includegraphics[width=0.8\textwidth]{Figures/VE_5_0.0001.png}
     % Include your loss shape figure here
-    \caption{The distribution of the data after adding the noise.}
+    \caption{The distribution of the data after adding the noise using VE method.}\label{fig:ve}
 \end{figure}
-
-We also compared the FID scores of models trained with the VE and VP methods. The results showed that the VE method resulted in a lower FID score compared to the VP method. This suggests that the VE method is more effective at pushing the model toward generating random samples that better represent the initial sampling space.
 
 \begin{figure}[h!]
     \centering
+    \includegraphics[width=0.8\textwidth]{Figures/VP_5_0.0001.png}
+    % Include your loss shape figure here
+    \caption{The distribution of the data after adding the noise using VP method.} \label{fig:vp}
+\end{figure}
+
+From Figure \ref{fig:ve} and \ref{fig:vp}, we can observe two points. Firstly, the VE method requires more steps to effectively disrupt the original data distribution, allowing the reverse process to provide the model with additional opportunities to capture the true distribution, which is advantageous. Secondly, the distribution of data subjected to noise through the VE method appears closer to random noise than that of the VP method. This observation supports our hypothesis that the VE method is likely to outperform the VP method. 
+
+We also compared the FID scores of models trained with the VE and VP methods. The results showed that the VE method resulted in a lower FID score compared to the VP method. This suggests that the VE method is more effective at pushing the model toward generating random samples that better represent the initial sampling space.
+
+\begin{table}[h!]
+    \centering
     % Include your FID score comparison figure here
     \caption{Comparison of FID scores for VE and VP methods.}
-\end{figure}
+\end{table}
 
 In conclusion, the VE method outperformed the VP method in terms of FID score. 
 We guess this is because it has more power to push our data to random noise, which is the initial state of sampling space. So our model know how to do the reverse process at the beginning in VE method. For example, if we see the standard deviation of both VE and VP methods, one can find out VE has the steeper slope than VP, which means it has the power to push the data to the random noise.
@@ -119,7 +140,31 @@ Larger $\sigma_{max}$ ensures sufficient diversity in the data during the forwar
 \begin{figure}[ht]
     \centering
     % Include your figure here
-    \caption{The result of different $\sigma_{max}$ and $\sigma_{min}$ in both VE and VP.}
+    \includegraphics[width=0.8\textwidth]{Figures/VE_sigma_max.jpeg}
+    \caption{The result of different $\sigma_{max}$ and $\sigma_{min}$ in VE.} \label{fig:sigma}
+\end{figure}
+
+\begin{figure}
+    \centering
+    % Include your figure here
+    \includegraphics[width=0.8\textwidth]{Figures/VP_sigma_max.jpeg}
+    \caption{The result of different $\sigma_{max}$ and $\sigma_{min}$ in VP.} \label{fig:sigma}
+\end{figure}
+
+And we can further check the sweep
+
+\begin{figure}[ht]
+    \centering
+    % Include your figure here
+    \includegraphics[width=0.8\textwidth]{Figures/sde_sweep.png}
+    \caption{The result of different $\sigma_{max}$ and $\sigma_{min}$ in VE.}
+\end{figure}
+
+\begin{figure}
+    \centering
+    % Include your figure here
+    \includegraphics[width=0.8\textwidth]{Figures/sde_sweep_sigmamax.png}
+    \caption{}
 \end{figure}
 
 \subsection{Conclusions}
@@ -145,8 +190,16 @@ Besides, the parameters mentioned above there are also a lot of other parameters
 
 \begin{figure}[h!]
     \centering
+    \includegraphics[width=0.8\textwidth]{Figures/other_sweep.png}
     % Include your parameter sweeping study figure here
     \caption{Visualization of parameter sweeping results.}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Figures/sde_importance.png}
+    % Include your figure here
+    \caption{The result of energy deposit of single bucket data and all bucket data.}
 \end{figure}
 
 
@@ -213,15 +266,15 @@ They are basically the same, indicating that the conditional variables are not w
 
 As you can see, the result is totally a disaster. To be honest, we still don't know why this happened. 
 
-Next, we move to even more complex conditional variables. We have tried class token, MoE. The result is shown below:
+Next, we move to even more complex conditional variables. We have tried class token. The result is shown in Figure ~\ref{fig:energy_deposit}:
 
 \begin{figure}[ht]
     \centering
     % Include your figure here
-    \caption{The result of energy deposit with class token and MoE.}
+    \caption{The result of energy deposit with class token.}\label{fig:energy_deposit}
 \end{figure}
 
-\subsection{time}
+\subsection{Time}
 
 We also attempted to incorporate time as a conditional variable in our model. However, the results differ from those observed with incident energy. Even without explicitly using time as a condition, the output layer implicitly incorporates its effect by dividing by the standard deviation of the stochastic differential equation (SDE), which is time-dependent. Despite this, the inclusion of time as a conditional variable does not appear to enhance the model's performance.
 

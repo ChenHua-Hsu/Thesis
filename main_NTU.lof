@@ -24,17 +24,22 @@
 \contentsline {figure}{\numberline {6.2}{\ignorespaces RobustScalar}}{46}{figure.caption.157}%
 \contentsline {figure}{\numberline {6.3}{\ignorespaces RobustScalar}}{47}{figure.caption.158}%
 \contentsline {figure}{\numberline {6.4}{\ignorespaces RobustScalar}}{47}{figure.caption.159}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces RobustScalar}}{47}{figure.caption.160}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Mean std*noise for energy distribution.}}{48}{figure.caption.167}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces The distribution of the data after adding the noise.}}{49}{figure.caption.168}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Comparison of FID scores for VE and VP methods.}}{49}{figure.caption.169}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces The result of different $\sigma _{max}$ and $\sigma _{min}$ in both VE and VP.}}{50}{figure.caption.172}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Visualization of parameter sweeping results.}}{51}{figure.caption.175}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces The Picture after adding the correlation term.}}{51}{figure.caption.179}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces The Comparison Picture after using QuantileTransformer.}}{52}{figure.caption.180}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces The result of energy deposit of single bucket data and all bucket data.}}{52}{figure.caption.183}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces The result of energy deposit with and without incident energy as conditional variables.}}{52}{figure.caption.184}%
-\contentsline {figure}{\numberline {6.15}{\ignorespaces The result of energy deposit with incident energy concatenated with the input data.}}{53}{figure.caption.185}%
-\contentsline {figure}{\numberline {6.16}{\ignorespaces The result of energy deposit with class token and MoE.}}{53}{figure.caption.186}%
-\contentsline {figure}{\numberline {6.17}{\ignorespaces The loss vs time plot.}}{53}{figure.caption.188}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Comparison of VE and VP methods for both $\sigma _{max} = 1, \sigma _{min} = 0.0001$}}{49}{figure.caption.166}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Comparison of VE and VP methods for both $\sigma _{max} = 5, \sigma _{min} = 0.0001$}}{49}{figure.caption.167}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Comparison of VE and VP methods for both $\sigma _{max} = 10, \sigma _{min} = 0.0001$}}{49}{figure.caption.168}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces The distribution of the data after adding the noise using VE method.}}{50}{figure.caption.169}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces The distribution of the data after adding the noise using VP method.}}{50}{figure.caption.170}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces The result of different $\sigma _{max}$ and $\sigma _{min}$ in VE.}}{52}{figure.caption.174}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces The result of different $\sigma _{max}$ and $\sigma _{min}$ in VP.}}{53}{figure.caption.175}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces The result of different $\sigma _{max}$ and $\sigma _{min}$ in VE.}}{54}{figure.caption.176}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces \relax }}{54}{figure.caption.177}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Visualization of parameter sweeping results.}}{54}{figure.caption.180}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces The result of energy deposit of single bucket data and all bucket data.}}{54}{figure.caption.181}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces The Picture after adding the correlation term.}}{55}{figure.caption.185}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces The Comparison Picture after using QuantileTransformer.}}{55}{figure.caption.186}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces The result of energy deposit of single bucket data and all bucket data.}}{56}{figure.caption.189}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces The result of energy deposit with and without incident energy as conditional variables.}}{56}{figure.caption.190}%
+\contentsline {figure}{\numberline {6.20}{\ignorespaces The result of energy deposit with incident energy concatenated with the input data.}}{56}{figure.caption.191}%
+\contentsline {figure}{\numberline {6.21}{\ignorespaces The result of energy deposit with class token.}}{57}{figure.caption.192}%
+\contentsline {figure}{\numberline {6.22}{\ignorespaces The loss vs time plot.}}{57}{figure.caption.194}%
 \addvspace {10\p@ }
