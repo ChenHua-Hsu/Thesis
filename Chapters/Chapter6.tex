@@ -15,37 +15,53 @@ Additionally, preprocessing optimizes computational efficiency by simplifying da
 
 One important point to note is that we chose to use the x,y coordinate system instead of the cylindrical coordinate system. The primary reason for this choice is the discontinuity at $\theta=0$ and $\theta=2\pi$, which is unphysical and can introduce challenges during training. Although the cylindrical coordinate system aligns better with the detector structure and may simplify learning the relationship between radius and energy, we opted for the x,y coordinate system to ensure continuity and avoid such complications. 
 
-From the reasons above, studying which preprocessing method is the best for our data is necessary. Below are some preprocessing methods we have tried and their results.
+From the reasons above, studying which preprocessing method is the best for our data is necessary. Below are some preprocessing methods we have tried and their results. 
 
 \begin{itemize}
-    \item \textbf{RobustScalar}
-    \begin{figure}[ht]
+    \item \textbf{RobustScalar on x and y} 
+    
+    The \texttt{RobustScaler}, a common transformation, is a data preprocessing technique that removes the median and scales data according to the interquartile range (IQR). Unlike standard scaling methods that rely on the mean and standard deviation, this scaler is \textbf{robust to outliers} because it focuses on statistical measures less sensitive to extreme values. The transformation is defined by:
+
+    \[
+    x' = \frac{x - \text{Median}}{\text{IQR}}
+    \]
+    
+    where \( \text{IQR} = Q3 - Q1 \) is the range between the 75th percentile (\(Q3\)) and the 25th percentile (\(Q1\)). By subtracting the median and dividing by the IQR, the transformation ensures that features are scaled while being less affected by outliers. This makes the \texttt{RobustScaler} particularly suitable for datasets where extreme values may distort the mean and standard deviation.
+    \begin{figure}[h!]
         \centering
+        \includegraphics[width=0.6\textwidth]{Figures/robustscalar.png} \label{fig:robustscalar}
         % Include your figure here
         \caption{RobustScalar}
     \end{figure}
-    \item \textbf{QuantileTransformer}
-    \begin{figure}[ht]
+
+    \item \textbf{QuantileTransformer on x and y}
+    
+    As for \texttt{QuantileTransformer}, it is a non-linear transformation that maps data to a uniform or normal distribution. Here I choose the normal one.  It applies a non-linear transformation using the empirical cumulative distribution function (ECDF) to reshape the feature's distribution. This ensures that each feature closely resembles the desired target distribution.
+
+    This method is particularly useful when the data distribution has heavy tails or abrupt changes, as our x and y coordinates do. By transforming the data to a normal distribution, the \texttt{QuantileTransformer} can help the model learn the underlying patterns more effectively. This is especially beneficial for our data, as it can improve the model's ability to capture the relationship between energy and radius.
+
+    \begin{figure}[h!]
         \centering
+        \includegraphics[width=0.6\textwidth]{Figures/quantileTransfomrer.png}
         % Include your figure here
-        \caption{RobustScalar}
+        \caption{QuantileTransformer}
     \end{figure}
-    \item \textbf{MinMaxScaler}
-    \begin{figure}[ht]
-        \centering
-        % Include your figure here
-        \caption{RobustScalar}
-    \end{figure}
+
     \item \textbf{Specail Transformation from other papers}
-    \begin{figure}[ht]
+    
+
+    \begin{figure}[h!]
         \centering
+        \includegraphics[width=0.6\textwidth]{Figures/original.png}
         % Include your figure here
-        \caption{RobustScalar}
+        \caption{Special Transformation}
     \end{figure}
 \end{itemize}
 
+The figures above show the distribution of the data after applying different preprocessing methods. And more figures can be found in the appendix \ref{AppendixA}. 
 
-The reason of choosing x y coordinate rather than spherical coordinate
+From the results, we can see that the \texttt{QuantileTransformer} has the better performance on x and y. This is because it can transform the data to follow a normal distribution, which can help the model learn the data better, especially the x,y distribution. This also makes it able to learn the relation between energy and radius better.z
+
 \section{Metrics}
 \subsection{FID Score}
 To evaluate the performance of our model, we employed the Fréchet Inception Distance (FID) score as a key metric. The FID score is widely used to assess the quality of generated samples by measuring the distance between the feature representations of real and generated images using the InceptionV3 model \cite{inceptionv3}. A lower FID score indicates that the generated samples are closer to the real samples in terms of their statistical distribution. We utilized the PyTorch library's implementation of the FID score \cite{pytorch} for our calculations. The FID score is calculated as follows:
@@ -137,23 +153,75 @@ The parameter $\sigma_{min}$ represents the minimum noise level in the forward p
 
 Larger $\sigma_{max}$ ensures sufficient diversity in the data during the forward process, helping the model generalize better. Yet, if $\sigma_{max}$ is too large, it can result in excessively noisy samples, making it challenging for the model to learn the reverse process effectively.
 
-\begin{figure}[ht]
+\begin{figure}[htbp]
     \centering
-    % Include your figure here
-    \includegraphics[width=0.8\textwidth]{Figures/VE_sigma_max.jpeg}
-    \caption{The result of different $\sigma_{max}$ and $\sigma_{min}$ in VE.} \label{fig:sigma}
+    \begin{subfigure}[b]{0.4\textwidth} % Slightly increase width to reduce gaps
+        \includegraphics[width=\textwidth]{Figures/vp_20.png}
+        \caption{VP with $\sigma_{max} = 20$}
+        \label{fig:vp_20}
+    \end{subfigure}
+    \hspace{0.015\textwidth} % Reduce horizontal space
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Figures/vp_10.png}
+        \caption{VP with $\sigma_{max} = 10$}
+        \label{fig:vp_10}
+    \end{subfigure}
+    
+    \vspace{0.4em} % Reduce vertical space between rows
+    
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Figures/vp_5.png}
+        \caption{VP with $\sigma_{max} = 5$}
+        \label{fig:vp_5}
+    \end{subfigure}
+    \hspace{0.015\textwidth} % Reduce horizontal space
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Figures/vp_1.png}
+        \caption{VP with $\sigma_{max} = 1$}
+        \label{fig:vp_1}
+    \end{subfigure}
+    
+    \caption{The result of different $\sigma_{max}$ in VP.}
+    \label{fig:vp_sigma_max}
 \end{figure}
 
-\begin{figure}
+
+\begin{figure}[htbp]
     \centering
-    % Include your figure here
-    \includegraphics[width=0.8\textwidth]{Figures/VP_sigma_max.jpeg}
-    \caption{The result of different $\sigma_{max}$ and $\sigma_{min}$ in VP.} \label{fig:sigma}
+    \begin{subfigure}[b]{0.4\textwidth} % Adjusted width to 0.4
+        \includegraphics[width=\textwidth]{Figures/ve_20.png}
+        \caption{VE with $\sigma_{max} = 20$}
+        \label{fig:ve_20}
+    \end{subfigure}
+    \hspace{0.015\textwidth} % Reduce horizontal space
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Figures/ve_10.png}
+        \caption{VE with $\sigma_{max} = 10$}
+        \label{fig:ve_10}
+    \end{subfigure}
+    
+    \vspace{0.4em} % Reduce vertical space between rows
+    
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Figures/ve_5.png}
+        \caption{VE with $\sigma_{max} = 5$}
+        \label{fig:ve_5}
+    \end{subfigure}
+    \hspace{0.015\textwidth} % Reduce horizontal space
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Figures/ve_1.png}
+        \caption{VE with $\sigma_{max} = 1$}
+        \label{fig:ve_1}
+    \end{subfigure}
+    
+    \caption{The result of different $\sigma_{max}$ in VE.}
+    \label{fig:ve_sigma_max}
 \end{figure}
+
 
 And we can further check the sweep
 
-\begin{figure}[ht]
+\begin{figure}[h!]
     \centering
     % Include your figure here
     \includegraphics[width=0.8\textwidth]{Figures/sde_sweep.png}
@@ -195,12 +263,12 @@ Besides, the parameters mentioned above there are also a lot of other parameters
     \caption{Visualization of parameter sweeping results.}
 \end{figure}
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.8\textwidth]{Figures/sde_importance.png}
-    % Include your figure here
-    \caption{The result of energy deposit of single bucket data and all bucket data.}
-\end{figure}
+% \begin{figure}[h!]
+%     \centering
+%     \includegraphics[width=0.8\textwidth]{Figures/sde_importance.png}
+%     % Include your figure here
+%     \caption{The result of energy deposit of single bucket data and all bucket data.}
+% \end{figure}
 
 
 \section{Centralization}
@@ -239,21 +307,45 @@ The result compared to the original one is shown below:
 \end{figure}
 
 \section{Conditioning Issue}
-\subsection{incident energy}
+\subsection{Incident energy}
 With the optimal settings, our model was able to generate the basic shapes of both the energy and spatial distributions. However, the model often produced an excessive number of hits (\texttt{nhits}) at higher energy levels, leading to overestimation. This issue was not observed when training on single-bucket data, indicating that the model struggles to differentiate between data from different buckets. This suggests that our conditional variables are not functioning effectively. As you can see the result of energy deposit of single bucket data and all bucket data, the model can generate the data well in single bucket data, but it failed to generate the data well in all bucket data. This is because the model can't learn the condition well.
 
-\begin{figure}[ht]
+\begin{figure}[htbp]
     \centering
-    % Include your figure here
-    \caption{The result of energy deposit of single bucket data and all bucket data.}
+    \begin{subfigure}[b]{0.45\textwidth} % Adjust width as needed
+        \includegraphics[width=\textwidth]{Figures/energy_voxel_single.png}
+        \caption{The energy deposit of single bucket data.}
+        \label{fig:fig1}
+    \end{subfigure}
+    \hfill % Optional: Adds space between the two subfigures
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{Figures/energy_voxel_full.png}
+        \caption{The energy deposit of five bucket data.}
+        \label{fig:fig2}
+    \end{subfigure}
+    
+    \caption{Main caption for both figures}
+    \label{fig:main}
 \end{figure}
 
 To address this issue, we first need to make sure if our conditional variables aren't really working. So we tried to add the incident energy as the conditional variables and not. The result is shown below:
 
-\begin{figure}[ht]
+\begin{figure}[htbp]
     \centering
-    % Include your figure here
-    \caption{The result of energy deposit with and without incident energy as conditional variables.}
+    \begin{subfigure}[b]{0.45\textwidth} % Adjust width as needed
+        \includegraphics[width=\textwidth]{Figures/energy_deposit_without_incident.png}
+        \caption{The energy deposit without incident energy.}
+        \label{fig:without_incident}
+    \end{subfigure}
+    \hfill % Optional: Adds space between the two subfigures
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{Figures/energy_voxel_full.png}
+        \caption{The energy deposit with incident energy.}
+        \label{fig:with_incident}
+    \end{subfigure}
+    
+    \caption{Main caption for both figures}
+    \label{fig:main}
 \end{figure}
 
 They are basically the same, indicating that the conditional variables are not working. Next, we also tried to concatenate the incident energy with the input data instead of adding them and the result is shown below:
@@ -264,15 +356,19 @@ They are basically the same, indicating that the conditional variables are not w
     \caption{The result of energy deposit with incident energy concatenated with the input data.}
 \end{figure}
 
-As you can see, the result is totally a disaster. To be honest, we still don't know why this happened. 
+As you can see, the result is totally a disaster. To be honest, we still don't know why this happened. And that is also one of the things we need to figure out in the future. We will probably try to use fewer hits and focus on one or two dimensions to find out the reason.
 
-Next, we move to even more complex conditional variables. We have tried class token. The result is shown in Figure ~\ref{fig:energy_deposit}:
+% Next, we move to even more complex conditional variables. We have tried class token. T
 
-\begin{figure}[ht]
-    \centering
-    % Include your figure here
-    \caption{The result of energy deposit with class token.}\label{fig:energy_deposit}
-\end{figure}
+
+
+% The result is shown in Figure ~\ref{fig:energy_deposit}:
+
+% \begin{figure}[ht]
+%     \centering
+%     % Include your figure here
+%     \caption{The result of energy deposit with class token.}\label{fig:energy_deposit}
+% \end{figure}
 
 \subsection{Time}
 
@@ -282,11 +378,25 @@ The plot of loss versus time reveals consistent behavior across epochs, showing 
 
 Time close to $t = 0$ represents the critical phase where the model transitions toward generating real data, whereas near $t = 1$, the model predominantly learns the structure of Gaussian noise. This suggests that the model's learning mechanism may inherently prioritize earlier time steps, making additional time conditioning redundant or ineffective.
 
-\begin{figure}[ht]
+\begin{figure}[htbp]
     \centering
-    % Include your figure here
-    \caption{The loss vs time plot.}
+    \begin{subfigure}[b]{0.45\textwidth} % Adjust width as needed
+        \includegraphics[width=\textwidth]{Figures/loss_t_0.png}
+        \caption{}
+        \label{fig:loss_t_0}
+    \end{subfigure}
+    \hfill % Optional: Adds space between the two subfigures
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{Figures/loss_t_10.png}
+        \caption{}
+        \label{fig:loss_t_10}
+    \end{subfigure}
+    
+    \caption{The left figure shows the loss at epoch 0, which is quite normal it's still caotic. The right figure actually represent the loss after 10 epochs.}
+    \label{fig:loss_t}
 \end{figure}
+
+From the Figure ~\ref{fig:loss_t}, We can see that the loss value near t equals to 0 is always aorund 1, which is as same as it is at the initial state. This means that our model learns nothing in that region. And the region stands for our model to predict the real data. That's may be the reason why our model can't learn the real shape of the data well. It only learns the approximate shape of the data from time is above 0.4.
 
 
 

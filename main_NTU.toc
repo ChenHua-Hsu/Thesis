@@ -92,19 +92,27 @@
 \contentsline {section}{\numberline {6.1}Data Preprocessing}{45}{section.153}%
 \contentsline {subsection}{\numberline {6.1.1}Bucketing}{45}{subsection.154}%
 \contentsline {subsection}{\numberline {6.1.2}Preprocessor}{46}{subsection.155}%
-\contentsline {section}{\numberline {6.2}Metrics}{47}{section.160}%
-\contentsline {subsection}{\numberline {6.2.1}FID Score}{47}{subsection.161}%
-\contentsline {subsection}{\numberline {6.2.2}Classifier}{48}{subsection.164}%
-\contentsline {section}{\numberline {6.3}VE and VP Studies}{48}{section.165}%
-\contentsline {section}{\numberline {6.4}$\sigma _{max}$ and $\sigma _{min}$ Studies}{50}{section.172}%
-\contentsline {subsection}{\numberline {6.4.1}The Role of $\sigma _{max}$ and $\sigma _{min}$}{51}{subsection.173}%
-\contentsline {subsection}{\numberline {6.4.2}Conclusions}{51}{subsection.178}%
-\contentsline {section}{\numberline {6.5}Overall Parameter Sweeping}{51}{section.179}%
-\contentsline {section}{\numberline {6.6}Centralization}{55}{section.182}%
-\contentsline {section}{\numberline {6.7}Conditioning Issue}{56}{section.187}%
-\contentsline {subsection}{\numberline {6.7.1}incident energy}{56}{subsection.188}%
-\contentsline {subsection}{\numberline {6.7.2}Time}{56}{subsection.193}%
-\contentsline {chapter}{\numberline {7}Future Goals}{59}{chapter.195}%
-\contentsline {section}{\numberline {7.1}Further Acceleration of the Model}{59}{section.196}%
-\contentsline {section}{\numberline {7.2}Layer Relationship Learning and Tracking}{59}{section.197}%
-\contentsline {chapter}{Bibliography}{61}{appendix*.198}%
+\contentsline {section}{\numberline {6.2}Metrics}{49}{section.159}%
+\contentsline {subsection}{\numberline {6.2.1}FID Score}{49}{subsection.160}%
+\contentsline {subsection}{\numberline {6.2.2}Classifier}{49}{subsection.163}%
+\contentsline {section}{\numberline {6.3}VE and VP Studies}{50}{section.164}%
+\contentsline {section}{\numberline {6.4}$\sigma _{max}$ and $\sigma _{min}$ Studies}{52}{section.171}%
+\contentsline {subsection}{\numberline {6.4.1}The Role of $\sigma _{max}$ and $\sigma _{min}$}{53}{subsection.172}%
+\contentsline {subsection}{\numberline {6.4.2}Conclusions}{53}{subsection.177}%
+\contentsline {section}{\numberline {6.5}Overall Parameter Sweeping}{53}{section.178}%
+\contentsline {section}{\numberline {6.6}Centralization}{56}{section.180}%
+\contentsline {section}{\numberline {6.7}Conditioning Issue}{58}{section.185}%
+\contentsline {subsection}{\numberline {6.7.1}Incident energy}{58}{subsection.186}%
+\contentsline {subsection}{\numberline {6.7.2}Time}{59}{subsection.190}%
+\contentsline {chapter}{\numberline {7}Future Goals}{61}{chapter.192}%
+\contentsline {section}{\numberline {7.1}Further Acceleration of the Model}{61}{section.193}%
+\contentsline {section}{\numberline {7.2}Layer Relationship Learning and Tracking}{61}{section.194}%
+\contentsline {chapter}{\numberline {A}Figures}{63}{appendix.195}%
+\contentsline {section}{\numberline {A.1}Best Result for Full Dataset}{63}{section.196}%
+\contentsline {section}{\numberline {A.2}Best Result for Single Bucket Data}{63}{section.197}%
+\contentsline {section}{\numberline {A.3}Result for using concatenated incident energy}{63}{section.198}%
+\contentsline {section}{\numberline {A.4}Result for without using incident energy}{63}{section.199}%
+\contentsline {section}{\numberline {A.5}Result for using different SDE settings}{63}{section.200}%
+\contentsline {section}{\numberline {A.6}Result for using different Preprocessor}{63}{section.201}%
+\contentsline {chapter}{\numberline {B}TopFCNC}{65}{appendix.202}%
+\contentsline {chapter}{Bibliography}{67}{appendix*.203}%

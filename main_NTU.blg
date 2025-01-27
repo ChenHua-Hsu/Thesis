@@ -9,6 +9,8 @@ A level-1 auxiliary file: Chapters/Chapter4.aux
 A level-1 auxiliary file: Chapters/Chapter5.aux
 A level-1 auxiliary file: Chapters/Chapter6.aux
 A level-1 auxiliary file: Chapters/Chapter7.aux
+A level-1 auxiliary file: Appendices/AppendixA.aux
+A level-1 auxiliary file: Appendices/AppendixB.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -67,7 +69,7 @@ while executing--line 2727 of file biblatex.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 50 entries,
             6399 wiz_defined-function locations,
-            1487 strings with 109738 characters,
+            1489 strings with 109786 characters,
 and the built_in function-call counts, 9594720 in all, are:
 = -- 986700
 > -- 50335
