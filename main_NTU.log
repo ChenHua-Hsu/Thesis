@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.4)  27 JAN 2025 18:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.4)  30 JAN 2025 02:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1228,7 +1228,7 @@ package with kernel methods
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
-(scrhack)             need that hack, on input line 405.
+(scrhack)             need that hack, on input line 407.
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
@@ -1247,11 +1247,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip103
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 405.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 405.
-Package hyperref Info: Option `colorlinks' set `true' on input line 405.
-Package hyperref Info: Option `unicode' set `true' on input line 405.
-Package hyperref Info: Option `breaklinks' set `true' on input line 405.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 407.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 407.
+Package hyperref Info: Option `colorlinks' set `true' on input line 407.
+Package hyperref Info: Option `unicode' set `true' on input line 407.
+Package hyperref Info: Option `breaklinks' set `true' on input line 407.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/ragged2e/ragged2e.sty
@@ -1270,102 +1270,95 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \RaggedLeftParindent=\skip115
 \RaggedRightParindent=\skip116
 \JustifyingParindent=\skip117
-) (./main_NTU.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux) (./Chapters/Chapter6.aux
-
-LaTeX Warning: Label `fig:fig1' multiply defined.
-
-
-LaTeX Warning: Label `fig:main' multiply defined.
-
-) (./Chapters/Chapter7.aux) (./Appendices/AppendixA.aux) (./Appendices/AppendixB.aux))
+) (./main_NTU.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux) (./Chapters/Chapter6.aux) (./Chapters/Chapter7.aux) (./Appendices/AppendixA.aux) (./Appendices/AppendixB.aux))
 \openout1 = `main_NTU.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 405.
-LaTeX Font Info:    ... okay on input line 405.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 405.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 407.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count514
@@ -1428,12 +1421,12 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemargintrue
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package scrbase Info: activating english \abbrevname on input line 405.
-Package scrbase Info: activating english \abstractname on input line 405.
-Package scrbase Info: activating english \acknowledgementname on input line 405.
-Package scrbase Info: activating english \authorshipname on input line 405.
-Package scrbase Info: activating english \constantsname on input line 405.
-Package scrbase Info: activating english \symbolsname on input line 405.
+Package scrbase Info: activating english \abbrevname on input line 407.
+Package scrbase Info: activating english \abstractname on input line 407.
+Package scrbase Info: activating english \acknowledgementname on input line 407.
+Package scrbase Info: activating english \authorshipname on input line 407.
+Package scrbase Info: activating english \constantsname on input line 407.
+Package scrbase Info: activating english \symbolsname on input line 407.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1461,9 +1454,9 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 405.
-Package biblatex Info: Reference segment=0 on input line 405.
-Package hyperref Info: Link coloring ON on input line 405.
+Package biblatex Info: Reference section=0 on input line 407.
+Package biblatex Info: Reference segment=0 on input line 407.
+Package hyperref Info: Link coloring ON on input line 407.
  (./main_NTU.out) (./main_NTU.out)
 \@outlinefile=\write7
 \openout7 = `main_NTU.out'.
@@ -1491,7 +1484,7 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-<Figures/watermark-05.pdf, id=469, 207.77625pt x 207.77625pt>
+<Figures/watermark-05.pdf, id=485, 207.77625pt x 207.77625pt>
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 68.
@@ -1518,7 +1511,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 89.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Figures/NTU.jpg, id=525, 256.5585pt x 254.3904pt>
+<Figures/NTU.jpg, id=541, 256.5585pt x 254.3904pt>
 File: Figures/NTU.jpg Graphic file (type jpg)
 <use Figures/NTU.jpg>
 Package pdftex.def Info: Figures/NTU.jpg  used on input line 111.
@@ -1640,7 +1633,7 @@ Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 79.
  [8]
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 117.
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 116.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
  [9])
 \tf@toc=\write8
@@ -1691,7 +1684,7 @@ Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 82.
 
 (./Chapters/Chapter1.tex
 Chapter 1.
-<Figures/simulation.png, id=847, 1227.58624pt x 650.43pt>
+<Figures/simulation.png, id=874, 1227.58624pt x 650.43pt>
 File: Figures/simulation.png Graphic file (type png)
 <use Figures/simulation.png>
 Package pdftex.def Info: Figures/simulation.png  used on input line 13.
@@ -1723,7 +1716,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 31.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
 [3]
-<Figures/fast.png, id=900, 493.845pt x 356.33125pt>
+<Figures/fast.png, id=927, 493.845pt x 356.33125pt>
 File: Figures/fast.png Graphic file (type png)
 <use Figures/fast.png>
 Package pdftex.def Info: Figures/fast.png  used on input line 34.
@@ -1752,7 +1745,7 @@ Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 1.
 
 ]
 Chapter 2.
-<Figures/Cern_Accelerator_Complex.png, id=914, 1606.0pt x 1045.9075pt>
+<Figures/Cern_Accelerator_Complex.png, id=941, 1606.0pt x 1045.9075pt>
 File: Figures/Cern_Accelerator_Complex.png Graphic file (type png)
 <use Figures/Cern_Accelerator_Complex.png>
 Package pdftex.def Info: Figures/Cern_Accelerator_Complex.png  used on input line 7.
@@ -1782,7 +1775,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 40.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
 [8]
-<Figures/CMS Detector Schematic.png, id=944, 284.39583pt x 201.08458pt>
+<Figures/CMS Detector Schematic.png, id=972, 284.39583pt x 201.08458pt>
 File: Figures/CMS Detector Schematic.png Graphic file (type png)
 <use Figures/CMS Detector Schematic.png>
 Package pdftex.def Info: Figures/CMS Detector Schematic.png  used on input line 68.
@@ -1792,7 +1785,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 74.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
  [9]
-<Figures/CMS Slice White Background.png, id=954, 6022.5pt x 3982.88pt>
+<Figures/CMS Slice White Background.png, id=981, 6022.5pt x 3982.88pt>
 File: Figures/CMS Slice White Background.png Graphic file (type png)
 <use Figures/CMS Slice White Background.png>
 Package pdftex.def Info: Figures/CMS Slice White Background.png  used on input line 79.
@@ -1816,7 +1809,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 157.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
 [12]
-<Figures/ECAL Schematic Overview.png, id=987, 853.1875pt x 486.81876pt>
+<Figures/ECAL Schematic Overview.png, id=1014, 853.1875pt x 486.81876pt>
 File: Figures/ECAL Schematic Overview.png Graphic file (type png)
 <use Figures/ECAL Schematic Overview.png>
 Package pdftex.def Info: Figures/ECAL Schematic Overview.png  used on input line 167.
@@ -1840,7 +1833,7 @@ Overfull \hbox (12.17973pt too wide) in paragraph at lines 211--212
 \T1/ppl/m/n/10.95 as its ab-sorber, with ad-di-tional lay-ers of plas-tic scin-til-la-tors serv-ing as the ac-tive medium.
  []
 
-<Figures/HCAL.jpg, id=1012, 238.78008pt x 126.4725pt>
+<Figures/HCAL.jpg, id=1039, 238.78008pt x 126.4725pt>
 File: Figures/HCAL.jpg Graphic file (type jpg)
 <use Figures/HCAL.jpg>
 Package pdftex.def Info: Figures/HCAL.jpg  used on input line 222.
@@ -1858,7 +1851,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 246.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
  [17 <./Figures/HCAL.jpg>]
-<Figures/muon_detector.png, id=1032, 843.15pt x 307.1475pt>
+<Figures/muon_detector.png, id=1059, 843.15pt x 307.1475pt>
 File: Figures/muon_detector.png Graphic file (type png)
 <use Figures/muon_detector.png>
 Package pdftex.def Info: Figures/muon_detector.png  used on input line 264.
@@ -1882,7 +1875,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 306.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
 [20]
-<Figures/HGCal.jpg, id=1062, 642.4pt x 456.70625pt>
+<Figures/HGCal.jpg, id=1089, 642.4pt x 456.70625pt>
 File: Figures/HGCal.jpg Graphic file (type jpg)
 <use Figures/HGCal.jpg>
 Package pdftex.def Info: Figures/HGCal.jpg  used on input line 319.
@@ -1902,12 +1895,6 @@ Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 91.
 
  (./Chapters/Chapter3.tex
 Chapter 3.
-
-LaTeX Warning: Citation 'geant4_toolkit' on page 23 undefined on input line 8.
-
-
-LaTeX Warning: Citation 'geant4_toolkit' on page 23 undefined on input line 18.
-
 1: section
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
@@ -1937,7 +1924,7 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 68.
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 69.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
  [25]
 
@@ -1996,7 +1983,7 @@ Overfull \hbox (21.41852pt too wide) in paragraph at lines 145--146
 \T1/ppl/m/n/10.95 min-is-tic part and a stochas-tic part. The de-ter-min-is-tic part con-sists of $\OT1/cmr/bx/n/10.95 f[]\OT1/cmr/m/n/10.95 (\OT1/cmr/bx/n/10.95 x[]\OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 g[]\OMS/cmsy/m/n/10.95 r[] [] \OML/cmm/m/it/10.95 p\OT1/cmr/m/n/10.95 (\OT1/cmr/bx/n/10.95 x[]\OT1/cmr/m/n/10.95 )$\T1/ppl/m/n/10.95 ,
  []
 
-<Figures/diffusion.png, id=1143, 658.46pt x 234.8775pt>
+<Figures/diffusion.png, id=1174, 658.46pt x 234.8775pt>
 File: Figures/diffusion.png Graphic file (type png)
 <use Figures/diffusion.png>
 Package pdftex.def Info: Figures/diffusion.png  used on input line 156.
@@ -2055,17 +2042,17 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 24.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
 [38]
-<Figures/rnn.jpeg, id=1211, 2291.56125pt x 1003.75pt>
+<Figures/rnn.jpeg, id=1241, 2291.56125pt x 1003.75pt>
 File: Figures/rnn.jpeg Graphic file (type jpg)
 <use Figures/rnn.jpeg>
 Package pdftex.def Info: Figures/rnn.jpeg  used on input line 29.
 (pdftex.def)             Requested size: 185.65298pt x 81.31248pt.
-<Figures/transformer.jpeg, id=1212, 1728.4575pt x 1003.75pt>
+<Figures/transformer.jpeg, id=1242, 1728.4575pt x 1003.75pt>
 File: Figures/transformer.jpeg Graphic file (type jpg)
 <use Figures/transformer.jpeg>
 Package pdftex.def Info: Figures/transformer.jpeg  used on input line 36.
 (pdftex.def)             Requested size: 185.65298pt x 107.80913pt.
-<Figures/transformerblock.png, id=1213, 526.96875pt x 452.69125pt>
+<Figures/transformerblock.png, id=1243, 526.96875pt x 452.69125pt>
 File: Figures/transformerblock.png Graphic file (type png)
 <use Figures/transformerblock.png>
 Package pdftex.def Info: Figures/transformerblock.png  used on input line 49.
@@ -2075,7 +2062,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 66.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
  [39 <./Figures/rnn.jpeg> <./Figures/transformer.jpeg>]
-<Figures/model_structure.png, id=1218, 1321.93875pt x 201.75375pt>
+<Figures/model_structure.png, id=1248, 1321.93875pt x 201.75375pt>
 File: Figures/model_structure.png Graphic file (type png)
 <use Figures/model_structure.png>
 Package pdftex.def Info: Figures/model_structure.png  used on input line 81.
@@ -2094,12 +2081,12 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 110.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
 [41 <./Figures/model_structure.png>]
-<Figures/selfattention.jpeg, id=1235, 1003.75pt x 1278.7775pt>
+<Figures/selfattention.jpeg, id=1265, 1003.75pt x 1278.7775pt>
 File: Figures/selfattention.jpeg Graphic file (type jpg)
 <use Figures/selfattention.jpeg>
 Package pdftex.def Info: Figures/selfattention.jpeg  used on input line 117.
 (pdftex.def)             Requested size: 144.40025pt x 183.9643pt.
-<Figures/meanfield.jpeg, id=1236, 1074.0125pt x 1002.74625pt>
+<Figures/meanfield.jpeg, id=1266, 1074.0125pt x 1002.74625pt>
 File: Figures/meanfield.jpeg Graphic file (type jpg)
 <use Figures/meanfield.jpeg>
 Package pdftex.def Info: Figures/meanfield.jpeg  used on input line 124.
@@ -2138,305 +2125,332 @@ Overfull \hbox (0.84908pt too wide) in paragraph at lines 14--15
 []\T1/ppl/m/n/10.95 Additionally, pre-pro-cess-ing op-ti-mizes com-pu-ta-tional ef-fi-ciency by sim-pli-fy-ing data
  []
 
-<Figures/robustscalar.png, id=1254, 1204.5pt x 1204.5pt>
-File: Figures/robustscalar.png Graphic file (type png)
-<use Figures/robustscalar.png>
-Package pdftex.def Info: Figures/robustscalar.png  used on input line 32.
-(pdftex.def)             Requested size: 247.5415pt x 247.53061pt.
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 36.
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 27.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
 [46]
-<Figures/quantileTransfomrer.png, id=1259, 1204.5pt x 1204.5pt>
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 69.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+ [47]
+<Figures/robustscalar.png, id=1296, 1204.5pt x 1204.5pt>
+File: Figures/robustscalar.png Graphic file (type png)
+<use Figures/robustscalar.png>
+Package pdftex.def Info: Figures/robustscalar.png  used on input line 75.
+(pdftex.def)             Requested size: 247.5415pt x 247.53061pt.
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 88.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+ [48 <./Figures/robustscalar.png>]
+<Figures/quantileTransfomrer.png, id=1302, 1204.5pt x 1204.5pt>
 File: Figures/quantileTransfomrer.png Graphic file (type png)
 <use Figures/quantileTransfomrer.png>
-Package pdftex.def Info: Figures/quantileTransfomrer.png  used on input line 45.
+Package pdftex.def Info: Figures/quantileTransfomrer.png  used on input line 94.
 (pdftex.def)             Requested size: 247.5415pt x 247.53061pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figures/original.png, id=1260, 1204.5pt x 1204.5pt>
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 112.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+ [49 <./Figures/quantileTransfomrer.png>]
+<Figures/original.png, id=1310, 1204.5pt x 1204.5pt>
 File: Figures/original.png Graphic file (type png)
 <use Figures/original.png>
-Package pdftex.def Info: Figures/original.png  used on input line 55.
+Package pdftex.def Info: Figures/original.png  used on input line 116.
 (pdftex.def)             Requested size: 247.5415pt x 247.53061pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 63.
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 132.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[47 <./Figures/robustscalar.png>]
+ [50 <./Figures/original.png>]
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 64.
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 154.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [48 <./Figures/quantileTransfomrer.png> <./Figures/original.png>]
-
-LaTeX Warning: Citation 'inceptionv3' on page 49 undefined on input line 67.
-
-
-LaTeX Warning: Citation 'pytorch' on page 49 undefined on input line 67.
-
-File: Figures/watermark-05.pdf Graphic file (type pdf)
-<use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 86.
-(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[49]
-<Figures/sde1.png, id=1281, 980.66376pt x 324.21124pt>
+ [51]
+<Figures/sde1.png, id=1330, 980.66376pt x 324.21124pt>
 File: Figures/sde1.png Graphic file (type png)
 <use Figures/sde1.png>
-Package pdftex.def Info: Figures/sde1.png  used on input line 96.
+Package pdftex.def Info: Figures/sde1.png  used on input line 157.
 (pdftex.def)             Requested size: 330.05443pt x 144.39969pt.
-File: Figures/watermark-05.pdf Graphic file (type pdf)
-<use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 102.
-(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [50 <./Figures/sde1.png>]
-<Figures/sde5.png, id=1291, 882.29625pt x 328.22626pt>
+<Figures/sde5.png, id=1334, 882.29625pt x 328.22626pt>
 File: Figures/sde5.png Graphic file (type png)
 <use Figures/sde5.png>
-Package pdftex.def Info: Figures/sde5.png  used on input line 105.
+Package pdftex.def Info: Figures/sde5.png  used on input line 166.
 (pdftex.def)             Requested size: 330.05252pt x 144.39996pt.
-<Figures/sde10.png, id=1292, 892.33376pt x 331.2375pt>
+<Figures/sde10.png, id=1335, 892.33376pt x 331.2375pt>
 File: Figures/sde10.png Graphic file (type png)
 <use Figures/sde10.png>
-Package pdftex.def Info: Figures/sde10.png  used on input line 112.
+Package pdftex.def Info: Figures/sde10.png  used on input line 173.
 (pdftex.def)             Requested size: 330.0494pt x 144.4005pt.
-<Figures/VE_5_0.0001.png, id=1293, 836.12375pt x 303.1325pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 179.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+[52 <./Figures/sde1.png> <./Figures/sde5.png>]
+<Figures/VE_5_0.0001.png, id=1343, 836.12375pt x 303.1325pt>
 File: Figures/VE_5_0.0001.png Graphic file (type png)
 <use Figures/VE_5_0.0001.png>
-Package pdftex.def Info: Figures/VE_5_0.0001.png  used on input line 121.
+Package pdftex.def Info: Figures/VE_5_0.0001.png  used on input line 182.
 (pdftex.def)             Requested size: 330.05324pt x 119.6597pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figures/VP_5_0.0001.png, id=1294, 813.0375pt x 301.125pt>
+<Figures/VP_5_0.0001.png, id=1344, 813.0375pt x 301.125pt>
 File: Figures/VP_5_0.0001.png Graphic file (type png)
 <use Figures/VP_5_0.0001.png>
-Package pdftex.def Info: Figures/VP_5_0.0001.png  used on input line 128.
+Package pdftex.def Info: Figures/VP_5_0.0001.png  used on input line 189.
 (pdftex.def)             Requested size: 330.05324pt x 122.23982pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 136.
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 196.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[51 <./Figures/sde5.png> <./Figures/sde10.png>]
+ [53 <./Figures/sde10.png> <./Figures/VE_5_0.0001.png> <./Figures/VP_5_0.0001.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 146.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 146.
+(hyperref)                removing `math shift' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 146.
+(hyperref)                removing `\sigma' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 146.
+(hyperref)                removing `subscript' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 146.
+(hyperref)                removing `math shift' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 146.
+(hyperref)                removing `math shift' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 146.
+(hyperref)                removing `\sigma' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 146.
-
-File: Figures/watermark-05.pdf Graphic file (type pdf)
-<use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 149.
-(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[52 <./Figures/VE_5_0.0001.png> <./Figures/VP_5_0.0001.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 150.
+(hyperref)                removing `subscript' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 150.
+(hyperref)                removing `math shift' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 150.
+(hyperref)                removing `math shift' on input line 211.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 150.
+(hyperref)                removing `\sigma' on input line 211.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 150.
+(hyperref)                removing `subscript' on input line 211.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 150.
+(hyperref)                removing `math shift' on input line 211.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 150.
+(hyperref)                removing `math shift' on input line 211.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 150.
+(hyperref)                removing `\sigma' on input line 211.
 
-<Figures/vp_20.png, id=1310, 1204.5pt x 1204.5pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 211.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 211.
+
+<Figures/vp_20.png, id=1354, 1204.5pt x 1204.5pt>
 File: Figures/vp_20.png Graphic file (type png)
 <use Figures/vp_20.png>
-Package pdftex.def Info: Figures/vp_20.png  used on input line 159.
+Package pdftex.def Info: Figures/vp_20.png  used on input line 220.
 (pdftex.def)             Requested size: 165.02347pt x 165.00815pt.
-<Figures/vp_10.png, id=1311, 1204.5pt x 1204.5pt>
+<Figures/vp_10.png, id=1355, 1204.5pt x 1204.5pt>
 File: Figures/vp_10.png Graphic file (type png)
 <use Figures/vp_10.png>
-Package pdftex.def Info: Figures/vp_10.png  used on input line 165.
+Package pdftex.def Info: Figures/vp_10.png  used on input line 226.
 (pdftex.def)             Requested size: 165.02347pt x 165.00815pt.
-<Figures/vp_5.png, id=1312, 1204.5pt x 1204.5pt>
+<Figures/vp_5.png, id=1356, 1204.5pt x 1204.5pt>
 File: Figures/vp_5.png Graphic file (type png)
 <use Figures/vp_5.png>
-Package pdftex.def Info: Figures/vp_5.png  used on input line 173.
+Package pdftex.def Info: Figures/vp_5.png  used on input line 234.
 (pdftex.def)             Requested size: 165.02347pt x 165.00815pt.
-<Figures/vp_1.png, id=1313, 1204.5pt x 1204.5pt>
+<Figures/vp_1.png, id=1357, 1204.5pt x 1204.5pt>
 File: Figures/vp_1.png Graphic file (type png)
 <use Figures/vp_1.png>
-Package pdftex.def Info: Figures/vp_1.png  used on input line 179.
+Package pdftex.def Info: Figures/vp_1.png  used on input line 240.
 (pdftex.def)             Requested size: 165.02347pt x 165.00815pt.
-<Figures/ve_20.png, id=1314, 1204.5pt x 1204.5pt>
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 247.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+[54]
+<Figures/ve_20.png, id=1363, 1204.5pt x 1204.5pt>
 File: Figures/ve_20.png Graphic file (type png)
 <use Figures/ve_20.png>
-Package pdftex.def Info: Figures/ve_20.png  used on input line 192.
+Package pdftex.def Info: Figures/ve_20.png  used on input line 253.
 (pdftex.def)             Requested size: 165.02347pt x 165.00815pt.
-<Figures/ve_10.png, id=1315, 1204.5pt x 1204.5pt>
+<Figures/ve_10.png, id=1364, 1204.5pt x 1204.5pt>
 File: Figures/ve_10.png Graphic file (type png)
 <use Figures/ve_10.png>
-Package pdftex.def Info: Figures/ve_10.png  used on input line 198.
+Package pdftex.def Info: Figures/ve_10.png  used on input line 259.
 (pdftex.def)             Requested size: 165.02347pt x 165.00815pt.
-<Figures/ve_5.png, id=1316, 1204.5pt x 1204.5pt>
+<Figures/ve_5.png, id=1365, 1204.5pt x 1204.5pt>
 File: Figures/ve_5.png Graphic file (type png)
 <use Figures/ve_5.png>
-Package pdftex.def Info: Figures/ve_5.png  used on input line 206.
+Package pdftex.def Info: Figures/ve_5.png  used on input line 267.
 (pdftex.def)             Requested size: 165.02347pt x 165.00815pt.
-<Figures/ve_1.png, id=1317, 1204.5pt x 1204.5pt>
+<Figures/ve_1.png, id=1366, 1204.5pt x 1204.5pt>
 File: Figures/ve_1.png Graphic file (type png)
 <use Figures/ve_1.png>
-Package pdftex.def Info: Figures/ve_1.png  used on input line 212.
+Package pdftex.def Info: Figures/ve_1.png  used on input line 273.
 (pdftex.def)             Requested size: 165.02347pt x 165.00815pt.
-<Figures/sde_sweep.png, id=1318, 1050.92625pt x 332.24126pt>
+<Figures/sde_sweep.png, id=1369, 1050.92625pt x 332.24126pt>
 File: Figures/sde_sweep.png Graphic file (type png)
 <use Figures/sde_sweep.png>
-Package pdftex.def Info: Figures/sde_sweep.png  used on input line 227.
+Package pdftex.def Info: Figures/sde_sweep.png  used on input line 288.
 (pdftex.def)             Requested size: 330.05324pt x 104.34222pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/sde_sweep_sigmamax.png, id=1319, 1079.03125pt x 337.26pt>
+<Figures/sde_sweep_sigmamax.png, id=1370, 1079.03125pt x 337.26pt>
 File: Figures/sde_sweep_sigmamax.png Graphic file (type png)
 <use Figures/sde_sweep_sigmamax.png>
-Package pdftex.def Info: Figures/sde_sweep_sigmamax.png  used on input line 234.
+Package pdftex.def Info: Figures/sde_sweep_sigmamax.png  used on input line 295.
 (pdftex.def)             Requested size: 330.05324pt x 103.16005pt.
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 248.
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 302.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[53]
+[55 <./Figures/vp_20.png> <./Figures/vp_10.png> <./Figures/vp_5.png> <./Figures/vp_1.png>]
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 248.
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 302.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [54 <./Figures/vp_20.png> <./Figures/vp_10.png> <./Figures/vp_5.png> <./Figures/vp_1.png>]
+ [56 <./Figures/ve_20.png> <./Figures/ve_10.png> <./Figures/ve_5.png> <./Figures/ve_1.png>]
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 248.
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 314.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [55 <./Figures/ve_20.png> <./Figures/ve_10.png> <./Figures/ve_5.png> <./Figures/ve_1.png>]
-<Figures/other_sweep.png, id=1344, 1094.0875pt x 329.23pt>
+ [57 <./Figures/sde_sweep.png> <./Figures/sde_sweep_sigmamax.png>]
+<Figures/other_sweep.png, id=1398, 1094.0875pt x 329.23pt>
 File: Figures/other_sweep.png Graphic file (type png)
 <use Figures/other_sweep.png>
-Package pdftex.def Info: Figures/other_sweep.png  used on input line 261.
+Package pdftex.def Info: Figures/other_sweep.png  used on input line 322.
 (pdftex.def)             Requested size: 330.05324pt x 99.31734pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 278.
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 353.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[56 <./Figures/sde_sweep.png> <./Figures/sde_sweep_sigmamax.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: Figures/watermark-05.pdf Graphic file (type pdf)
-<use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 312.
-(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[57 <./Figures/other_sweep.png>]
-<Figures/energy_voxel_single.png, id=1358, 433.62pt x 433.62pt>
+ [58 <./Figures/other_sweep.png>]
+<Figures/comparison_original.png, id=1407, 433.62pt x 289.08pt>
+File: Figures/comparison_original.png Graphic file (type png)
+<use Figures/comparison_original.png>
+Package pdftex.def Info: Figures/comparison_original.png  used on input line 367.
+(pdftex.def)             Requested size: 185.65298pt x 123.76823pt.
+<Figures/comparison.png, id=1408, 855.195pt x 588.1975pt>
+File: Figures/comparison.png Graphic file (type png)
+<use Figures/comparison.png>
+Package pdftex.def Info: Figures/comparison.png  used on input line 373.
+(pdftex.def)             Requested size: 185.65298pt x 127.68959pt.
+<Figures/energy_voxel_single.png, id=1409, 433.62pt x 433.62pt>
 File: Figures/energy_voxel_single.png Graphic file (type png)
 <use Figures/energy_voxel_single.png>
-Package pdftex.def Info: Figures/energy_voxel_single.png  used on input line 316.
+Package pdftex.def Info: Figures/energy_voxel_single.png  used on input line 389.
 (pdftex.def)             Requested size: 185.65298pt x 185.65236pt.
-<Figures/energy_voxel_full.png, id=1359, 433.62pt x 433.62pt>
+<Figures/energy_voxel_full.png, id=1410, 433.62pt x 433.62pt>
 File: Figures/energy_voxel_full.png Graphic file (type png)
 <use Figures/energy_voxel_full.png>
-Package pdftex.def Info: Figures/energy_voxel_full.png  used on input line 322.
+Package pdftex.def Info: Figures/energy_voxel_full.png  used on input line 395.
 (pdftex.def)             Requested size: 185.65298pt x 185.65236pt.
-<Figures/energy_deposit_without_incident.png, id=1360, 433.62pt x 433.62pt>
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 405.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+ [59 <./Figures/comparison_original.png> <./Figures/comparison.png>]
+<Figures/energy_deposit_without_incident.png, id=1417, 433.62pt x 433.62pt>
 File: Figures/energy_deposit_without_incident.png Graphic file (type png)
 <use Figures/energy_deposit_without_incident.png>
-Package pdftex.def Info: Figures/energy_deposit_without_incident.png  used on input line 336.
+Package pdftex.def Info: Figures/energy_deposit_without_incident.png  used on input line 409.
 (pdftex.def)             Requested size: 185.65298pt x 185.65236pt.
 File: Figures/energy_voxel_full.png Graphic file (type png)
 <use Figures/energy_voxel_full.png>
-Package pdftex.def Info: Figures/energy_voxel_full.png  used on input line 342.
+Package pdftex.def Info: Figures/energy_voxel_full.png  used on input line 415.
 (pdftex.def)             Requested size: 185.65298pt x 185.65236pt.
+<Figures/concatenate.png, id=1419, 1204.5pt x 1204.5pt>
+File: Figures/concatenate.png Graphic file (type png)
+<use Figures/concatenate.png>
+Package pdftex.def Info: Figures/concatenate.png  used on input line 428.
+(pdftex.def)             Requested size: 330.05324pt x 330.05307pt.
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 360.
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 434.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [58 <./Figures/energy_voxel_single.png> <./Figures/energy_voxel_full.png>]
-<Figures/loss_t_0.png, id=1367, 803.0pt x 602.25pt>
+ [60 <./Figures/energy_voxel_single.png> <./Figures/energy_voxel_full.png> <./Figures/energy_deposit_without_incident.png>]
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 454.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+ [61 <./Figures/concatenate.png>]
+<Figures/loss_t_0.png, id=1433, 803.0pt x 602.25pt>
 File: Figures/loss_t_0.png Graphic file (type png)
 <use Figures/loss_t_0.png>
-Package pdftex.def Info: Figures/loss_t_0.png  used on input line 384.
+Package pdftex.def Info: Figures/loss_t_0.png  used on input line 458.
 (pdftex.def)             Requested size: 185.65298pt x 139.24055pt.
-<Figures/loss_t_10.png, id=1368, 803.0pt x 602.25pt>
+<Figures/loss_t_10.png, id=1434, 803.0pt x 602.25pt>
 File: Figures/loss_t_10.png Graphic file (type png)
 <use Figures/loss_t_10.png>
-Package pdftex.def Info: Figures/loss_t_10.png  used on input line 390.
+Package pdftex.def Info: Figures/loss_t_10.png  used on input line 464.
 (pdftex.def)             Requested size: 185.65298pt x 139.24055pt.
+
+Overfull \hbox (5.75587pt too wide) in paragraph at lines 481--482
+[]\T1/ppl/m/n/10.95 For \T1/ppl/b/n/10.95 pre-pro-cess-ing\T1/ppl/m/n/10.95 , we ap-plied three dis-tinct trans-for-ma-tions^^V\T1/ppl/b/n/10.95 RobustScaler, Quan-
+ []
+
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 400.
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 482.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [59 <./Figures/energy_deposit_without_incident.png>])
+[62 <./Figures/loss_t_0.png> <./Figures/loss_t_10.png>]
+Overfull \hbox (1.91212pt too wide) in paragraph at lines 485--486
+[]\T1/ppl/m/n/10.95 We also ex-am-ined the ef-fect of **key hy-per-pa-ram-e-ters, par-tic-u-larly $\OML/cmm/m/it/10.95 ^^[[]$ \T1/ppl/m/n/10.95 and $\OML/cmm/m/it/10.95 ^^[[]$\T1/ppl/m/n/10.95 **,
+ []
+
+
+Overfull \hbox (3.97827pt too wide) in paragraph at lines 491--492
+\T1/ppl/m/n/10.95 tempts to en-force cor-re-la-tion con-straints showed lim-ited im-prove-ment, but the **Quan-
+ []
+
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 499.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+[63])
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 103.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [60 <./Figures/loss_t_0.png> <./Figures/loss_t_10.png>]
+ [64]
 \openout2 = `Chapters/Chapter7.aux'.
 
  (./Chapters/Chapter7.tex
 Chapter 7.
 
-LaTeX Warning: Citation 'restart' on page 61 undefined on input line 6.
+LaTeX Warning: Citation 'restart' on page 65 undefined on input line 6.
 
 )
 1: section
@@ -2444,7 +2458,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 106.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[61
+[65
 
 
 
@@ -2457,20 +2471,197 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 3.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [62
+ [66
 
 
 
 
 ]
 Appendix A.
-)
+<Figures/a1_2.png, id=1458, 803.0pt x 602.25pt>
+File: Figures/a1_2.png Graphic file (type png)
+<use Figures/a1_2.png>
+Package pdftex.def Info: Figures/a1_2.png  used on input line 20.
+(pdftex.def)             Requested size: 94.88818pt x 71.16412pt.
+<Figures/a1_3.png, id=1459, 803.0pt x 602.25pt>
+File: Figures/a1_3.png Graphic file (type png)
+<use Figures/a1_3.png>
+Package pdftex.def Info: Figures/a1_3.png  used on input line 27.
+(pdftex.def)             Requested size: 94.88818pt x 71.16412pt.
+<Figures/a1_4.png, id=1460, 803.0pt x 602.25pt>
+File: Figures/a1_4.png Graphic file (type png)
+<use Figures/a1_4.png>
+Package pdftex.def Info: Figures/a1_4.png  used on input line 34.
+(pdftex.def)             Requested size: 94.88818pt x 71.16412pt.
+<Figures/a1_5.png, id=1461, 803.0pt x 602.25pt>
+File: Figures/a1_5.png Graphic file (type png)
+<use Figures/a1_5.png>
+Package pdftex.def Info: Figures/a1_5.png  used on input line 42.
+(pdftex.def)             Requested size: 94.88818pt x 71.16412pt.
+<Figures/a1-1.png, id=1462, 1204.5pt x 1204.5pt>
+File: Figures/a1-1.png Graphic file (type png)
+<use Figures/a1-1.png>
+Package pdftex.def Info: Figures/a1-1.png  used on input line 54.
+(pdftex.def)             Requested size: 123.77075pt x 123.7653pt.
+File: Figures/comparison.png Graphic file (type png)
+<use Figures/comparison.png>
+Package pdftex.def Info: Figures/comparison.png  used on input line 61.
+(pdftex.def)             Requested size: 123.77075pt x 85.1204pt.
+<Figures/a1_7.png, id=1463, 433.62pt x 433.62pt>
+File: Figures/a1_7.png Graphic file (type png)
+<use Figures/a1_7.png>
+Package pdftex.def Info: Figures/a1_7.png  used on input line 68.
+(pdftex.def)             Requested size: 123.77075pt x 123.76823pt.
 1: section
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 74.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+[67 <./Figures/a1_2.png> <./Figures/a1_3.png> <./Figures/a1_4.png> <./Figures/a1_5.png> <./Figures/a1-1.png> <./Figures/a1_7.png>]
+<Figures/2_2.png, id=1476, 803.0pt x 602.25pt>
+File: Figures/2_2.png Graphic file (type png)
+<use Figures/2_2.png>
+Package pdftex.def Info: Figures/2_2.png  used on input line 83.
+(pdftex.def)             Requested size: 94.88818pt x 71.16412pt.
+<Figures/2_3.png, id=1477, 803.0pt x 602.25pt>
+File: Figures/2_3.png Graphic file (type png)
+<use Figures/2_3.png>
+Package pdftex.def Info: Figures/2_3.png  used on input line 90.
+(pdftex.def)             Requested size: 94.88818pt x 71.16412pt.
+<Figures/2_4.png, id=1478, 803.0pt x 602.25pt>
+File: Figures/2_4.png Graphic file (type png)
+<use Figures/2_4.png>
+Package pdftex.def Info: Figures/2_4.png  used on input line 97.
+(pdftex.def)             Requested size: 94.88818pt x 71.16412pt.
+<Figures/2_5.png, id=1479, 803.0pt x 602.25pt>
+File: Figures/2_5.png Graphic file (type png)
+<use Figures/2_5.png>
+Package pdftex.def Info: Figures/2_5.png  used on input line 105.
+(pdftex.def)             Requested size: 94.88818pt x 71.16412pt.
+<Figures/a2_1.png, id=1480, 1204.5pt x 1204.5pt>
+File: Figures/a2_1.png Graphic file (type png)
+<use Figures/a2_1.png>
+Package pdftex.def Info: Figures/a2_1.png  used on input line 116.
+(pdftex.def)             Requested size: 123.77075pt x 123.7653pt.
+<Figures/a2_5.png, id=1481, 557.08125pt x 370.38374pt>
+File: Figures/a2_5.png Graphic file (type png)
+<use Figures/a2_5.png>
+Package pdftex.def Info: Figures/a2_5.png  used on input line 123.
+(pdftex.def)             Requested size: 123.77075pt x 82.28719pt.
+<Figures/a2_6.png, id=1482, 433.62pt x 433.62pt>
+File: Figures/a2_6.png Graphic file (type png)
+<use Figures/a2_6.png>
+Package pdftex.def Info: Figures/a2_6.png  used on input line 130.
+(pdftex.def)             Requested size: 123.77075pt x 123.76823pt.
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 137.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+ [68 <./Figures/2_2.png> <./Figures/2_3.png> <./Figures/2_4.png> <./Figures/2_5.png> <./Figures/a2_1.png> <./Figures/a2_5.png> <./Figures/a2_6.png>]
+<Figures/robust2.png, id=1495, 803.0pt x 602.25pt>
+File: Figures/robust2.png Graphic file (type png)
+<use Figures/robust2.png>
+Package pdftex.def Info: Figures/robust2.png  used on input line 146.
+(pdftex.def)             Requested size: 123.77075pt x 92.82397pt.
+<Figures/robust3.png, id=1496, 803.0pt x 602.25pt>
+File: Figures/robust3.png Graphic file (type png)
+<use Figures/robust3.png>
+Package pdftex.def Info: Figures/robust3.png  used on input line 153.
+(pdftex.def)             Requested size: 123.77075pt x 92.82397pt.
+<Figures/robust4.png, id=1497, 803.0pt x 602.25pt>
+File: Figures/robust4.png Graphic file (type png)
+<use Figures/robust4.png>
+Package pdftex.def Info: Figures/robust4.png  used on input line 160.
+(pdftex.def)             Requested size: 123.77075pt x 92.82397pt.
+<Figures/robust5.png, id=1498, 803.0pt x 602.25pt>
+File: Figures/robust5.png Graphic file (type png)
+<use Figures/robust5.png>
+Package pdftex.def Info: Figures/robust5.png  used on input line 173.
+(pdftex.def)             Requested size: 123.77075pt x 92.82397pt.
+<Figures/robust1.png, id=1499, 1204.5pt x 1204.5pt>
+File: Figures/robust1.png Graphic file (type png)
+<use Figures/robust1.png>
+Package pdftex.def Info: Figures/robust1.png  used on input line 181.
+(pdftex.def)             Requested size: 123.77075pt x 123.7653pt.
+<Figures/robust6.png, id=1500, 433.62pt x 433.62pt>
+File: Figures/robust6.png Graphic file (type png)
+<use Figures/robust6.png>
+Package pdftex.def Info: Figures/robust6.png  used on input line 188.
+(pdftex.def)             Requested size: 123.77075pt x 123.76823pt.
+<Figures/quantile2.png, id=1501, 803.0pt x 602.25pt>
+File: Figures/quantile2.png Graphic file (type png)
+<use Figures/quantile2.png>
+Package pdftex.def Info: Figures/quantile2.png  used on input line 200.
+(pdftex.def)             Requested size: 123.77075pt x 92.82397pt.
+<Figures/quantile3.png, id=1502, 803.0pt x 602.25pt>
+File: Figures/quantile3.png Graphic file (type png)
+<use Figures/quantile3.png>
+Package pdftex.def Info: Figures/quantile3.png  used on input line 207.
+(pdftex.def)             Requested size: 123.77075pt x 92.82397pt.
+<Figures/quantile4.png, id=1503, 803.0pt x 602.25pt>
+File: Figures/quantile4.png Graphic file (type png)
+<use Figures/quantile4.png>
+Package pdftex.def Info: Figures/quantile4.png  used on input line 214.
+(pdftex.def)             Requested size: 123.77075pt x 92.82397pt.
+<Figures/quantile5.png, id=1504, 803.0pt x 602.25pt>
+File: Figures/quantile5.png Graphic file (type png)
+<use Figures/quantile5.png>
+Package pdftex.def Info: Figures/quantile5.png  used on input line 227.
+(pdftex.def)             Requested size: 123.77075pt x 92.82397pt.
+<Figures/quantile1.png, id=1505, 1204.5pt x 1204.5pt>
+File: Figures/quantile1.png Graphic file (type png)
+<use Figures/quantile1.png>
+Package pdftex.def Info: Figures/quantile1.png  used on input line 235.
+(pdftex.def)             Requested size: 123.77075pt x 123.7653pt.
+<Figures/quantile6.png, id=1506, 433.62pt x 433.62pt>
+File: Figures/quantile6.png Graphic file (type png)
+<use Figures/quantile6.png>
+Package pdftex.def Info: Figures/quantile6.png  used on input line 242.
+(pdftex.def)             Requested size: 123.77075pt x 123.76823pt.
+<Figures/exponential2.png, id=1507, 803.0pt x 602.25pt>
+File: Figures/exponential2.png Graphic file (type png)
+<use Figures/exponential2.png>
+Package pdftex.def Info: Figures/exponential2.png  used on input line 254.
+(pdftex.def)             Requested size: 123.77075pt x 92.82397pt.
+<Figures/exponential3.png, id=1508, 803.0pt x 602.25pt>
+File: Figures/exponential3.png Graphic file (type png)
+<use Figures/exponential3.png>
+Package pdftex.def Info: Figures/exponential3.png  used on input line 261.
+(pdftex.def)             Requested size: 123.77075pt x 92.82397pt.
+<Figures/exponential4.png, id=1509, 803.0pt x 602.25pt>
+File: Figures/exponential4.png Graphic file (type png)
+<use Figures/exponential4.png>
+Package pdftex.def Info: Figures/exponential4.png  used on input line 268.
+(pdftex.def)             Requested size: 123.77075pt x 92.82397pt.
+File: Figures/a1_5.png Graphic file (type png)
+<use Figures/a1_5.png>
+Package pdftex.def Info: Figures/a1_5.png  used on input line 281.
+(pdftex.def)             Requested size: 123.77075pt x 92.82397pt.
+<Figures/exponential1.png, id=1510, 1204.5pt x 1204.5pt>
+File: Figures/exponential1.png Graphic file (type png)
+<use Figures/exponential1.png>
+Package pdftex.def Info: Figures/exponential1.png  used on input line 289.
+(pdftex.def)             Requested size: 123.77075pt x 123.7653pt.
+<Figures/exponential6.png, id=1511, 433.62pt x 433.62pt>
+File: Figures/exponential6.png Graphic file (type png)
+<use Figures/exponential6.png>
+Package pdftex.def Info: Figures/exponential6.png  used on input line 296.
+(pdftex.def)             Requested size: 123.77075pt x 123.76823pt.
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 303.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+ [69 <./Figures/robust2.png> <./Figures/robust3.png> <./Figures/robust4.png> <./Figures/robust5.png> <./Figures/robust1.png> <./Figures/robust6.png>]
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 303.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+ [70 <./Figures/quantile2.png> <./Figures/quantile3.png> <./Figures/quantile4.png> <./Figures/quantile5.png> <./Figures/quantile1.png> <./Figures/quantile6.png> <./Figures/exponential2.png> <./Figures/exponential3.png> <./Figures/exponential4.png> <./Figures/exponential1.png> <./Figures/exponential6.png>])
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 117.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[63]
+ [71]
 \openout2 = `Appendices/AppendixB.aux'.
 
  (./Appendices/AppendixB.tex
@@ -2478,7 +2669,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 3.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [64
+ [72
 
 
 
@@ -2491,12 +2682,12 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 120.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[65]
+[73]
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 127.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [66
+ [74
 
 
 
@@ -2520,7 +2711,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 127.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[67]
+[75]
 Overfull \hbox (13.31866pt too wide) in paragraph at lines 127--127
 []\T1/ppl/m/n/10.95 S. Ver-heyen and B. Kris-lock. ^^P  CaloFlow: Fast and Ac-cu-rate Gen-er-a-tion of Calorime-
  []
@@ -2534,7 +2725,7 @@ File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
 Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 127.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
-[68]
+[76]
 Overfull \hbox (6.72151pt too wide) in paragraph at lines 127--127
 \T1/ppl/m/n/10.95 from scin-til-lat-ing crys-tals for fast tim-ing^^Q. PhD the-sis. May 2022. \T1/ppl/m/sc/10.95 doi\T1/ppl/m/n/10.95 : [][]$\T1/pcr/m/n/10.95 10 . 18154 /
  []
@@ -2544,13 +2735,18 @@ Overfull \hbox (10.70993pt too wide) in paragraph at lines 127--127
 []\T1/ppl/m/n/10.95 CMS Col-lab-o-ra-tion. \T1/ppl/m/it/10.95 The Hadronic Calorime-ter Tech-ni-cal De-sign Re-port\T1/ppl/m/n/10.95 . CERN/LHCC
  []
 
+File: Figures/watermark-05.pdf Graphic file (type pdf)
+<use Figures/watermark-05.pdf>
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 127.
+(pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
+[77]
 No file main_NTU.ind.
 )
 File: Figures/watermark-05.pdf Graphic file (type pdf)
 <use Figures/watermark-05.pdf>
-Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 407.
+Package pdftex.def Info: Figures/watermark-05.pdf  used on input line 409.
 (pdftex.def)             Requested size: 103.88786pt x 103.88786pt.
- [69] (./main_NTU.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux) (./Chapters/Chapter6.aux) (./Chapters/Chapter7.aux) (./Appendices/AppendixA.aux) (./Appendices/AppendixB.aux))
+ [78] (./main_NTU.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux) (./Chapters/Chapter6.aux) (./Chapters/Chapter7.aux) (./Appendices/AppendixA.aux) (./Appendices/AppendixB.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2562,11 +2758,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main_NTU.out' has not changed.
-(rerunfilecheck)             Checksum: 7B0B420290EF2254F24F3672AAF1BE04;18352.
+(rerunfilecheck)             Checksum: 157966A224DF5B9BCEDC4AAA113955EE;18551.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main_NTU
@@ -2577,18 +2770,18 @@ Package logreq Info: Writing requests to 'main_NTU.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47393 strings out of 474116
- 1013656 string characters out of 5743682
- 2644021 words of memory out of 5000000
- 68383 multiletter control sequences out of 15000+600000
+ 47750 strings out of 474116
+ 1021966 string characters out of 5743682
+ 2651479 words of memory out of 5000000
+ 68716 multiletter control sequences out of 15000+600000
  650199 words of font info for 266 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,20n,106p,7177b,3401s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,21n,106p,7177b,3401s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu30.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu4e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu4f.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu50.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu51.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu52.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu53.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu54.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu56.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu57.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu58.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu59.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5b.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5c.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5d.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu5f.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu60.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu62.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu63.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu64.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu65.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu66.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu67.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu68.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6b.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6c.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu6f.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu70.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu72.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu73.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu74.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu75.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu76.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu78.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu79.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7b.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7c.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7d.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu7e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu80.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu81.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu82.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu83.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu84.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu89.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8c.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8d.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu8e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu90.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu91.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu93.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu95.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu96.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu97.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu98.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu9a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiu9e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/arphic/bkaiu/bkaiuff.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main_NTU.pdf (87 pages, 8838771 bytes).
+Output written on main_NTU.pdf (96 pages, 10328659 bytes).
 PDF statistics:
- 1862 PDF objects out of 2073 (max. 8388607)
- 1443 compressed objects within 15 object streams
- 340 named destinations out of 1000 (max. 500000)
- 1331 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2018 PDF objects out of 2073 (max. 8388607)
+ 1523 compressed objects within 16 object streams
+ 364 named destinations out of 1000 (max. 500000)
+ 1528 words of extra memory for PDF output out of 10000 (max. 10000000)
 

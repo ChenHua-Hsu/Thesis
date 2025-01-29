@@ -45,11 +45,10 @@ Reallocated name_tok (elt_size=4) to 60000 items from 40000.
 Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Database file #5: bib/detector.bib
+Database file #6: bib/result.bib
+Database file #7: bib/dataset.bib
 Warning--I didn't find a database entry for "hgcal_picture"
-Warning--I didn't find a database entry for "geant4_toolkit"
 Warning--I didn't find a database entry for "calochallenge"
-Warning--I didn't find a database entry for "inceptionv3"
-Warning--I didn't find a database entry for "pytorch"
 Warning--I didn't find a database entry for "restart"
 Biblatex version: 3.19
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
@@ -67,45 +66,45 @@ Warning--you've exceeded 500, the entry-string-size, for entry collaboration_atl
 while executing--line 2727 of file biblatex.bst
 *Please notify the bibstyle designer*
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 50 entries,
+You've used 53 entries,
             6399 wiz_defined-function locations,
-            1489 strings with 109786 characters,
-and the built_in function-call counts, 9594720 in all, are:
-= -- 986700
-> -- 50335
-< -- 1200
-+ -- 437809
-- -- 35353
-* -- 661820
-:= -- 1443623
+            1503 strings with 110233 characters,
+and the built_in function-call counts, 9610704 in all, are:
+= -- 987651
+> -- 51032
+< -- 1274
++ -- 438521
+- -- 35873
+* -- 662769
+:= -- 1445366
 add.period$ -- 0
-call.type$ -- 50
-change.case$ -- 465
-chr.to.int$ -- 482
-cite$ -- 98
-duplicate$ -- 1130576
-empty$ -- 659144
-format.name$ -- 60586
-if$ -- 1693243
+call.type$ -- 53
+change.case$ -- 486
+chr.to.int$ -- 530
+cite$ -- 104
+duplicate$ -- 1132041
+empty$ -- 660635
+format.name$ -- 60683
+if$ -- 1696216
 int.to.chr$ -- 0
-int.to.str$ -- 148
+int.to.str$ -- 157
 missing$ -- 0
-newline$ -- 33133
-num.names$ -- 1862
-pop$ -- 122677
+newline$ -- 33206
+num.names$ -- 1954
+pop$ -- 123654
 preamble$ -- 1
-purify$ -- 11242
+purify$ -- 11269
 quote$ -- 0
-skip$ -- 30215
+skip$ -- 30643
 stack$ -- 0
-substring$ -- 1909838
-swap$ -- 80551
-text.length$ -- 10364
+substring$ -- 1911690
+swap$ -- 80928
+text.length$ -- 10426
 text.prefix$ -- 4016
 top$ -- 1
-type$ -- 1677
+type$ -- 1779
 warning$ -- 0
-while$ -- 194427
+while$ -- 194592
 width$ -- 0
-write$ -- 33084
-(There were 10 warnings)
+write$ -- 33154
+(There were 7 warnings)

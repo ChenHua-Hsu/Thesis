@@ -20,25 +20,28 @@
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Custom Transformer model structure for detector simulations.}}{41}{figure.caption.145}%
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Comparison of self-attention and mean-field attention mechanisms.}}{42}{figure.caption.149}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces RobustScalar}}{47}{figure.caption.156}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces QuantileTransformer}}{48}{figure.caption.157}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Special Transformation}}{48}{figure.caption.158}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Comparison of VE and VP methods for both $\sigma _{max} = 1, \sigma _{min} = 0.0001$}}{50}{figure.caption.165}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Comparison of VE and VP methods for both $\sigma _{max} = 5, \sigma _{min} = 0.0001$}}{51}{figure.caption.166}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Comparison of VE and VP methods for both $\sigma _{max} = 10, \sigma _{min} = 0.0001$}}{51}{figure.caption.167}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces The distribution of the data after adding the noise using VE method.}}{52}{figure.caption.168}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces The distribution of the data after adding the noise using VP method.}}{52}{figure.caption.169}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces The result of different $\sigma _{max}$ in VP.}}{54}{figure.caption.173}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces The result of different $\sigma _{max}$ in VE.}}{55}{figure.caption.174}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces The result of different $\sigma _{max}$ and $\sigma _{min}$ in VE.}}{56}{figure.caption.175}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces \relax }}{56}{figure.caption.176}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Visualization of parameter sweeping results.}}{57}{figure.caption.179}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces The Picture after adding the correlation term.}}{57}{figure.caption.183}%
-\contentsline {figure}{\numberline {6.15}{\ignorespaces The Comparison Picture after using QuantileTransformer.}}{58}{figure.caption.184}%
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Main caption for both figures}}{58}{figure.caption.187}%
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Main caption for both figures}}{59}{figure.caption.188}%
-\contentsline {figure}{\numberline {6.18}{\ignorespaces The result of energy deposit with incident energy concatenated with the input data.}}{59}{figure.caption.189}%
-\contentsline {figure}{\numberline {6.19}{\ignorespaces The left figure shows the loss at epoch 0, which is quite normal it's still caotic. The right figure actually represent the loss after 10 epochs.}}{60}{figure.caption.191}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces RobustScaler}}{48}{figure.caption.158}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces QuantileTransformer}}{49}{figure.caption.159}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Exponential Transformation}}{50}{figure.caption.161}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Comparison of VE and VP methods for both $\sigma _{max} = 1, \sigma _{min} = 0.0001$}}{52}{figure.caption.168}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Comparison of VE and VP methods for both $\sigma _{max} = 5, \sigma _{min} = 0.0001$}}{52}{figure.caption.169}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Comparison of VE and VP methods for both $\sigma _{max} = 10, \sigma _{min} = 0.0001$}}{53}{figure.caption.170}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces The distribution of the data after adding the noise using VE method.}}{53}{figure.caption.171}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces The distribution of the data after adding the noise using VP method.}}{53}{figure.caption.172}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces The result of different $\sigma _{max}$ in VP.}}{55}{figure.caption.176}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces The result of different $\sigma _{max}$ in VE.}}{56}{figure.caption.177}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces The result of different $\sigma _{max}$ and $\sigma _{min}$ in VE.}}{57}{figure.caption.178}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces The result of fig \ref {fig:sde_sweep}, but grouped by $\sigma _{max}$ in VE.}}{57}{figure.caption.179}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Visualization of parameter sweeping results.}}{58}{figure.caption.182}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces The Picture after adding the correlation term.}}{59}{figure.caption.186}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces The Comparison Picture after using QuantileTransformer.}}{59}{figure.caption.187}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces he result of energy deposit of single bucket data and all bucket data.}}{60}{figure.caption.190}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Main caption for both figures}}{60}{figure.caption.191}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces The result of energy deposit with incident energy concatenated with the input data.}}{61}{figure.caption.192}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces The left figure shows the loss at epoch 0, which is quite normal it's still caotic. The right figure actually represent the loss after 10 epochs.}}{62}{figure.caption.194}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Result for using robust preprocessor}}{69}{figure.caption.205}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Result for using quantile preprocessor}}{70}{figure.caption.206}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Result for using exponential preprocessor}}{70}{figure.caption.207}%
 \addvspace {10\p@ }

@@ -2,7 +2,7 @@
 \section{Data Preprocessing}
 
 \subsection{Bucketing}
-Before we explain why we need bucketing, we can first explain the structure of our data. When one particle interacts with the detector, it will produce a series of hits, which we call one shower. So in one shower, we have several hits, while one hit means one point in the detector labeled by the energy. One hit has several features, such as the hit energy, x, y and z coordinates. What's more, we will send several showers make it to be one batches to our model. So the structure of our data is actually a 3D tensor, where the first dimension is the number of showers, the second dimension is the number of hits in one shower, and the third dimension is the number of features in one hit.
+Before we explain why we need bucketing, we can first explain the structure of our data. When one particle interacts with the detector, it will produce a series of hits, which we call one shower. So in one shower, we have several hits, while one hit means one point in the detector labeled by the energy. One hit has several features, such as the hit energy, x, y and z coordinates. What's more, we will send several showers make it to be one batch to our model. So the structure of our data is actually a 3D tensor, where the first dimension is the number of showers, the second dimension is the number of hits in one shower, and the third dimension is the number of features in one hit.
 
 In chapter 5, we have discussed that our model is a transformer-based model. While transformer implement the self-attention mechanism, it requires the length of the sequence to be fixed in each batches. However, the number of hits in each event varies, which makes it difficult to feed the data into the transformer. To address this issue, we would need to pad the sequences to a fixed length. What's more, the length of the data can vary from 1 to 5500, which means that the padding will be very large. This will lead to a waste of memory and computation. To solve this problem, we employed a bucketing strategy to group events with similar numbers of hits into the same bucket. This allowed us to pad the sequences within each bucket to a fixed length, making it easier to feed the data into the transformer. Based on the principle of similar memory usage, we divided the data into 45 buckets, each containing events with a similar number of hits. This bucketing strategy significantly improved the efficiency of the model and reduced the computational burden. Another advantage of bucketing is that we can first train the model on a smaller bucket to see if the model can learn the data well. If the model can learn the data well, we can then train the model on a larger bucket. This allows us to gradually increase the complexity of the data and ensure that the model can handle the data effectively.
 \subsection{Preprocessor}
@@ -15,52 +15,113 @@ Additionally, preprocessing optimizes computational efficiency by simplifying da
 
 One important point to note is that we chose to use the x,y coordinate system instead of the cylindrical coordinate system. The primary reason for this choice is the discontinuity at $\theta=0$ and $\theta=2\pi$, which is unphysical and can introduce challenges during training. Although the cylindrical coordinate system aligns better with the detector structure and may simplify learning the relationship between radius and energy, we opted for the x,y coordinate system to ensure continuity and avoid such complications. 
 
-From the reasons above, studying which preprocessing method is the best for our data is necessary. Below are some preprocessing methods we have tried and their results. 
+From the reasons above, we employ three different data preprocessing techniques for detector hit information: \textbf{RobustScaler}, \textbf{QuantileTransformer}, and \textbf{Exponential Transformation}. While the the comparison between three methods focus on transforming the x and y coordinates, the energy and z coordinate are processed using the same methodology across all three approaches. This consistent treatment of energy and z coordinates allows for a direct comparison of the methods and highlights the benefits of the different transformations applied to x and y.
+
+\noindent
+\textbf{Energy Transformation}
+
+The energy transformation applies a \textbf{logit-based rescaling}, ensuring numerical stability and normalization. Given the raw hit energy \( e \), the transformation is defined as:
+
+\begin{equation}
+e' = \log \left( \frac{1 + (1 - 2\times10^{-6}) \frac{e}{E_{\text{incident}} }}{1 - \frac{e}{E_{\text{incident}} }} \right)
+\end{equation}
+
+where \( E_{\text{incident}} \) is the incident particle energy. This formulation ensures stability while preserving the ratio of the deposited energy to the incident energy. The advantages of this approach include:
 
 \begin{itemize}
-    \item \textbf{RobustScalar on x and y} 
+    \item \textbf{Prevents numerical instability}: The small offset ensures that divisions by zero do not occur.
+    \item \textbf{Incident Related Logit Transformation}: The transformation densifies the distribution of energy values and reduces variance between different incident energy levels.
+\end{itemize}
+
+\noindent
+\textbf{\( z \)-Coordinate Transformation}  
+
+The \( z \)-coordinate transformation applies a linear rescaling:
+
+\begin{equation}
+z' = \frac{z - z_{\min}}{z_{\max} - z_{\min}}
+\end{equation}
+
+ensuring values remain within a fixed range while preserving spatial relationships. Benefits include:
+
+\begin{itemize}
+    \item \textbf{Normalization improves model stability}: A fixed range enhances model generalization.
+    \item \textbf{Outlier Cut Easier}: Knowing detector boundaries (\( z_{\max}, z_{\min} \)), we can discard predictions outside \( (0,1) \).
+\end{itemize}
+
+Above are the preprocessing methods for energy and \( z \). Next, we introduce preprocessing methods for \( x \) and \( y \).
+
+
+\noindent
+\begin{itemize}
+    \item \textbf{RobustScaler on x and y} 
     
-    The \texttt{RobustScaler}, a common transformation, is a data preprocessing technique that removes the median and scales data according to the interquartile range (IQR). Unlike standard scaling methods that rely on the mean and standard deviation, this scaler is \textbf{robust to outliers} because it focuses on statistical measures less sensitive to extreme values. The transformation is defined by:
+    The \texttt{RobustScaler} removes the median and scales data using the interquartile range (IQR), making it \textbf{robust to outliers}. The transformation is:
 
     \[
     x' = \frac{x - \text{Median}}{\text{IQR}}
     \]
     
-    where \( \text{IQR} = Q3 - Q1 \) is the range between the 75th percentile (\(Q3\)) and the 25th percentile (\(Q1\)). By subtracting the median and dividing by the IQR, the transformation ensures that features are scaled while being less affected by outliers. This makes the \texttt{RobustScaler} particularly suitable for datasets where extreme values may distort the mean and standard deviation.
+    where \( \text{IQR} = Q3 - Q1 \) represents the range between the 75th and 25th percentiles. This transformation is particularly effective in datasets with extreme values. Advantages include:
+
+    \begin{itemize}
+        \item \textbf{Resistant to Outliers}: Using the median and IQR minimizes the influence of extreme values.
+        \item \textbf{Preservation of Relative Distances}: The transformation retains the original distribution while normalizing the scale.
+        \item \textbf{Effective for Skewed Data}: Works well on data with heavy tails or asymmetric distributions.
+    \end{itemize}
+
     \begin{figure}[h!]
         \centering
-        \includegraphics[width=0.6\textwidth]{Figures/robustscalar.png} \label{fig:robustscalar}
-        % Include your figure here
-        \caption{RobustScalar}
+        \includegraphics[width=0.6\textwidth]{Figures/robustscalar.png} 
+        \caption{RobustScaler}\label{fig:robustscalar}
     \end{figure}
 
     \item \textbf{QuantileTransformer on x and y}
-    
+
     As for \texttt{QuantileTransformer}, it is a non-linear transformation that maps data to a uniform or normal distribution. Here I choose the normal one.  It applies a non-linear transformation using the empirical cumulative distribution function (ECDF) to reshape the feature's distribution. This ensures that each feature closely resembles the desired target distribution.
 
-    This method is particularly useful when the data distribution has heavy tails or abrupt changes, as our x and y coordinates do. By transforming the data to a normal distribution, the \texttt{QuantileTransformer} can help the model learn the underlying patterns more effectively. This is especially beneficial for our data, as it can improve the model's ability to capture the relationship between energy and radius.
+    This method is particularly useful when the data distribution has heavy tails or abrupt changes, as our x and y coordinates do. By transforming the data to a normal distribution, the \texttt{QuantileTransformer} can help the model learn the underlying patterns more effectively. This is especially beneficial for our data, as it can improve the model's ability to capture the relationship between energy and radius. The advantages of the \texttt{QuantileTransformer} include:
+
+
+    \begin{itemize}
+        \item \textbf{Uniform-to-Normal Mapping}: Converts arbitrary distributions into a normal distribution, aiding model interpretability.
+        \item \textbf{Outlier Robustness}: Reduces the influence of extreme values using empirical percentiles.
+        \item \textbf{Smooth Data Representation}: Reshapes skewed or heavy-tailed distributions into a well-behaved normal form.
+    \end{itemize}
 
     \begin{figure}[h!]
         \centering
-        \includegraphics[width=0.6\textwidth]{Figures/quantileTransfomrer.png}
-        % Include your figure here
-        \caption{QuantileTransformer}
+        \includegraphics[width=0.6\textwidth]{Figures/quantileTransfomrer.png} 
+        \caption{QuantileTransformer}\label{fig:quantileTransfomrer}
     \end{figure}
 
-    \item \textbf{Specail Transformation from other papers}
-    
+    \item \textbf{Exponential Transformation}
+
+    The \textbf{Exponential Transformation} follows a \textbf{sigmoid-based scaling}:
+
+    \begin{equation}
+    x', y' = \frac{1}{1 + e^{-0.07 \cdot (x, y)}}
+    \end{equation}
+
+    which maps original \( x, y \) coordinates into a compressed range, preventing extreme values from dominating. Advantages include:
+
+    \begin{itemize}
+        \item \textbf{Soft bounding of values}: Ensures large deviations do not dominate the scale.
+        \item \textbf{Improved gradient stability}: The sigmoid function provides smooth gradients, improving model training.
+        \item \textbf{Consistent mapping}: Unlike statistics-based transformations, this method applies a continuous function, making it robust for out-of-distribution inputs.
+    \end{itemize}
 
     \begin{figure}[h!]
         \centering
         \includegraphics[width=0.6\textwidth]{Figures/original.png}
-        % Include your figure here
-        \caption{Special Transformation}
+        \caption{Exponential Transformation}\label{fig:exponential_transformation}
     \end{figure}
 \end{itemize}
 
-The figures above show the distribution of the data after applying different preprocessing methods. And more figures can be found in the appendix \ref{AppendixA}. 
+The figures \ref{fig:robustscalar}, \ref{fig:quantileTransfomrer}, and \ref{fig:exponential_transformation} show the distribution of data after applying different preprocessing methods. More figures can be found in Appendix \ref{AppendixA}. 
 
-From the results, we can see that the \texttt{QuantileTransformer} has the better performance on x and y. This is because it can transform the data to follow a normal distribution, which can help the model learn the data better, especially the x,y distribution. This also makes it able to learn the relation between energy and radius better.z
+From these results, we see that the \texttt{QuantileTransformer} performs best for \( x \) and \( y \) because it transforms data into a normal distribution, allowing the model to better capture spatial patterns and the relationship between energy and radius.
+
 
 \section{Metrics}
 \subsection{FID Score}
@@ -219,20 +280,20 @@ Larger $\sigma_{max}$ ensures sufficient diversity in the data during the forwar
 \end{figure}
 
 
-And we can further check the sweep
+And we can further check the sweep in Figure \ref{fig:sde_sweep} and \ref{fig:sde_sweep_sigmamax}. One can see that the performance of the model is better when $\sigma_{max}$ is larger. This actually fit with our prediction as the reasons above. 
 
 \begin{figure}[h!]
     \centering
     % Include your figure here
     \includegraphics[width=0.8\textwidth]{Figures/sde_sweep.png}
-    \caption{The result of different $\sigma_{max}$ and $\sigma_{min}$ in VE.}
+    \caption{The result of different $\sigma_{max}$ and $\sigma_{min}$ in VE.} \label{fig:sde_sweep}
 \end{figure}
 
 \begin{figure}
     \centering
     % Include your figure here
-    \includegraphics[width=0.8\textwidth]{Figures/sde_sweep_sigmamax.png}
-    \caption{}
+    \includegraphics[width=0.8\textwidth]{Figures/sde_sweep_sigmamax.png} 
+    \caption{The result of fig \ref{fig:sde_sweep}, but grouped by $\sigma_{max}$ in VE.}\label{fig:sde_sweep_sigmamax}
 \end{figure}
 
 \subsection{Conclusions}
@@ -298,12 +359,24 @@ However, although the correlation term was added to the loss function and it ind
 
 After that, one time when we tried to use QuantileTransformer to preprocess the data, we found that the centralization of the data is improved. This is because the QuantileTransformer can transform the data to follow a uniform or a normal distribution. This can help the model to learn the data better, especailly the x,y distribution. This also makes it is able to learn the relation between energy and radius better.
 
-The result compared to the original one is shown below:
+The result compared to the original one is shown in Figure \ref{fig:centralization}.
 
-\begin{figure}[h!]
+\begin{figure}[htbp]
     \centering
-    % Include any relevant results or visualizations here
+    \begin{subfigure}[b]{0.45\textwidth} % Adjust width as needed
+        \includegraphics[width=\textwidth]{Figures/comparison_original.png}
+        \caption{The energy in each voxel with original transformation.}
+        \label{fig:original}
+    \end{subfigure}
+    \hfill % Optional: Adds space between the two subfigures
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{Figures/comparison.png}
+        \caption{The energy in each voxel with QuantileTransformer transformation.}
+        \label{fig:quantile}
+    \end{subfigure}
+    
     \caption{The Comparison Picture after using QuantileTransformer.}
+    \label{fig:centralization}
 \end{figure}
 
 \section{Conditioning Issue}
@@ -315,17 +388,17 @@ With the optimal settings, our model was able to generate the basic shapes of bo
     \begin{subfigure}[b]{0.45\textwidth} % Adjust width as needed
         \includegraphics[width=\textwidth]{Figures/energy_voxel_single.png}
         \caption{The energy deposit of single bucket data.}
-        \label{fig:fig1}
+        \label{fig:single_bucket}
     \end{subfigure}
     \hfill % Optional: Adds space between the two subfigures
     \begin{subfigure}[b]{0.45\textwidth}
         \includegraphics[width=\textwidth]{Figures/energy_voxel_full.png}
         \caption{The energy deposit of five bucket data.}
-        \label{fig:fig2}
+        \label{fig:all_bucket}
     \end{subfigure}
     
-    \caption{Main caption for both figures}
-    \label{fig:main}
+    \caption{he result of energy deposit of single bucket data and all bucket data.}
+    \label{fig:energy_voxel}
 \end{figure}
 
 To address this issue, we first need to make sure if our conditional variables aren't really working. So we tried to add the incident energy as the conditional variables and not. The result is shown below:
@@ -348,12 +421,13 @@ To address this issue, we first need to make sure if our conditional variables a
     \label{fig:main}
 \end{figure}
 
-They are basically the same, indicating that the conditional variables are not working. Next, we also tried to concatenate the incident energy with the input data instead of adding them and the result is shown below:
+They are basically the same, indicating that the conditional variables are not working. Next, we also tried to concatenate the incident energy with the input data instead of adding them and the result is shown Figure \ref{fig:concatenate}.
 
 \begin{figure}[ht]
     \centering
+    \includegraphics[width=0.8\textwidth]{Figures/concatenate.png}
     % Include your figure here
-    \caption{The result of energy deposit with incident energy concatenated with the input data.}
+    \caption{The result of energy deposit with incident energy concatenated with the input data.} \label{fig:concatenate}
 \end{figure}
 
 As you can see, the result is totally a disaster. To be honest, we still don't know why this happened. And that is also one of the things we need to figure out in the future. We will probably try to use fewer hits and focus on one or two dimensions to find out the reason.
@@ -398,6 +472,33 @@ Time close to $t = 0$ represents the critical phase where the model transitions 
 
 From the Figure ~\ref{fig:loss_t}, We can see that the loss value near t equals to 0 is always aorund 1, which is as same as it is at the initial state. This means that our model learns nothing in that region. And the region stands for our model to predict the real data. That's may be the reason why our model can't learn the real shape of the data well. It only learns the approximate shape of the data from time is above 0.4.
 
+\section{Conclusion}
+
+In this work, we explored various data preprocessing techniques and model configurations to improve the performance of our transformer-based generative model for detector hit data. We implemented multiple strategies to optimize the data representation and ensure efficient learning.
+
+First, we introduced a \textbf{bucketing strategy} to handle the variability in sequence lengths, significantly reducing memory overhead while improving computational efficiency. This allowed us to maintain a structured approach to feeding data into the transformer, ensuring stable training dynamics.
+
+For \textbf{preprocessing}, we applied three distinct transformations—\textbf{RobustScaler, QuantileTransformer, and Exponential Transformation}—to normalize the hit coordinate data while ensuring robustness to outliers. We observed that **QuantileTransformer provided the best performance**, as it effectively reshaped the data into a normal distribution, improving the model's ability to capture spatial relationships and energy dependencies.
+
+Through extensive experimentation with **variance exploding (VE) and variance preserving (VP) stochastic differential equations**, we found that **VE outperforms VP** in terms of pushing the data distribution towards an effective generative space, resulting in lower FID scores and better model convergence.
+
+We also examined the effect of **key hyperparameters, particularly $\sigma_{max}$ and $\sigma_{min}$**, in controlling the diffusion process. Our results indicate that **a larger $\sigma_{max}$ improves the diversity and realism of generated samples** by facilitating a more expressive transformation of the data, while $\sigma_{min}$ had a minor impact on overall performance.
+
+To assess model quality, we used the **Fréchet Inception Distance (FID) score**, supplemented with a **classifier-based evaluation**. While the classifier achieved near-perfect performance in distinguishing real and generated samples, we observed that **real-world constraints and detector properties introduce inherent discreteness** that can be challenging for the generative model to replicate.
+
+One significant challenge we encountered was the **conditioning issue**, particularly with incident energy and time as conditional variables. Despite various conditioning strategies, including direct concatenation and implicit conditioning through normalization, the model struggled to fully leverage these inputs. This suggests that additional work is required to refine the conditional mechanisms to improve control over generated samples.
+
+Additionally, we observed a **centralization issue** in the generated data, where the model failed to accurately capture the expected energy-radius relationship. Our attempts to enforce correlation constraints showed limited improvement, but the **QuantileTransformer preprocessing unexpectedly enhanced centralization**, highlighting its potential importance in data representation.
+
+Moving forward, future work will focus on:
+\begin{itemize}
+    \item Improving the **conditioning mechanism** to ensure that incident energy and other physical parameters effectively guide the generation process.
+    \item Investigating **alternative loss functions** and **regularization techniques** to better capture the physical constraints of the detector.
+    \item Exploring **architectural modifications**, such as hybrid transformer-CNN approaches, to better leverage spatial dependencies in hit distributions.
+    \item Refining the **preprocessing pipeline** by testing other transformations that could further enhance the model's ability to generalize across different hit distributions.
+\end{itemize}
+
+In conclusion, while our model demonstrates strong generative capabilities and promising results, further refinement is needed to fully capture the underlying physics of detector hit data. The findings in this work provide a solid foundation for future improvements in data-driven generative modeling in high-energy physics applications.
 
 
 

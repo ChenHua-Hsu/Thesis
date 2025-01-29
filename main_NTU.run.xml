@@ -88,6 +88,8 @@
       <file>bib/transformer.bib</file>
       <file>bib/introduction.bib</file>
       <file>bib/detector.bib</file>
+      <file>bib/result.bib</file>
+      <file>bib/dataset.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

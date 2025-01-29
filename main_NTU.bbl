@@ -32874,6 +32874,29 @@
     \field{year}{2018}
   \endentry
 
+  \entry{geant4_toolkit}{article}{}
+    \name{author}{1}{}{%
+      {{hash=eaSA}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+         given={S.\bibnamedelima Agostinelli},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{aSAe1}
+    \strng{fullhash}{aSAe1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{250\bibrangedash 303}
+    \field{title}{Geant4: A Simulation Toolkit}
+    \field{volume}{506}
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research A}
+    \field{year}{2003}
+  \endentry
+
   \entry{song_generative_2020}{misc}{}
     \name{author}{2}{}{%
       {{hash=SY}{%
@@ -33128,6 +33151,56 @@
     \field{urlday}{11}
     \field{urlmonth}{11}
     \field{urlyear}{2024}
+  \endentry
+
+  \entry{inceptionv3}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=CPI}{%
+         family={Contributors},
+         familyi={C\bibinitperiod},
+         given={PyTorch-Ignite},
+         giveni={P\bibinithyphendelim I\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{CPI1}
+    \strng{fullhash}{CPI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently.%
+    }
+    \field{title}{{FID} — {PyTorch}-{Ignite} v0.5.1 {Documentation}}
+    \verb{url}
+    \verb https://pytorch.org/ignite/
+    \endverb
+    \verb{file}
+    \verb Snapshot:files/101/ignite.metrics.FID.html:text/html
+    \endverb
+    \field{journaltitle}{PyTorch-Ignite}
+    \field{urlday}{22}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{pytorch}{misc}{}
+    \list{language}{1}{%
+      {en}%
+    }
+    \field{labeltitlesource}{title}
+    \field{title}{{PyTorch}}
+    \verb{url}
+    \verb https://pytorch.org/
+    \endverb
+    \verb{file}
+    \verb Snapshot:files/103/pytorch.org.html:text/html
+    \endverb
+    \field{journaltitle}{PyTorch}
+    \field{urlday}{22}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
   \endentry
 \enddatalist
 \endinput
