@@ -65,58 +65,60 @@
 \contentsline {subsection}{\numberline {3.2.4}Evaluation Metrics}{26}{subsection.72}%
 \contentsline {subsection}{\numberline {3.2.5}Community Engagement}{26}{subsection.73}%
 \contentsline {chapter}{\numberline {4}Algorithm}{27}{chapter.74}%
-\contentsline {section}{\numberline {4.1}AE}{27}{section.75}%
-\contentsline {section}{\numberline {4.2}VAE}{27}{section.76}%
-\contentsline {section}{\numberline {4.3}Score-based Diffusion Model}{27}{section.77}%
-\contentsline {subsection}{\numberline {4.3.1}Denoising Score Matching with Langevin Dynamics (SMLD)}{27}{subsection.78}%
-\contentsline {subsection}{\numberline {4.3.2} Denoising Diffusion Probabilistic Model (DDPM)}{28}{subsection.81}%
-\contentsline {section}{\numberline {4.4}Forward Process}{29}{section.84}%
-\contentsline {section}{\numberline {4.5}Backward Process}{30}{section.88}%
-\contentsline {section}{\numberline {4.6}VE, VP SDEs}{32}{section.98}%
-\contentsline {subsection}{\numberline {4.6.1}Continuos Forward Process}{32}{subsection.99}%
-\contentsline {subsection}{\numberline {4.6.2}Continuos Backward Process - PC Sampler}{34}{subsection.109}%
-\contentsline {section}{\numberline {4.7}Conclusion}{36}{section.133}%
-\contentsline {chapter}{\numberline {5}Model Structure}{37}{chapter.134}%
-\contentsline {section}{\numberline {5.1}Transformer}{38}{section.135}%
-\contentsline {subsection}{\numberline {5.1.1}Introduction}{38}{subsection.136}%
-\contentsline {subsection}{\numberline {5.1.2}The Evolution from RNNs to Transformers}{38}{subsection.137}%
-\contentsline {subsection}{\numberline {5.1.3}Types and Structure of Transformer Architectures}{39}{subsection.139}%
-\contentsline {subsection}{\numberline {5.1.4}Choosing an Encoder-Only Model for Detector Simulation}{39}{subsection.141}%
-\contentsline {section}{\numberline {5.2}Self-Attention Mechanism}{40}{section.142}%
-\contentsline {section}{\numberline {5.3}Our Model Structure}{41}{section.144}%
-\contentsline {subsection}{\numberline {5.3.1}Gaussian Fourier Projection for Temporal Encoding}{41}{subsection.146}%
-\contentsline {subsection}{\numberline {5.3.2}Mean-Field Attention in Detector Simulation}{42}{subsection.148}%
-\contentsline {subsection}{\numberline {5.3.3}Parameter Tuning}{42}{subsection.150}%
-\contentsline {section}{\numberline {5.4}Conclusion}{43}{section.151}%
-\contentsline {chapter}{\numberline {6}Strategies and Results}{45}{chapter.152}%
-\contentsline {section}{\numberline {6.1}Data Preprocessing}{45}{section.153}%
-\contentsline {subsection}{\numberline {6.1.1}Bucketing}{45}{subsection.154}%
-\contentsline {subsection}{\numberline {6.1.2}Preprocessor}{46}{subsection.155}%
-\contentsline {section}{\numberline {6.2}Metrics}{50}{section.162}%
-\contentsline {subsection}{\numberline {6.2.1}FID Score}{50}{subsection.163}%
-\contentsline {subsection}{\numberline {6.2.2}Classifier}{51}{subsection.166}%
-\contentsline {section}{\numberline {6.3}VE and VP Studies}{52}{section.167}%
-\contentsline {section}{\numberline {6.4}$\sigma _{max}$ and $\sigma _{min}$ Studies}{54}{section.174}%
-\contentsline {subsection}{\numberline {6.4.1}The Role of $\sigma _{max}$ and $\sigma _{min}$}{54}{subsection.175}%
-\contentsline {subsection}{\numberline {6.4.2}Conclusions}{55}{subsection.180}%
-\contentsline {section}{\numberline {6.5}Overall Parameter Sweeping}{57}{section.181}%
-\contentsline {section}{\numberline {6.6}Centralization}{58}{section.183}%
-\contentsline {section}{\numberline {6.7}Conditioning Issue}{59}{section.188}%
-\contentsline {subsection}{\numberline {6.7.1}Incident energy}{59}{subsection.189}%
-\contentsline {subsection}{\numberline {6.7.2}Time}{61}{subsection.193}%
-\contentsline {section}{\numberline {6.8}Conclusion}{62}{section.195}%
-\contentsline {chapter}{\numberline {7}Future Goals}{65}{chapter.196}%
-\contentsline {section}{\numberline {7.1}Further Acceleration of the Model}{65}{section.197}%
-\contentsline {section}{\numberline {7.2}Layer Relationship Learning and Tracking}{65}{section.198}%
-\contentsline {chapter}{\numberline {A}Figures}{67}{appendix.199}%
-\contentsline {section}{\numberline {A.1}Best Result for Full Dataset}{67}{section.200}%
-\contentsline {section}{\numberline {A.2}Best Result for Single Bucket Data}{68}{section.202}%
-\contentsline {section}{\numberline {A.3}Result for using different Preprocessor}{69}{section.204}%
-\contentsline {section}{\numberline {A.4}Result for using different SDE settings}{71}{section.208}%
-\contentsline {chapter}{\numberline {B}TopFCNH}{75}{appendix.223}%
-\contentsline {section}{\numberline {B.1}Introduction}{75}{section.224}%
-\contentsline {section}{\numberline {B.2}Background}{75}{section.225}%
-\contentsline {section}{\numberline {B.3}Analysis Workflow}{77}{section.227}%
-\contentsline {section}{\numberline {B.4}Gridpack Generation}{77}{section.228}%
-\contentsline {section}{\numberline {B.5}Current Status}{77}{section.229}%
-\contentsline {chapter}{Bibliography}{79}{appendix*.230}%
+\contentsline {section}{\numberline {4.1}Score-based Diffusion Model}{27}{section.75}%
+\contentsline {subsection}{\numberline {4.1.1}Denoising Score Matching with Langevin Dynamics (SMLD)}{27}{subsection.76}%
+\contentsline {subsection}{\numberline {4.1.2} Denoising Diffusion Probabilistic Model (DDPM)}{28}{subsection.79}%
+\contentsline {section}{\numberline {4.2}Forward Process}{29}{section.82}%
+\contentsline {section}{\numberline {4.3}Backward Process}{30}{section.86}%
+\contentsline {section}{\numberline {4.4}VE, VP SDEs}{32}{section.96}%
+\contentsline {subsection}{\numberline {4.4.1}Continuos Forward Process}{32}{subsection.97}%
+\contentsline {subsection}{\numberline {4.4.2}Continuos Backward Process - PC Sampler}{34}{subsection.107}%
+\contentsline {chapter}{\numberline {5}Model Structure}{37}{chapter.131}%
+\contentsline {section}{\numberline {5.1}Transformer}{38}{section.132}%
+\contentsline {subsection}{\numberline {5.1.1}Introduction}{38}{subsection.133}%
+\contentsline {subsection}{\numberline {5.1.2}The Evolution from RNNs to Transformers}{38}{subsection.134}%
+\contentsline {subsection}{\numberline {5.1.3}Types and Structure of Transformer Architectures}{39}{subsection.136}%
+\contentsline {subsection}{\numberline {5.1.4}Choosing an Encoder-Only Model for Detector Simulation}{39}{subsection.138}%
+\contentsline {section}{\numberline {5.2}Self-Attention Mechanism}{40}{section.139}%
+\contentsline {section}{\numberline {5.3}Our Model Structure}{41}{section.141}%
+\contentsline {subsection}{\numberline {5.3.1}Gaussian Fourier Projection for Temporal Encoding}{41}{subsection.143}%
+\contentsline {subsection}{\numberline {5.3.2}Mean-Field Attention in Detector Simulation}{42}{subsection.145}%
+\contentsline {subsection}{\numberline {5.3.3}Parameter Tuning}{42}{subsection.147}%
+\contentsline {section}{\numberline {5.4}Conclusion}{43}{section.148}%
+\contentsline {chapter}{\numberline {6}Strategies and Results}{45}{chapter.149}%
+\contentsline {section}{\numberline {6.1}Data Preprocessing}{45}{section.150}%
+\contentsline {subsection}{\numberline {6.1.1}Bucketing}{45}{subsection.151}%
+\contentsline {subsection}{\numberline {6.1.2}Preprocessor}{46}{subsection.152}%
+\contentsline {section}{\numberline {6.2}Metrics}{50}{section.159}%
+\contentsline {subsection}{\numberline {6.2.1}FID Score}{50}{subsection.160}%
+\contentsline {subsection}{\numberline {6.2.2}Classifier}{51}{subsection.163}%
+\contentsline {section}{\numberline {6.3}VE and VP Studies}{52}{section.164}%
+\contentsline {section}{\numberline {6.4}$\sigma _{max}$ and $\sigma _{min}$ Studies}{54}{section.171}%
+\contentsline {subsection}{\numberline {6.4.1}The Role of $\sigma _{max}$ and $\sigma _{min}$}{54}{subsection.172}%
+\contentsline {subsection}{\numberline {6.4.2}Conclusions}{55}{subsection.177}%
+\contentsline {section}{\numberline {6.5}Overall Parameter Sweeping}{57}{section.178}%
+\contentsline {section}{\numberline {6.6}Centralization}{58}{section.180}%
+\contentsline {section}{\numberline {6.7}Conditioning Issue}{59}{section.185}%
+\contentsline {subsection}{\numberline {6.7.1}Incident energy}{59}{subsection.186}%
+\contentsline {subsection}{\numberline {6.7.2}Time}{61}{subsection.190}%
+\contentsline {section}{\numberline {6.8}Conclusion}{62}{section.192}%
+\contentsline {chapter}{\numberline {7}Future Goals}{65}{chapter.193}%
+\contentsline {section}{\numberline {7.1}Further Acceleration of the Model}{65}{section.194}%
+\contentsline {section}{\numberline {7.2}Layer Relationship Learning and Tracking}{65}{section.195}%
+\contentsline {chapter}{\numberline {A}Figures}{67}{appendix.196}%
+\contentsline {section}{\numberline {A.1}Best Result for Full Dataset}{67}{section.197}%
+\contentsline {section}{\numberline {A.2}Best Result for Single Bucket Data}{68}{section.199}%
+\contentsline {section}{\numberline {A.3}Result for using different Preprocessor}{69}{section.201}%
+\contentsline {section}{\numberline {A.4}Result for using different SDE settings}{71}{section.205}%
+\contentsline {chapter}{\numberline {B}TopFCNH}{75}{appendix.220}%
+\contentsline {section}{\numberline {B.1}Introduction}{75}{section.221}%
+\contentsline {section}{\numberline {B.2}Background}{75}{section.222}%
+\contentsline {section}{\numberline {B.3}Analysis Tool}{77}{section.225}%
+\contentsline {section}{\numberline {B.4}Workflow}{79}{section.227}%
+\contentsline {subsection}{\numberline {B.4.1}Data-MC Samples Comparison \& Top Reconstruction}{79}{subsection.228}%
+\contentsline {subsection}{\numberline {B.4.2}Signal-Background Separation \& Signal Region Optimization}{79}{subsection.229}%
+\contentsline {subsection}{\numberline {B.4.3}Statistical Analysis}{80}{subsection.230}%
+\contentsline {subsection}{\numberline {B.4.4}Summary of the Workflow}{81}{subsection.231}%
+\contentsline {section}{\numberline {B.5}Gridpack Generation}{81}{section.233}%
+\contentsline {section}{\numberline {B.6}Current Status}{82}{section.234}%
+\contentsline {chapter}{Bibliography}{83}{appendix*.236}%

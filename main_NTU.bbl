@@ -33260,5 +33260,26 @@
     \field{urlmonth}{01}
     \field{urlyear}{2025}
   \endentry
+
+  \entry{higgs_dna}{misc}{}
+    \list{language}{1}{%
+      {en-US}%
+    }
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Tutorial for HiggsDNA%
+    }
+    \field{title}{Table of {Contents}}
+    \verb{url}
+    \verb https://sam-may.github.io/higgs_dna_tutorial.github.io/
+    \endverb
+    \verb{file}
+    \verb Snapshot:files/111/higgs_dna_tutorial.github.io.html:text/html
+    \endverb
+    \field{journaltitle}{higgs\_dna\_tutorial.github.io}
+    \field{urlday}{31}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
+  \endentry
 \enddatalist
 \endinput

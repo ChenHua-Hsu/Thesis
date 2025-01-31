@@ -1,7 +1,4 @@
 \chapter{Algorithm}
-\section{AE}
-\section{VAE}
-test
 \section{Score-based Diffusion Model}
 One drawback of Variational Autoencoders (VAEs) is the inclusion of the KL divergence term in their loss function. While VAEs are effective for compressing data (encoding), they struggle to generate high-quality, diverse samples. This limitation stems from their reliance on sampling from a normal distribution in the latent space. Although VAEs are trained to bring the posterior distribution close to a Gaussian, in practice, the match is often not precise enough to ensure that samples drawn from this distribution will be of high quality.
 
@@ -302,8 +299,6 @@ where $\epsilon$ is defined as
 \end{equation}
 
 and $r$ is a hyperparameter that controls the step size of the Langevin dynamics.
-
-\section{Conclusion}
 
 
 
