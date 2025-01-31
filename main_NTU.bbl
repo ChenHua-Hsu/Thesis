@@ -33202,5 +33202,63 @@
     \field{urlmonth}{01}
     \field{urlyear}{2025}
   \endentry
+
+  \entry{maiani_gim_2013}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=ML}{%
+         family={Maiani},
+         familyi={M\bibinitperiod},
+         given={Luciano},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{High Energy Physics - Phenomenology}
+    \strng{namehash}{ML1}
+    \strng{fullhash}{ML1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    The GIM Mechanism was introduced by Sheldon L. Glashow, John Iliopoulos and Luciano Maiani in 1970, to explain the suppression of Delta S=1, 2 neutral current processes and is an important element of the unified theories of the weak and electromagnetic interactions. Origin, predictions and uses of the GIM Mechanism are illustrated. Flavor changing neutral current processes (FCNC) represent today an important benchmark for the Standard Theory and give strong limitations to theories that go beyond ST in the few TeV region. Ideas on the ways constraints on FCNC may be imposed are briefly described.%
+    }
+    \verb{doi}
+    \verb 10.48550/arXiv.1303.6154
+    \endverb
+    \field{note}{arXiv:1303.6154 [hep-ph]}
+    \field{shorttitle}{The {GIM} {Mechanism}}
+    \field{title}{The {GIM} {Mechanism}: origin, predictions and recent uses}
+    \verb{url}
+    \verb http://arxiv.org/abs/1303.6154
+    \endverb
+    \verb{file}
+    \verb Preprint PDF:files/106/Maiani - 2013 - The GIM Mechanism origin, pred
+    \verb ictions and recent uses.pdf:application/pdf;Snapshot:files/107/1303.h
+    \verb tml:text/html
+    \endverb
+    \field{annotation}{%
+    Comment: Opening Talk, Rencontres de Moriond, EW Interactions and Unified Theories, La Thuile, Valle d'Aosta, Italia, 2-9 March, 2013%
+    }
+    \field{month}{03}
+    \field{year}{2013}
+    \field{urlday}{30}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{noauthor_fcnchistory_nodate}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{title}{{FCNCHistory} {\textless} {LHCPhysics} {\textless} {TWiki}}
+    \verb{url}
+    \verb https://twiki.cern.ch/twiki/bin/view/LHCPhysics/FCNCHistory
+    \endverb
+    \verb{file}
+    \verb FCNCHistory < LHCPhysics < TWiki:files/109/FCNCHistory.html:text/html
+    \endverb
+    \field{urlday}{30}
+    \field{urlmonth}{01}
+    \field{urlyear}{2025}
+  \endentry
 \enddatalist
 \endinput

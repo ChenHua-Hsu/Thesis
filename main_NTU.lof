@@ -44,4 +44,19 @@
 \contentsline {figure}{\numberline {A.3}{\ignorespaces Result for using robust preprocessor}}{69}{figure.caption.205}%
 \contentsline {figure}{\numberline {A.4}{\ignorespaces Result for using quantile preprocessor}}{70}{figure.caption.206}%
 \contentsline {figure}{\numberline {A.5}{\ignorespaces Result for using exponential preprocessor}}{70}{figure.caption.207}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Result for Energy vs Radius for VE}}{71}{figure.caption.209}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Result for Energy vs Radius for VP}}{71}{figure.caption.210}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Result for Energy vs Layers for VE}}{71}{figure.caption.211}%
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Result for Energy vs Layers for VP}}{72}{figure.caption.212}%
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Result for R-width vs Layers for VE}}{72}{figure.caption.213}%
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Result for R-width vs Layers for VP}}{72}{figure.caption.214}%
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Result for Max Voxel Deposit vs Layer for VE}}{72}{figure.caption.215}%
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Result for Max Voxel Deposit vs Layer for VP}}{72}{figure.caption.216}%
+\contentsline {figure}{\numberline {A.14}{\ignorespaces Result for Each Dimension VE}}{73}{figure.caption.217}%
+\contentsline {figure}{\numberline {A.15}{\ignorespaces Result for Each Dimension VP}}{73}{figure.caption.218}%
+\contentsline {figure}{\numberline {A.16}{\ignorespaces Result for Energy Voxel Comparison for VE}}{73}{figure.caption.219}%
+\contentsline {figure}{\numberline {A.17}{\ignorespaces Result for Energy Voxel Comparison for VP}}{73}{figure.caption.220}%
+\contentsline {figure}{\numberline {A.18}{\ignorespaces Result for Energy Deposit for VE}}{74}{figure.caption.221}%
+\contentsline {figure}{\numberline {A.19}{\ignorespaces Result for Energy Deposit for VP}}{74}{figure.caption.222}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces The prediction and the result so far}}{76}{figure.caption.226}%
