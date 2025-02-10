@@ -33067,6 +33067,50 @@
     \field{year}{2020}
   \endentry
 
+  \entry{Dickstein2015}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SJ}{%
+         family={SohlDickstein},
+         familyi={S\bibinitperiod},
+         given={Jascha},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WEA}{%
+         family={Weiss},
+         familyi={W\bibinitperiod},
+         given={Eric\bibnamedelima A.},
+         giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Maheswaranathan},
+         familyi={M\bibinitperiod},
+         given={Niru},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Ganguli},
+         familyi={G\bibinitperiod},
+         given={Surya},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SJ+1}
+    \strng{fullhash}{SJWEAMNGS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 1503.03585
+    \endverb
+    \field{title}{Deep Unsupervised Learning using Nonequilibrium Thermodynamics}
+    \verb{url}
+    \verb http://arxiv.org/abs/1503.03585
+    \endverb
+    \field{volume}{abs/1503.03585}
+    \field{journaltitle}{CoRR}
+    \field{eprinttype}{arXiv}
+    \field{year}{2015}
+  \endentry
+
   \entry{noauthor_ddpm_nodate}{misc}{}
     \field{labeltitlesource}{title}
     \field{title}{Introduction to Generative Diffusion Models (Part 1): {DDPM} = Demolition + Construction - Scientific Spaces}

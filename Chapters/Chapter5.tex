@@ -15,12 +15,20 @@ In summary, this chapter provides a comprehensive overview of our custom Transfo
 \section{Transformer}
 
 \subsection{Introduction}
-Transformer models have transformed deep learning applications across various domains, providing significant advantages in handling complex and large datasets. In high-energy physics, where data from detectors is vast and multidimensional, advanced models like Transformers enhance both the accuracy and efficiency of simulations designed to emulate particle collisions and energy depositions within detectors.
+
+Transformer models have revolutionized deep learning by enabling efficient and scalable processing of sequential and structured data. Originally introduced for natural language processing, Transformers have since demonstrated remarkable versatility across various domains, including computer vision, time-series analysis, and scientific computing. Unlike traditional sequence models such as Recurrent Neural Networks (RNNs), which process data sequentially, Transformers utilize a self-attention mechanism that allows for parallel computation and long-range dependencies.
+
+In high-energy physics, where data from particle detectors is vast, multidimensional, and often exhibits complex dependencies, Transformers provide significant advantages in both accuracy and efficiency. Their ability to capture intricate relationships between detector hits without being constrained by sequential processing makes them particularly suitable for simulations of particle showers, energy depositions, and collision dynamics. In the next section, we will explore the evolution from RNNs to Transformers, highlighting the limitations of sequential models and how Transformers address these challenges.
 
 \subsection{The Evolution from RNNs to Transformers}
-Prior to Transformers, Recurrent Neural Networks (RNNs) were widely used for sequence modeling due to their ability to capture dependencies between sequential elements. However, RNNs are inherently sequential, making them slow and prone to issues like vanishing gradients, particularly with long sequences.
 
-The introduction of Transformers by Vaswani et al. in their seminal paper, \textit{"Attention is All You Need,"} addressed these limitations by introducing the self-attention mechanism. This innovation enables Transformers to capture long-range dependencies without the need for recurrent connections, allowing for faster and more efficient training.
+Figure \ref{fig:comparison} illustrates the fundamental differences in how RNNs and Transformers process sequential data. In the RNN model (A), the sequence is processed step by step, meaning that each input token $x_0$ is first passed into an RNN unit, which updates its internal state before moving to the next token $x_1$. At each step, the model relies on the hidden state from the previous timestep, which acts as a summary of all prior inputs. This recurrent dependency means that information flows sequentially through the network, making it impossible to process all tokens simultaneously. Instead, the model must first process $x_0$, then $x_1$, followed by $x_2$, and so on until $x_t$.
+
+This sequential nature introduces several challenges. First, it creates a bottleneck in computation, as each step must wait for the previous step to finish before proceeding. This makes training slow and inefficient, especially for long sequences. Second, as the sequence length increases, information from earlier tokens may become difficult to retain, leading to what is known as the vanishing gradient problem. Since each update relies on a chain of transformations through multiple time steps, the influence of initial inputs weakens over time, making it difficult for RNNs to capture long-range dependencies effectively.
+
+In contrast, the Transformer model (B) processes the entire sequence at once, leveraging a self-attention mechanism that allows every token to directly interact with all others. Instead of passing information step by step as in RNNs, the Transformer constructs global dependencies in a single operation, meaning that each token $x_t$ can immediately access information from any other token, regardless of its position in the sequence. This parallel computation greatly accelerates training and removes the reliance on sequential updates.
+
+For high-energy physics simulations, this difference is particularly relevant. Each input sequence in our case represents multiple showers, where each shower contains numerous hits with various energy levels and spatial coordinates. Unlike natural language, where word order matters, detector data does not follow a strict sequential pattern. An RNN would impose an artificial structure on the data, potentially obscuring meaningful relationships. Transformers, by contrast, can naturally capture interactions between all hits in a shower, ensuring that the model fully exploits the complex dependencies inherent in high-energy physics simulations. This ability to efficiently model both local and global relationships is one of the primary reasons Transformers have become the preferred choice over RNNs in modern deep-learning applications.
 
 \begin{figure}[ht]
     \centering
@@ -40,6 +48,25 @@ The introduction of Transformers by Vaswani et al. in their seminal paper, \text
     \caption{Comparison of RNN and Transformer architectures.}
     \label{fig:comparison}
 \end{figure}
+
+\subsection{Self-Attention Mechanism}
+
+Self-attention is the core mechanism that allows Transformers to process and understand relationships within a sequence efficiently. Unlike traditional models that rely on sequential computations, self-attention allows each token in an input sequence to consider every other token simultaneously. This mechanism is particularly well-suited for high-energy physics applications, where complex dependencies exist between detector hits, and the order in which data is collected does not necessarily dictate meaningful relationships.
+
+At its essence, the \textbf{attention mechanism} determines how much focus each token should place on other tokens when computing its representation. This is achieved by transforming each input into three vectors: a \textbf{query} (\( Q \)), a \textbf{key} (\( K \)), and a \textbf{value} (\( V \)). The query represents what a token is looking for in other tokens, the key encodes what information each token contains, and the value carries the actual content that gets passed forward. The attention scores are computed by measuring the similarity between queries and keys, which determines how much influence one token should have on another.
+
+The scaled dot-product attention mechanism follows the equation:
+
+\begin{equation}
+\text{Attention}(Q, K, V) = \text{softmax} \left( \frac{QK^T}{\sqrt{d_k}} \right) V
+\end{equation}
+
+where \( d_k \) is the dimension of the key vectors, used as a scaling factor to stabilize gradients.
+
+For detector simulations, this mechanism provides a significant advantage. Unlike models that process data sequentially, Transformers can immediately establish long-range dependencies, capturing interactions between hits that may be spatially distant but physically correlated. This ability to dynamically adjust attention across the dataset ensures that important features are preserved, leading to more accurate and efficient simulations.
+
+Figure \ref{fig:self_attention} provides a visualization of this process, illustrating how input tokens are transformed and passed through attention layers. While the details of the computation involve matrix multiplications and scaling factors, the key idea remains straightforward: \textbf{each token learns to selectively focus on the most relevant information, allowing the model to capture both local and global dependencies simultaneously}. This capability is what makes Transformers particularly powerful, not only in natural language processing but also in scientific applications where capturing intricate relationships is essential.
+
 
 \subsection{Types and Structure of Transformer Architectures}
 The original Transformer architecture, as introduced by Vaswani et al., consists of both an encoder and a decoder. The encoder processes the input sequence, while the decoder generates the output sequence. This setup is particularly effective for tasks like machine translation. However, in practice, different applications benefit from using only the encoder or decoder.
@@ -64,14 +91,13 @@ The three main types of Transformer architectures are as follows:
 \subsection{Choosing an Encoder-Only Model for Detector Simulation}
 In the context of detector simulation, our objective is to generate a high-quality representation of input data, such as particle collisions, without generating new sequences. Thus, an encoder-only model is more appropriate, as it efficiently processes and encodes input data, capturing necessary features without the additional complexity of a generative decoder.
 
-\section{Self-Attention Mechanism}
-Self-attention is central to the Transformer model, enabling each token in a sequence to attend to all other tokens. For each token, the attention scores are computed based on the query \( Q \), key \( K \), and value \( V \) vectors:
 
-\begin{equation}
-\text{Attention}(Q, K, V) = \text{softmax} \left( \frac{QK^T}{\sqrt{d_k}} \right) V
-\end{equation}
-
-This mechanism allows the model to capture relationships between distant tokens, which is crucial for high-dimensional data, such as particle detector simulations. Figure ?? illustrates the self-attention mechanism, showcasing how each token dynamically weights other tokens in the sequence.
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=0.8\textwidth]{Figures/attention.jpeg}
+%     \caption{The concept of Self-attention mechanism in Transformers.}
+%     \label{fig:self_attention}
+% \end{figure}
 
 \section{Our Model Structure}
 Our model architecture builds upon the Transformer framework, with specific modifications to optimize performance in detector simulations, as shown in Figure .

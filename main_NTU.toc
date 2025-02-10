@@ -81,49 +81,49 @@
 \contentsline {chapter}{\numberline {5}Model Structure}{39}{chapter.137}%
 \contentsline {section}{\numberline {5.1}Transformer}{40}{section.138}%
 \contentsline {subsection}{\numberline {5.1.1}Introduction}{40}{subsection.139}%
-\contentsline {subsection}{\numberline {5.1.2}The Evolution from RNNs to Transformers}{40}{subsection.140}%
-\contentsline {subsection}{\numberline {5.1.3}Types and Structure of Transformer Architectures}{41}{subsection.142}%
-\contentsline {subsection}{\numberline {5.1.4}Choosing an Encoder-Only Model for Detector Simulation}{41}{subsection.144}%
-\contentsline {section}{\numberline {5.2}Self-Attention Mechanism}{42}{section.145}%
-\contentsline {section}{\numberline {5.3}Our Model Structure}{43}{section.147}%
-\contentsline {subsection}{\numberline {5.3.1}Gaussian Fourier Projection for Temporal Encoding}{43}{subsection.149}%
-\contentsline {subsection}{\numberline {5.3.2}Mean-Field Attention in Detector Simulation}{44}{subsection.151}%
-\contentsline {subsection}{\numberline {5.3.3}Parameter Tuning}{44}{subsection.153}%
-\contentsline {section}{\numberline {5.4}Conclusion}{45}{section.154}%
-\contentsline {chapter}{\numberline {6}Strategies and Results}{47}{chapter.155}%
-\contentsline {section}{\numberline {6.1}Data Preprocessing}{47}{section.156}%
-\contentsline {subsection}{\numberline {6.1.1}Bucketing}{47}{subsection.157}%
-\contentsline {subsection}{\numberline {6.1.2}Preprocessor}{48}{subsection.158}%
-\contentsline {section}{\numberline {6.2}Metrics}{52}{section.165}%
-\contentsline {subsection}{\numberline {6.2.1}FID Score}{52}{subsection.166}%
-\contentsline {subsection}{\numberline {6.2.2}Classifier}{53}{subsection.169}%
-\contentsline {section}{\numberline {6.3}VE and VP Studies}{54}{section.170}%
-\contentsline {section}{\numberline {6.4}$\sigma _{max}$ and $\sigma _{min}$ Studies}{56}{section.177}%
-\contentsline {subsection}{\numberline {6.4.1}The Role of $\sigma _{max}$ and $\sigma _{min}$}{56}{subsection.178}%
-\contentsline {subsection}{\numberline {6.4.2}Conclusions}{57}{subsection.183}%
-\contentsline {section}{\numberline {6.5}Overall Parameter Sweeping}{59}{section.184}%
-\contentsline {section}{\numberline {6.6}Centralization}{60}{section.186}%
-\contentsline {section}{\numberline {6.7}Conditioning Issue}{61}{section.191}%
-\contentsline {subsection}{\numberline {6.7.1}Incident energy}{61}{subsection.192}%
-\contentsline {subsection}{\numberline {6.7.2}Time}{63}{subsection.196}%
-\contentsline {section}{\numberline {6.8}Conclusion}{64}{section.198}%
-\contentsline {chapter}{\numberline {7}Future Goals}{67}{chapter.199}%
-\contentsline {section}{\numberline {7.1}Further Acceleration of the Model}{67}{section.200}%
-\contentsline {section}{\numberline {7.2}Layer Relationship Learning and Tracking}{67}{section.201}%
-\contentsline {chapter}{\numberline {A}Figures}{69}{appendix.202}%
-\contentsline {section}{\numberline {A.1}Best Result for Full Dataset}{69}{section.203}%
-\contentsline {section}{\numberline {A.2}Best Result for Single Bucket Data}{70}{section.205}%
-\contentsline {section}{\numberline {A.3}Result for using different Preprocessor}{71}{section.207}%
-\contentsline {section}{\numberline {A.4}Result for using different SDE settings}{73}{section.211}%
-\contentsline {chapter}{\numberline {B}TopFCNH}{77}{appendix.226}%
-\contentsline {section}{\numberline {B.1}Introduction}{77}{section.227}%
-\contentsline {section}{\numberline {B.2}Background}{77}{section.228}%
-\contentsline {section}{\numberline {B.3}Analysis Tool}{79}{section.231}%
-\contentsline {section}{\numberline {B.4}Workflow}{81}{section.233}%
-\contentsline {subsection}{\numberline {B.4.1}Data-MC Samples Comparison \& Top Reconstruction}{81}{subsection.234}%
-\contentsline {subsection}{\numberline {B.4.2}Signal-Background Separation \& Signal Region Optimization}{81}{subsection.235}%
-\contentsline {subsection}{\numberline {B.4.3}Statistical Analysis}{82}{subsection.236}%
-\contentsline {subsection}{\numberline {B.4.4}Summary of the Workflow}{83}{subsection.237}%
-\contentsline {section}{\numberline {B.5}Gridpack Generation}{83}{section.239}%
-\contentsline {section}{\numberline {B.6}Current Status}{84}{section.240}%
-\contentsline {chapter}{Bibliography}{85}{appendix*.242}%
+\contentsline {subsection}{\numberline {5.1.2}The Evolution from RNNs to Transformers}{41}{subsection.140}%
+\contentsline {subsection}{\numberline {5.1.3}Self-Attention Mechanism}{42}{subsection.142}%
+\contentsline {subsection}{\numberline {5.1.4}Types and Structure of Transformer Architectures}{43}{subsection.144}%
+\contentsline {subsection}{\numberline {5.1.5}Choosing an Encoder-Only Model for Detector Simulation}{44}{subsection.146}%
+\contentsline {section}{\numberline {5.2}Our Model Structure}{44}{section.147}%
+\contentsline {subsection}{\numberline {5.2.1}Gaussian Fourier Projection for Temporal Encoding}{44}{subsection.149}%
+\contentsline {subsection}{\numberline {5.2.2}Mean-Field Attention in Detector Simulation}{45}{subsection.151}%
+\contentsline {subsection}{\numberline {5.2.3}Parameter Tuning}{45}{subsection.153}%
+\contentsline {section}{\numberline {5.3}Conclusion}{46}{section.154}%
+\contentsline {chapter}{\numberline {6}Strategies and Results}{49}{chapter.155}%
+\contentsline {section}{\numberline {6.1}Data Preprocessing}{49}{section.156}%
+\contentsline {subsection}{\numberline {6.1.1}Bucketing}{49}{subsection.157}%
+\contentsline {subsection}{\numberline {6.1.2}Preprocessor}{50}{subsection.158}%
+\contentsline {section}{\numberline {6.2}Metrics}{54}{section.165}%
+\contentsline {subsection}{\numberline {6.2.1}FID Score}{54}{subsection.166}%
+\contentsline {subsection}{\numberline {6.2.2}Classifier}{55}{subsection.169}%
+\contentsline {section}{\numberline {6.3}VE and VP Studies}{56}{section.170}%
+\contentsline {section}{\numberline {6.4}$\sigma _{max}$ and $\sigma _{min}$ Studies}{58}{section.177}%
+\contentsline {subsection}{\numberline {6.4.1}The Role of $\sigma _{max}$ and $\sigma _{min}$}{58}{subsection.178}%
+\contentsline {subsection}{\numberline {6.4.2}Conclusions}{59}{subsection.183}%
+\contentsline {section}{\numberline {6.5}Overall Parameter Sweeping}{61}{section.184}%
+\contentsline {section}{\numberline {6.6}Centralization}{62}{section.186}%
+\contentsline {section}{\numberline {6.7}Conditioning Issue}{63}{section.191}%
+\contentsline {subsection}{\numberline {6.7.1}Incident energy}{63}{subsection.192}%
+\contentsline {subsection}{\numberline {6.7.2}Time}{65}{subsection.196}%
+\contentsline {section}{\numberline {6.8}Conclusion}{66}{section.198}%
+\contentsline {chapter}{\numberline {7}Future Goals}{69}{chapter.199}%
+\contentsline {section}{\numberline {7.1}Further Acceleration of the Model}{69}{section.200}%
+\contentsline {section}{\numberline {7.2}Layer Relationship Learning and Tracking}{69}{section.201}%
+\contentsline {chapter}{\numberline {A}Figures}{71}{appendix.202}%
+\contentsline {section}{\numberline {A.1}Best Result for Full Dataset}{71}{section.203}%
+\contentsline {section}{\numberline {A.2}Best Result for Single Bucket Data}{72}{section.205}%
+\contentsline {section}{\numberline {A.3}Result for using different Preprocessor}{73}{section.207}%
+\contentsline {section}{\numberline {A.4}Result for using different SDE settings}{75}{section.211}%
+\contentsline {chapter}{\numberline {B}TopFCNH}{79}{appendix.226}%
+\contentsline {section}{\numberline {B.1}Introduction}{79}{section.227}%
+\contentsline {section}{\numberline {B.2}Background}{79}{section.228}%
+\contentsline {section}{\numberline {B.3}Analysis Tool}{81}{section.231}%
+\contentsline {section}{\numberline {B.4}Workflow}{83}{section.233}%
+\contentsline {subsection}{\numberline {B.4.1}Data-MC Samples Comparison \& Top Reconstruction}{83}{subsection.234}%
+\contentsline {subsection}{\numberline {B.4.2}Signal-Background Separation \& Signal Region Optimization}{83}{subsection.235}%
+\contentsline {subsection}{\numberline {B.4.3}Statistical Analysis}{84}{subsection.236}%
+\contentsline {subsection}{\numberline {B.4.4}Summary of the Workflow}{85}{subsection.237}%
+\contentsline {section}{\numberline {B.5}Gridpack Generation}{85}{section.239}%
+\contentsline {section}{\numberline {B.6}Current Status}{86}{section.240}%
+\contentsline {chapter}{Bibliography}{87}{appendix*.242}%

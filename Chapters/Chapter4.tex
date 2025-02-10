@@ -34,7 +34,7 @@ So the Langevin Dynamics process can be described as follows:
 \subsection{ Denoising Diffusion Probabilistic Model (DDPM)}
 Next, we are going to introduce the second method for diffusing models, the Denoising Diffusion Probabilistic Model (DDPM)~\cite{DDPM_2020}. Unlike SMLD, DDPM incorporates a scaling factor for \( x \), which modifies the approach slightly. The basic idea is to define the conditional probability distribution as follows: \( p(x_i | x_{i-1}) = \mathcal{N} \left( x_i ; \sqrt{1 - \beta_i} x_{i-1}, \beta_i I \right) \).
 
-Following Sohl-Dickstein et al. and Ho et al.~\cite{DDPM_2020}, let us consider a set of positive noise scales \( 0 < \beta_1, \beta_2, \dots, \beta_N < 1 \). For each data point \( x_0 \sim p_{\text{data}}(x) \), we define a discrete Markov chain \( \{x_0, x_1, \dots, x_N\} \), with each transition given by \( p(x_i | x_{i-1}) = \mathcal{N} \left( x_i ; \sqrt{1 - \beta_i} x_{i-1}, \beta_i I \right) \). Consequently, we can write the marginal distribution \( p_{\alpha_i}(x_i | x_0) = \mathcal{N} \left( x_i ; \sqrt{\alpha_i} x_0, (1 - \alpha_i) I \right) \), where \( \alpha_i := \prod_{j=1}^i (1 - \beta_j) \).
+Following Sohl-Dickstein et al.~\cite{Dickstein2015} and Ho et al.~\cite{DDPM_2020}, let us consider a set of positive noise scales \( 0 < \beta_1, \beta_2, \dots, \beta_N < 1 \). For each data point \( x_0 \sim p_{\text{data}}(x) \), we define a discrete Markov chain \( \{x_0, x_1, \dots, x_N\} \), with each transition given by \( p(x_i | x_{i-1}) = \mathcal{N} \left( x_i ; \sqrt{1 - \beta_i} x_{i-1}, \beta_i I \right) \). Consequently, we can write the marginal distribution \( p_{\alpha_i}(x_i | x_0) = \mathcal{N} \left( x_i ; \sqrt{\alpha_i} x_0, (1 - \alpha_i) I \right) \), where \( \alpha_i := \prod_{j=1}^i (1 - \beta_j) \).
 
 As in SMLD, we also train it by minimizing the denoising score matching objective:
 
@@ -237,7 +237,7 @@ As in DDPM, $\beta$ is typically an arithmetic sequence where $\beta_i = \beta_{
 In conclusion, the contents above indicate that 
 
 \noindent
-For **SMLD (Variance Exploding SDE - VE)**:
+For SMLD (Variance Exploding SDE - VE):
 \begin{itemize}
     \item \( f(x, t) = 0 \)
     \item \( g(t) = \sigma_{\min} \left( \frac{\sigma_{\max}}{\sigma_{\min}} \right)^t \sqrt{2 \log \left( \frac{\sigma_{\max}}{\sigma_{\min}} \right)} \)
@@ -246,7 +246,7 @@ For **SMLD (Variance Exploding SDE - VE)**:
 \vspace{1em}
 
 \noindent
-For **DDPM (Variance Preserving SDE - VP)**:
+For DDPM (Variance Preserving SDE - VP):
 \begin{itemize}
     \item \( f(x, t) = -\frac{1}{2} \beta(t) x \)
     \item \( g(t) = \sqrt{\beta(t)} \)
@@ -256,7 +256,7 @@ For **DDPM (Variance Preserving SDE - VP)**:
 
 Here we can of course use the $f(x,t)$ and $g(t)$ to do the reverse process as equation \eqref{eq:reverse} shows. However, here we possess additional insights that can enhance our solution methods. Specifically, with our score-based model 
 $s_{\theta^*}(x, t) \approx \nabla_x \log p_t(x)
-$, we can utilize score-based Markov Chain Monte Carlo (MCMC) techniques, such as Langevin MCMC (Parisi, 1981; Grenander \& Miller, 1994)to sample directly from the distribution $p_t$ and refine the outputs of a numerical SDE solver.
+$, we can utilize score-based Markov Chain Monte Carlo (MCMC) techniques to sample directly from the distribution $p_t$ and refine the outputs of a numerical SDE solver.
 
 At each time step, the numerical SDE solver provides an initial estimate for the sample at the next time step, functioning as a "predictor." Subsequently, the score-based MCMC method adjusts the estimated sample's marginal distribution, acting as a "corrector." This approach is reminiscent of Predictor-Corrector methods. We similarly refer to our hybrid sampling algorithms as Predictor-Corrector (PC) samplers.
 
