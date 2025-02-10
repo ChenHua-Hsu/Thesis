@@ -33067,6 +33067,17 @@
     \field{year}{2020}
   \endentry
 
+  \entry{noauthor_ddpm_nodate}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Introduction to Generative Diffusion Models (Part 1): {DDPM} = Demolition + Construction - Scientific Spaces}
+    \verb{url}
+    \verb https://spaces.ac.cn/archives/9119
+    \endverb
+    \field{urlday}{08}
+    \field{urlmonth}{02}
+    \field{urlyear}{2025}
+  \endentry
+
   \entry{tancik_fourier_2020}{misc}{}
     \name{author}{9}{}{%
       {{hash=TM}{%
