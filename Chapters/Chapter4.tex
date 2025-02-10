@@ -1,5 +1,7 @@
 \chapter{Algorithm}
 \section{Score-based Diffusion Model}
+Before diffusion models were introduced, generative models were primarily based on Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs). While VAEs are effective for compressing data, they struggle to generate high-quality, diverse samples due to their reliance on sampling from a normal distribution in the latent space. GANs, on the other hand, have demonstrated success in generating realistic samples but can be challenging to train and prone to mode collapse.
+
 One drawback of Variational Autoencoders (VAEs) is the inclusion of the KL divergence term in their loss function. While VAEs are effective for compressing data (encoding), they struggle to generate high-quality, diverse samples. This limitation stems from their reliance on sampling from a normal distribution in the latent space. Although VAEs are trained to bring the posterior distribution close to a Gaussian, in practice, the match is often not precise enough to ensure that samples drawn from this distribution will be of high quality.
 
 Therefore, an alternative approach, introduced in 2015, is the “diffusion model,” which can be implemented using either score-matching or denoising techniques. Diffusion models aim to generate synthetic data based on a set of independent, identically distributed (i.i.d.) samples drawn from an unknown data distribution. The key concept is to simulate new samples by either employing denoising Score Langevin Dynamics (SMLD) or implementing Denoising Diffusion Probabilistic Model (DDPM), where a deep neural network approximates the score, or gradient, of the log-density of the data distribution. Next we will discuss the two methods in detail.
@@ -30,9 +32,9 @@ So the Langevin Dynamics process can be described as follows:
 
 
 \subsection{ Denoising Diffusion Probabilistic Model (DDPM)}
-Next, we are going to introduce the second method for diffusing models, the Denoising Diffusion Probabilistic Model (DDPM) \cite{DDPM_2020}. Unlike SMLD, DDPM incorporates a scaling factor for \( x \), which modifies the approach slightly. The basic idea is to define the conditional probability distribution as follows: \( p(x_i | x_{i-1}) = \mathcal{N} \left( x_i ; \sqrt{1 - \beta_i} x_{i-1}, \beta_i I \right) \).
+Next, we are going to introduce the second method for diffusing models, the Denoising Diffusion Probabilistic Model (DDPM)~\cite{DDPM_2020}. Unlike SMLD, DDPM incorporates a scaling factor for \( x \), which modifies the approach slightly. The basic idea is to define the conditional probability distribution as follows: \( p(x_i | x_{i-1}) = \mathcal{N} \left( x_i ; \sqrt{1 - \beta_i} x_{i-1}, \beta_i I \right) \).
 
-Following Sohl-Dickstein et al. (2015) and Ho et al. (2020), let us consider a set of positive noise scales \( 0 < \beta_1, \beta_2, \dots, \beta_N < 1 \). For each data point \( x_0 \sim p_{\text{data}}(x) \), we define a discrete Markov chain \( \{x_0, x_1, \dots, x_N\} \), with each transition given by \( p(x_i | x_{i-1}) = \mathcal{N} \left( x_i ; \sqrt{1 - \beta_i} x_{i-1}, \beta_i I \right) \). Consequently, we can write the marginal distribution \( p_{\alpha_i}(x_i | x_0) = \mathcal{N} \left( x_i ; \sqrt{\alpha_i} x_0, (1 - \alpha_i) I \right) \), where \( \alpha_i := \prod_{j=1}^i (1 - \beta_j) \).
+Following Sohl-Dickstein et al. and Ho et al.~\cite{DDPM_2020}, let us consider a set of positive noise scales \( 0 < \beta_1, \beta_2, \dots, \beta_N < 1 \). For each data point \( x_0 \sim p_{\text{data}}(x) \), we define a discrete Markov chain \( \{x_0, x_1, \dots, x_N\} \), with each transition given by \( p(x_i | x_{i-1}) = \mathcal{N} \left( x_i ; \sqrt{1 - \beta_i} x_{i-1}, \beta_i I \right) \). Consequently, we can write the marginal distribution \( p_{\alpha_i}(x_i | x_0) = \mathcal{N} \left( x_i ; \sqrt{\alpha_i} x_0, (1 - \alpha_i) I \right) \), where \( \alpha_i := \prod_{j=1}^i (1 - \beta_j) \).
 
 As in SMLD, we also train it by minimizing the denoising score matching objective:
 
@@ -160,7 +162,7 @@ We can use the picture below to illustrate the forward and backward processes in
 \subsection{Continuos Forward Process}
 After we established the general form of the forward and backward processes, we can now go back to see how to apply them on SMLD (VE mthoed) and DDPM (VP method).
 
-So in this section, we try to present detailed derivations demonstrating that the noise perturbations in SMLD (Score-based generative modeling via Langevin Dynamics) and DDPM (Denoising Diffusion Probabilistic Models) are discretizations of the Variance Exploding (VE) and Variance Preserving (VP) Stochastic Differential Equations (SDEs), respectively. We also introduce sub-VP SDEs, which are modifications of VP SDEs that often yield improved performance in terms of sample quality and likelihoods.
+So in this section, we try to present detailed derivations demonstrating that the noise perturbations in SMLD (Score-based generative modeling via Langevin Dynamics) and DDPM (Denoising Diffusion Probabilistic Models) are discretizations of the Variance Exploding (VE) and Variance Preserving (VP) Stochastic Differential Equations (SDEs), respectively. 
 
 First, when utilizing a total of \( N \) noise scales, each perturbation kernel \( p_{\sigma_i}(x | x_0) \) for SMLD can be derived from the following Markov chain:
 
@@ -170,7 +172,7 @@ x_i = x_{i-1} + \sqrt{\sigma_i^2 - \sigma_{i-1}^2} z_{i-1}, \quad i = 1, 2, \ldo
 
 \noindent
 where \( z_{i-1} \sim \mathcal{N}(0, I) \) and \( x_0 \sim p_{\text{data}} \). Here, we introduce \( \sigma_0 = 0 \) for simplicity. As \( N \to \infty \), the Markov chain \( \{ x_i \}_{i=1}^N \) converges to a continuous stochastic process \( \{ x(t) \}_{t=0}^1 \), and \( \{ \sigma_i \}_{i=1}^N \) becomes a function \( \sigma(t) \), while \( z_i \) transitions to \( z(t) \). We denote the continuous time variable as \( t \in [0, 1] \) instead of the integer index \( i \in \{ 1, 2, \ldots, N \} \). Let $\mathbf{x} ( \frac{i}{N} ) = \mathbf{x}_i$, $\mathbf{\sigma} ( \frac{i}{N} ) = \mathbf{\sigma}_i$, $\mathbf{z} ( \frac{i}{N} ) = \mathbf{z}_i$, for $i = 1, 2, \ldots, N$. 
-Rewriting Equation (20) with $\Delta t = \frac{1}{N}$ gives:
+Rewriting Equation \refeq{eq:ddpm-discrete} with $\Delta t = \frac{1}{N}$ gives:
  
 \begin{equation}
 x(t + \Delta t) = x(t) + \sqrt{\sigma^2(t + \Delta t) - \sigma^2(t)} z(t) \approx x(t) + \sqrt{\frac{d \sigma^2(t)}{dt}} \Delta t z(t),
@@ -197,31 +199,31 @@ The corresponding VE SDE is
 For the perturbation kernels \( p_{\alpha_i}(x | x_0) \) used in DDPM, the discrete Markov chain is given by:
 
 \begin{equation}
-\mathbf{x}_i = \sqrt{1 - \beta_i} \mathbf{x}_{i-1} + \sqrt{1 - \beta_i} z_{i-1}, \quad i = 1, 2, \ldots, N,
+\mathbf{x}_i = \sqrt{1 - \beta_i} \mathbf{x}_{i-1} + \sqrt{1 - \beta_i} z_{i-1}, \quad i = 1, 2, \ldots, N \label{eq:ddpm-discrete}
 \end{equation}
 
 \noindent
-where \( z_{i-1} \sim \mathcal{N}(0, I) \). To obtain the limit of this Markov chain as \( N \to \infty \), we define an auxiliary set of noise scales \( \{ \bar{\beta}_i \}_{i=1}^N \) and rewrite Equation (22) as follows:
+where \( z_{i-1} \sim \mathcal{N}(0, I) \). To obtain the limit of this Markov chain as \( N \to \infty \), we define an auxiliary set of noise scales \( \{ \bar{\beta}_i \}_{i=1}^N \) and rewrite Equation \refeq{eq:ddpm-discrete} as follows:
 
 \begin{equation}
-\mathbf{x}_i = \sqrt{1 - \bar{\beta}_i} \mathbf{x}_{i-1} + \sqrt{1 - \bar{\beta}_i} z_{i-1}, \quad i = 1, 2, \ldots, N,
+\mathbf{x}_i = \sqrt{1 - \bar{\beta}_i} \mathbf{x}_{i-1} + \sqrt{1 - \bar{\beta}_i} z_{i-1}, \quad i = 1, 2, \ldots, N \label{eq:ddpm-discrete}
 \end{equation}
 
 \noindent
-As \( N \to \infty \), the noise scales \( \{ \bar{\beta}_i \}_{i=1}^N \) converge to a function \( \beta(t) \) indexed by \( t \in [0, 1] \). Let \( \{ \bar{\beta}_i \}_{N} = \beta \) and \( \{ x_i \}_{N} = x \) and \( \{ z_i \}_{N} = z \). Rewriting Equation (23) gives:
+As \( N \to \infty \), the noise scales \( \{ \bar{\beta}_i \}_{i=1}^N \) converge to a function \( \beta(t) \) indexed by \( t \in [0, 1] \). Let \( \{ \bar{\beta}_i \}_{N} = \beta \) and \( \{ x_i \}_{N} = x \) and \( \{ z_i \}_{N} = z \). Rewriting Equation \refeq{eq:vp-sde} gives:
 
 \begin{equation}
 \begin{aligned}
     \mathbf{x}(t + \Delta t) &= \sqrt{1 - \beta(t + \Delta t)} \mathbf{x}(t) + \sqrt{1 - \beta(t + \Delta t)} z(t) \\ &\approx \mathbf{x}(t) -\frac{1}{2}\beta(t + \Delta t) \Delta t \mathbf{x}(t)+\sqrt{\beta(t + \Delta t) \Delta t } \mathbf{z} (t) \\
     &\approx \mathbf{x}(t) -\frac{1}{2}\beta(t ) \Delta t \mathbf{x}(t)+\sqrt{\beta(t ) \Delta t } \mathbf{z} (t) 
-\end{aligned} 
+\end{aligned} \label{eq:ddpm-discrete}
 \end{equation}
 
 \noindent
 where the approximation holds as \( \Delta t \to 0 \). Therefore, in the limit of \( \Delta t \to 0 \), we obtain the VP SDE:
 
 \begin{equation}
-d \mathbf{x} = -\frac{1}{2} \beta(t) \mathbf{x} \, dt + \sqrt{\beta(t)} \, d\mathbf{w}.
+d \mathbf{x} = -\frac{1}{2} \beta(t) \mathbf{x} \, dt + \sqrt{\beta(t)} \, d\mathbf{w}.\label{eq:vp-sde}
 \end{equation}
 
 \noindent
@@ -256,7 +258,7 @@ Here we can of course use the $f(x,t)$ and $g(t)$ to do the reverse process as e
 $s_{\theta^*}(x, t) \approx \nabla_x \log p_t(x)
 $, we can utilize score-based Markov Chain Monte Carlo (MCMC) techniques, such as Langevin MCMC (Parisi, 1981; Grenander \& Miller, 1994)to sample directly from the distribution $p_t$ and refine the outputs of a numerical SDE solver.
 
-At each time step, the numerical SDE solver provides an initial estimate for the sample at the next time step, functioning as a "predictor." Subsequently, the score-based MCMC method adjusts the estimated sample's marginal distribution, acting as a "corrector." This approach is reminiscent of Predictor-Corrector methods, which are a class of numerical continuation techniques used for solving systems of equations (Allgower \& Georg, 2012). We similarly refer to our hybrid sampling algorithms as Predictor-Corrector (PC) samplers.
+At each time step, the numerical SDE solver provides an initial estimate for the sample at the next time step, functioning as a "predictor." Subsequently, the score-based MCMC method adjusts the estimated sample's marginal distribution, acting as a "corrector." This approach is reminiscent of Predictor-Corrector methods. We similarly refer to our hybrid sampling algorithms as Predictor-Corrector (PC) samplers.
 
 The PC samplers extend the original sampling methodologies of SMLD and DDPM: the SMLD method employs an identity function as the predictor and utilizes annealed Langevin dynamics as the corrector. In contrast, the DDPM method adopts ancestral sampling as the predictor and the identity function as the corrector.
 

@@ -1,66 +1,67 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces The importance of simulation. credit: Joshuha Thomas-Wilsker}}{2}{figure.caption.8}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces The balance between accuracy and speed in simulation. credit: Joshuha Thomas-Wilsker}}{4}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The importance of simulation. Credit: Joshuha Thomas-Wilsker}}{2}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces The balance between accuracy and speed in simulation. Credit: Joshuha Thomas-Wilsker}}{3}{figure.caption.12}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The schema of LHC}}{7}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Exploded view of the CMS detector, showing its main components.}}{10}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Cross-sectional schematic of the CMS detector}}{11}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Structure of the ECAL showing barrel and endcap regions.}}{13}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Schematic of the HCAL with barrel, endcap, and forward sections.}}{17}{figure.caption.40}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces CMS Muon System layout, showing DTs, CSCs, and RPCs.}}{19}{figure.caption.47}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Schematic of the HGCal showing its layered structure and segmentation. (Image credit: CMS Collaboration)}}{21}{figure.caption.57}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic of the LHC}}{5}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Exploded view of the CMS detector, showing its main components.}}{8}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Cross-sectional schematic of the CMS detector.}}{9}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Cross-sectional schematic of the CMS tracker, showing the pixel and strip components.}}{10}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Structure of the ECAL showing barrel and endcap regions.}}{12}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Schematic of the HCAL with barrel, endcap, and forward sections.}}{15}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces CMS Muon System layout, showing DTs, CSCs, and RPCs.}}{17}{figure.caption.51}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Schematic of the HGCal showing its layered structure and segmentation. (Image credit: CMS Collaboration)}}{20}{figure.caption.61}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Visualization of a Geant4 simulation for the HGCal, showing particle showers in the calorimeter layers. (Image credit: Geant4 Collaboration)}}{24}{figure.caption.64}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Visualization of a Geant4 simulation for the HGCal, showing particle showers in the calorimeter layers. (Image credit: Geant4 Collaboration)}}{24}{figure.caption.69}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Forward and Backward Processes in Diffusion Models (The picture is from Song and Ermon (2019))}}{32}{figure.caption.95}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Forward and Backward Processes in Diffusion Models (The picture is from Song and Ermon (2019))}}{34}{figure.caption.101}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Comparison of RNN and Transformer architectures.}}{39}{figure.caption.135}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces The structure of the original Transformer model. Adapted from \textit {"Attention is All You Need,"} with additional annotations.}}{40}{figure.caption.137}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Custom Transformer model structure for detector simulations.}}{41}{figure.caption.142}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Comparison of self-attention and mean-field attention mechanisms.}}{42}{figure.caption.146}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Comparison of RNN and Transformer architectures.}}{41}{figure.caption.141}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The structure of the original Transformer model. Adapted from \textit {"Attention is All You Need,"} with additional annotations.}}{42}{figure.caption.143}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Custom Transformer model structure for detector simulations.}}{43}{figure.caption.148}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Comparison of self-attention and mean-field attention mechanisms.}}{44}{figure.caption.152}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces RobustScaler}}{48}{figure.caption.155}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces QuantileTransformer}}{49}{figure.caption.156}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Exponential Transformation}}{50}{figure.caption.158}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Comparison of VE and VP methods for both $\sigma _{max} = 1, \sigma _{min} = 0.0001$}}{52}{figure.caption.165}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Comparison of VE and VP methods for both $\sigma _{max} = 5, \sigma _{min} = 0.0001$}}{52}{figure.caption.166}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Comparison of VE and VP methods for both $\sigma _{max} = 10, \sigma _{min} = 0.0001$}}{53}{figure.caption.167}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces The distribution of the data after adding the noise using VE method.}}{53}{figure.caption.168}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces The distribution of the data after adding the noise using VP method.}}{53}{figure.caption.169}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces The result of different $\sigma _{max}$ in VP.}}{55}{figure.caption.173}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces The result of different $\sigma _{max}$ in VE.}}{56}{figure.caption.174}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces The result of different $\sigma _{max}$ and $\sigma _{min}$ in VE.}}{57}{figure.caption.175}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces The result of fig \ref {fig:sde_sweep}, but grouped by $\sigma _{max}$ in VE.}}{57}{figure.caption.176}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Visualization of parameter sweeping results.}}{58}{figure.caption.179}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces The Picture after adding the correlation term.}}{59}{figure.caption.183}%
-\contentsline {figure}{\numberline {6.15}{\ignorespaces The Comparison Picture after using QuantileTransformer.}}{59}{figure.caption.184}%
-\contentsline {figure}{\numberline {6.16}{\ignorespaces he result of energy deposit of single bucket data and all bucket data.}}{60}{figure.caption.187}%
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Main caption for both figures}}{60}{figure.caption.188}%
-\contentsline {figure}{\numberline {6.18}{\ignorespaces The result of energy deposit with incident energy concatenated with the input data.}}{61}{figure.caption.189}%
-\contentsline {figure}{\numberline {6.19}{\ignorespaces The left figure shows the loss at epoch 0, which is quite normal it's still caotic. The right figure actually represent the loss after 10 epochs.}}{62}{figure.caption.191}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces RobustScaler}}{50}{figure.caption.161}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces QuantileTransformer}}{51}{figure.caption.162}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Exponential Transformation}}{52}{figure.caption.164}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Comparison of VE and VP methods for both $\sigma _{max} = 1, \sigma _{min} = 0.0001$}}{54}{figure.caption.171}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Comparison of VE and VP methods for both $\sigma _{max} = 5, \sigma _{min} = 0.0001$}}{54}{figure.caption.172}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Comparison of VE and VP methods for both $\sigma _{max} = 10, \sigma _{min} = 0.0001$}}{55}{figure.caption.173}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces The distribution of the data after adding the noise using VE method.}}{55}{figure.caption.174}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces The distribution of the data after adding the noise using VP method.}}{55}{figure.caption.175}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces The result of different $\sigma _{max}$ in VP.}}{57}{figure.caption.179}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces The result of different $\sigma _{max}$ in VE.}}{58}{figure.caption.180}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces The result of different $\sigma _{max}$ and $\sigma _{min}$ in VE.}}{59}{figure.caption.181}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces The result of fig \ref {fig:sde_sweep}, but grouped by $\sigma _{max}$ in VE.}}{59}{figure.caption.182}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Visualization of parameter sweeping results.}}{60}{figure.caption.185}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces The Picture after adding the correlation term.}}{61}{figure.caption.189}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces The Comparison Picture after using QuantileTransformer.}}{61}{figure.caption.190}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces he result of energy deposit of single bucket data and all bucket data.}}{62}{figure.caption.193}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Main caption for both figures}}{62}{figure.caption.194}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces The result of energy deposit with incident energy concatenated with the input data.}}{63}{figure.caption.195}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces The left figure shows the loss at epoch 0, which is quite normal it's still caotic. The right figure actually represent the loss after 10 epochs.}}{64}{figure.caption.197}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Result for using robust preprocessor}}{69}{figure.caption.202}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Result for using quantile preprocessor}}{70}{figure.caption.203}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Result for using exponential preprocessor}}{70}{figure.caption.204}%
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Result for Energy vs Radius for VE}}{71}{figure.caption.206}%
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Result for Energy vs Radius for VP}}{71}{figure.caption.207}%
-\contentsline {figure}{\numberline {A.8}{\ignorespaces Result for Energy vs Layers for VE}}{71}{figure.caption.208}%
-\contentsline {figure}{\numberline {A.9}{\ignorespaces Result for Energy vs Layers for VP}}{72}{figure.caption.209}%
-\contentsline {figure}{\numberline {A.10}{\ignorespaces Result for R-width vs Layers for VE}}{72}{figure.caption.210}%
-\contentsline {figure}{\numberline {A.11}{\ignorespaces Result for R-width vs Layers for VP}}{72}{figure.caption.211}%
-\contentsline {figure}{\numberline {A.12}{\ignorespaces Result for Max Voxel Deposit vs Layer for VE}}{72}{figure.caption.212}%
-\contentsline {figure}{\numberline {A.13}{\ignorespaces Result for Max Voxel Deposit vs Layer for VP}}{72}{figure.caption.213}%
-\contentsline {figure}{\numberline {A.14}{\ignorespaces Result for Each Dimension VE}}{73}{figure.caption.214}%
-\contentsline {figure}{\numberline {A.15}{\ignorespaces Result for Each Dimension VP}}{73}{figure.caption.215}%
-\contentsline {figure}{\numberline {A.16}{\ignorespaces Result for Energy Voxel Comparison for VE}}{73}{figure.caption.216}%
-\contentsline {figure}{\numberline {A.17}{\ignorespaces Result for Energy Voxel Comparison for VP}}{73}{figure.caption.217}%
-\contentsline {figure}{\numberline {A.18}{\ignorespaces Result for Energy Deposit for VE}}{74}{figure.caption.218}%
-\contentsline {figure}{\numberline {A.19}{\ignorespaces Result for Energy Deposit for VP}}{74}{figure.caption.219}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Result for using robust preprocessor}}{71}{figure.caption.208}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Result for using quantile preprocessor}}{72}{figure.caption.209}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Result for using exponential preprocessor}}{72}{figure.caption.210}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Result for Energy vs Radius for VE}}{73}{figure.caption.212}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Result for Energy vs Radius for VP}}{73}{figure.caption.213}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Result for Energy vs Layers for VE}}{73}{figure.caption.214}%
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Result for Energy vs Layers for VP}}{74}{figure.caption.215}%
+\contentsline {figure}{\numberline {A.10}{\ignorespaces Result for R-width vs Layers for VE}}{74}{figure.caption.216}%
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Result for R-width vs Layers for VP}}{74}{figure.caption.217}%
+\contentsline {figure}{\numberline {A.12}{\ignorespaces Result for Max Voxel Deposit vs Layer for VE}}{74}{figure.caption.218}%
+\contentsline {figure}{\numberline {A.13}{\ignorespaces Result for Max Voxel Deposit vs Layer for VP}}{74}{figure.caption.219}%
+\contentsline {figure}{\numberline {A.14}{\ignorespaces Result for Each Dimension VE}}{75}{figure.caption.220}%
+\contentsline {figure}{\numberline {A.15}{\ignorespaces Result for Each Dimension VP}}{75}{figure.caption.221}%
+\contentsline {figure}{\numberline {A.16}{\ignorespaces Result for Energy Voxel Comparison for VE}}{75}{figure.caption.222}%
+\contentsline {figure}{\numberline {A.17}{\ignorespaces Result for Energy Voxel Comparison for VP}}{75}{figure.caption.223}%
+\contentsline {figure}{\numberline {A.18}{\ignorespaces Result for Energy Deposit for VE}}{76}{figure.caption.224}%
+\contentsline {figure}{\numberline {A.19}{\ignorespaces Result for Energy Deposit for VP}}{76}{figure.caption.225}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces The prediction and the result so far}}{76}{figure.caption.223}%
-\contentsline {figure}{\numberline {B.2}{\ignorespaces The Feynman diagrams for the TopFCNC channels}}{77}{figure.caption.224}%
-\contentsline {figure}{\numberline {B.3}{\ignorespaces The workflow of HiggsDNA.}}{78}{figure.caption.226}%
-\contentsline {figure}{\numberline {B.4}{\ignorespaces The workflow of the HiggsDNA analysis framework.}}{81}{figure.caption.232}%
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Top quark reconstruction using Higgs DNA package (with ttH samples as practice)}}{82}{figure.caption.235}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces The prediction and the result so far}}{78}{figure.caption.229}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces The Feynman diagrams for the TopFCNC channels}}{79}{figure.caption.230}%
+\contentsline {figure}{\numberline {B.3}{\ignorespaces The workflow of HiggsDNA.}}{80}{figure.caption.232}%
+\contentsline {figure}{\numberline {B.4}{\ignorespaces The workflow of the HiggsDNA analysis framework.}}{83}{figure.caption.238}%
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Top quark reconstruction using Higgs DNA package (with ttH samples as practice)}}{84}{figure.caption.241}%

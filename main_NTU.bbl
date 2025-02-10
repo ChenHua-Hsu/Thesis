@@ -31010,7 +31010,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    The Compact Muon Solenoid (CMS) detector is described. The detector operates at the Large Hadron Collider (LHC) at CERN. It was conceived to study proton-proton (and lead-lead) collisions at a centre-of-mass energy of 14 TeV (5.5 TeV nucleon-nucleon) and at luminosities up to 1034 cm−2 s−1 (1027 cm−2 s−1). At the core of the CMS detector sits a high-magnetic-field and large-bore superconducting solenoid surrounding an all-silicon pixel and strip tracker, a lead-tungstate scintillating-crystals electromagnetic calorimeter, and a brass-scintillator sampling hadron calorimeter. The iron yoke of the flux-return is instrumented with four stations of muon detectors covering most of the 4π solid angle. Forward sampling calorimeters extend the pseudorapidity coverage to high values (|η| ⩽ 5) assuring very good hermeticity. The overall dimensions of the CMS detector are a length of 21.6 m, a diameter of 14.6 m and a total weight of 12500 t.%
+    The Compact Muon Solenoid (CMS) detector is described. The detector operates at the Large Hadron Collider (LHC) at CERN. It was conceived to study proton-proton (and lead-lead) collisions at a centre-of-mass energy of 14 TeV (5.5 TeV nucleon-nucleon) and at luminosities up to 1034 cm-2 s-1 (1027 cm-2 s-1). At the core of the CMS detector sits a high-magnetic-field and large-bore superconducting solenoid surrounding an all-silicon pixel and strip tracker, a lead-tungstate scintillating-crystals electromagnetic calorimeter, and a brass-scintillator sampling hadron calorimeter. The iron yoke of the flux-return is instrumented with four stations of muon detectors covering most of the 4π solid angle. Forward sampling calorimeters extend the pseudorapidity coverage to high values (|η|< 5) assuring very good hermeticity. The overall dimensions of the CMS detector are a length of 21.6 m, a diameter of 14.6 m and a total weight of 12500 t.%
     }
     \verb{doi}
     \verb 10.1088/1748-0221/3/08/S08004
@@ -31911,74 +31911,6 @@
     \field{year}{2021}
   \endentry
 
-  \entry{geant1}{article}{}
-    \name{author}{1}{}{%
-      {{hash=eaSA}{%
-         prefix={et},
-         prefixi={e\bibinitperiod},
-         family={al.},
-         familyi={a\bibinitperiod},
-         given={S.\bibnamedelima Agostinelli},
-         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{aSAe1}
-    \strng{fullhash}{aSAe1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{3}
-    \field{pages}{250\bibrangedash 303}
-    \field{title}{Geant4: A Simulation Toolkit}
-    \field{volume}{506}
-    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A}
-    \field{year}{2003}
-  \endentry
-
-  \entry{geant2}{article}{}
-    \name{author}{1}{}{%
-      {{hash=eaJA}{%
-         prefix={et},
-         prefixi={e\bibinitperiod},
-         family={al.},
-         familyi={a\bibinitperiod},
-         given={J.\bibnamedelima Allison},
-         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{aJAe1}
-    \strng{fullhash}{aJAe1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{1}
-    \field{pages}{270\bibrangedash 278}
-    \field{title}{Geant4 Developments and Applications}
-    \field{volume}{53}
-    \field{journaltitle}{IEEE Transactions on Nuclear Science}
-    \field{year}{2006}
-  \endentry
-
-  \entry{geant3}{article}{}
-    \name{author}{1}{}{%
-      {{hash=eaJA}{%
-         prefix={et},
-         prefixi={e\bibinitperiod},
-         family={al.},
-         familyi={a\bibinitperiod},
-         given={J.\bibnamedelima Allison},
-         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{aJAe1}
-    \strng{fullhash}{aJAe1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{186\bibrangedash 225}
-    \field{title}{Recent Developments in Geant4}
-    \field{volume}{835}
-    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A}
-    \field{year}{2016}
-  \endentry
-
   \entry{goodfellow2014}{article}{}
     \name{author}{1}{}{%
       {{hash=eaIG}{%
@@ -32585,24 +32517,35 @@
     \field{year}{1998}
   \endentry
 
-  \entry{hcal_cms_detector}{article}{}
+  \entry{hcal_picture}{article}{}
     \name{author}{1}{}{%
-      {{hash=CC}{%
-         family={Collaboration},
-         familyi={C\bibinitperiod},
-         given={CMS},
+      {{hash=IC}{%
+         family={Isik},
+         familyi={I\bibinitperiod},
+         given={Candan},
          giveni={C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{CC1}
-    \strng{fullhash}{CC1}
+    \keyw{CMS, HCAL, HB, HE, HPDs, SiPMs}
+    \strng{namehash}{IC1}
+    \strng{fullhash}{IC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{number}{S08004}
-    \field{title}{The CMS Detector at the LHC}
-    \field{volume}{3}
-    \field{journaltitle}{Journal of Instrumentation}
-    \field{year}{2008}
+    \field{abstract}{%
+    The Phase 1 upgrade of the CMS Hadron Calorimeter (HCAL) involved the installation of new silicon photomultiplier devices (SiPMs), which replaced older hybrid photodiodes (HPDs). SiPMs measure the scintillator light output with better signal/noise. The upgraded readout electronics also allow for increased longitudinal segmentation and better performance. This report describes the design, testing, installation, and commissioning of the HCAL Barrel Phase 1 upgrade. Performance results for the HCAL Endcap during Run 2 are presented and expectations for the HCAL Barrel during Run 3 are discussed.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.nima.2022.167389
+    \endverb
+    \field{issn}{0168-9002}
+    \field{pages}{167389}
+    \field{title}{Phase 1 upgrade of the CMS Hadron Barrel Calorimeter}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0168900222006933
+    \endverb
+    \field{volume}{1042}
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+    \field{year}{2022}
   \endentry
 
   \entry{cms_tdr_hcal}{misc}{}
@@ -32732,6 +32675,37 @@
     }
     \field{type}{techreport}
     \field{year}{2017}
+  \endentry
+
+  \entry{CEH}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GH}{%
+         family={Gerwig},
+         familyi={G\bibinitperiod},
+         given={Hubert},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \keyw{HL-LHC, CMS upgrade, HGCAL, Mechanical engineering, CO, Electronics engineering, System integration}
+    \strng{namehash}{GH1}
+    \strng{fullhash}{GH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The CMS Collaboration is preparing to build replacement endcap calorimeters for the HL-LHC era.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.nima.2022.167493
+    \endverb
+    \field{issn}{0168-9002}
+    \field{pages}{167493}
+    \field{title}{Engineering challenges in mechanics and electronics in the world's first particle-flow calorimeter at a hadron collider: The CMS high-granularity calorimeter}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0168900222007859
+    \endverb
+    \field{volume}{1044}
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+    \field{year}{2022}
   \endentry
 
   \entry{HGCal}{article}{}
@@ -32895,6 +32869,88 @@
     \field{volume}{506}
     \field{journaltitle}{Nuclear Instruments and Methods in Physics Research A}
     \field{year}{2003}
+  \endentry
+
+  \entry{geant4_simulation}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{title}{celeritas-project/hgcal: {A} {Geant4} simulation of the 2018 {CMS} {HGCAL} test-beam for geant-val.}
+    \verb{url}
+    \verb https://github.com/celeritas-project/hgcal/tree/main
+    \endverb
+    \verb{file}
+    \verb celeritas-project/hgcal\: A Geant4 simulation of the 2018 CMS HGCAL t
+    \verb est-beam for geant-val.:files/113/main.html:text/html
+    \endverb
+    \field{urlday}{07}
+    \field{urlmonth}{02}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{geant4_reference}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=AS}{%
+         family={Agostinelli},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AS+1}
+    \strng{fullhash}{AS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/S0168-9002(03)01368-8
+    \endverb
+    \field{number}{3}
+    \field{pages}{250\bibrangedash 303}
+    \field{title}{Geant4—a simulation toolkit}
+    \field{volume}{506}
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research A}
+    \field{year}{2003}
+  \endentry
+
+  \entry{geant4_doc}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={{Geant4 Collaboration}},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Available at: \url{https://geant4-userdoc.web.cern.ch}}
+    \field{title}{Geant4 User Documentation}
+    \field{year}{2024}
+  \endentry
+
+  \entry{geant4_validation}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=AJ}{%
+         family={Allison},
+         familyi={A\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AJ+1}
+    \strng{fullhash}{AJ+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.nima.2016.06.125
+    \endverb
+    \field{pages}{186\bibrangedash 225}
+    \field{title}{Recent developments in Geant4}
+    \field{volume}{835}
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research A}
+    \field{year}{2016}
   \endentry
 
   \entry{song_generative_2020}{misc}{}
@@ -33088,9 +33144,8 @@
     \verb http://arxiv.org/abs/2006.10739
     \endverb
     \verb{file}
-    \verb PDF:files/32/Tancik …等 - 2020 - Fourier Features Let Networks Lea
-    \verb rn High Frequency Functions in Low Dimensional Domains.pdf:applicatio
-    \verb n/pdf
+    \verb PDF:files/32/Tancik - 2020 - Fourier Features Let Networks Learn High
+    \verb  Frequency Functions in Low Dimensional Domains.pdf:application/pdf
     \endverb
     \field{annotation}{%
     Comment: Project page: https://people.eecs.berkeley.edu/{\textasciitilde}bmild/fourfeat/%
@@ -33105,7 +33160,7 @@
   \entry{kach_pay_2024}{misc}{}
     \name{author}{3}{}{%
       {{hash=KB}{%
-         family={Käch},
+         family={Kach},
          familyi={K\bibinitperiod},
          given={Benno},
          giveni={B\bibinitperiod},
@@ -33135,7 +33190,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{abstract}{%
-    Collider data generation with machine learning has become increasingly popular in particle physics due to the high computational cost of conventional Monte Carlo simulations, particularly for future high-luminosity colliders. We propose a generative model for point clouds that employs an attention-based aggregation while preserving a linear computational complexity with respect to the number of points. The model is trained in an adversarial setup, ensuring input permutation equivariance and invariance for the generator and critic, respectively. To stabilize known unstable adversarial training, a feature matching loss is introduced. We evaluate the performance on two different datasets. The former is the top-quark JETNET150 dataset, where the model outperforms the current state-of-the-art GAN-based model, despite having significantly fewer parameters. The latter is dataset 2 of the CaloChallenge, which comprises point clouds with up to 30× more points compared to the first dataset. The model and its corresponding code are available at https://github.com/kaechb/MDMA/tree/NeurIPS.%
+    Collider data generation with machine learning has become increasingly popular in particle physics due to the high computational cost of conventional Monte Carlo simulations, particularly for future high-luminosity colliders. We propose a generative model for point clouds that employs an attention-based aggregation while preserving a linear computational complexity with respect to the number of points. The model is trained in an adversarial setup, ensuring input permutation equivariance and invariance for the generator and critic, respectively. To stabilize known unstable adversarial training, a feature matching loss is introduced. We evaluate the performance on two different datasets. The former is the top-quark JETNET150 dataset, where the model outperforms the current state-of-the-art GAN-based model, despite having significantly fewer parameters. The latter is dataset 2 of the CaloChallenge, which comprises point clouds with up to 30x more points compared to the first dataset. The model and its corresponding code are available at https://github.com/kaechb/MDMA/tree/NeurIPS.%
     }
     \field{note}{arXiv:2408.04997 [hep-ex]}
     \field{title}{Pay {Attention} {To} {Mean} {Fields} {For} {Point} {Cloud} {Generation}}
@@ -33143,8 +33198,8 @@
     \verb http://arxiv.org/abs/2408.04997
     \endverb
     \verb{file}
-    \verb PDF:files/30/Käch …等 - 2024 - Pay Attention To Mean Fields For P
-    \verb oint Cloud Generation.pdf:application/pdf
+    \verb PDF:files/30/Kach - 2024 - Pay Attention To Mean Fields For Point Clo
+    \verb ud Generation.pdf:application/pdf
     \endverb
     \field{month}{08}
     \field{year}{2024}

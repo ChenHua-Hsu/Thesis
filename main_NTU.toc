@@ -8,117 +8,122 @@
 \contentsline {chapter}{List of Tables}{xiii}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.6}%
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.7}%
-\contentsline {section}{\numberline {1.2}Challenges}{4}{section.10}%
-\contentsline {chapter}{\numberline {2}Detector}{7}{chapter.11}%
-\contentsline {section}{\numberline {2.1}The Large Hadron Collider (LHC)}{7}{section.12}%
-\contentsline {subsection}{\numberline {2.1.1}Key Components of the LHC}{8}{subsection.14}%
-\contentsline {subsubsection}{Injector Chain}{8}{section*.15}%
-\contentsline {subsubsection}{Main Ring}{8}{section*.16}%
-\contentsline {subsubsection}{Experimental Sites}{8}{section*.17}%
-\contentsline {subsubsection}{Collimation and Beam Dumps}{9}{section*.18}%
-\contentsline {subsubsection}{Collision Points}{9}{section*.19}%
-\contentsline {subsection}{\numberline {2.1.2}Technological Challenges}{9}{subsection.20}%
-\contentsline {section}{\numberline {2.2}The Compact Muon Solenoid (CMS)}{9}{section.21}%
-\contentsline {section}{\numberline {2.3}Silicon Tracker}{10}{section.24}%
-\contentsline {subsection}{\numberline {2.3.1}Silicon Pixel Detector}{10}{subsection.25}%
-\contentsline {subsection}{\numberline {2.3.2}Silicon Strip Tracker}{11}{subsection.26}%
-\contentsline {subsection}{\numberline {2.3.3}Material Choices and Performance}{11}{subsection.27}%
-\contentsline {section}{\numberline {2.4}Electromagnetic Calorimeter (ECAL)}{12}{section.28}%
-\contentsline {subsection}{\numberline {2.4.1}The ECAL Barrel (EB)}{12}{subsection.29}%
-\contentsline {subsection}{\numberline {2.4.2}The ECAL Endcap (EE)}{13}{subsection.30}%
-\contentsline {subsection}{\numberline {2.4.3}The Preshower Detector}{13}{subsection.31}%
-\contentsline {subsection}{\numberline {2.4.4}Material Choices and Performance}{14}{subsection.33}%
-\contentsline {section}{\numberline {2.5}Hadronic Calorimeter (HCAL)}{14}{section.34}%
-\contentsline {subsection}{\numberline {2.5.1}The HCAL Barrel (HB)}{14}{subsection.35}%
-\contentsline {subsection}{\numberline {2.5.2}The HCAL Endcap (HE)}{15}{subsection.36}%
-\contentsline {subsection}{\numberline {2.5.3}The HCAL Forward (HF)}{15}{subsection.37}%
-\contentsline {subsection}{\numberline {2.5.4}The HCAL Outer (HO)}{16}{subsection.38}%
-\contentsline {subsection}{\numberline {2.5.5}Material Choices and Their Impact}{16}{subsection.39}%
-\contentsline {subsection}{\numberline {2.5.6}Performance}{16}{subsection.41}%
-\contentsline {section}{\numberline {2.6}Muon Detector}{17}{section.42}%
-\contentsline {subsection}{\numberline {2.6.1}Muon Chambers: Drift Tubes (DT)}{17}{subsection.43}%
-\contentsline {subsection}{\numberline {2.6.2}Muon Chambers: Cathode Strip Chambers (CSC)}{17}{subsection.44}%
-\contentsline {subsection}{\numberline {2.6.3}Resistive Plate Chambers (RPC)}{18}{subsection.45}%
-\contentsline {subsection}{\numberline {2.6.4}Material Choices and Performance}{18}{subsection.46}%
-\contentsline {subsection}{\numberline {2.6.5}Trigger and Reconstruction}{18}{subsection.48}%
-\contentsline {subsection}{\numberline {2.6.6}Level-1 Trigger}{19}{subsection.49}%
-\contentsline {subsection}{\numberline {2.6.7}High-Level Trigger (HLT)}{19}{subsection.50}%
-\contentsline {section}{\numberline {2.7}The High-Granularity Calorimeter (HGCal)}{19}{section.51}%
-\contentsline {subsection}{\numberline {2.7.1}Structure and Components}{20}{subsection.52}%
-\contentsline {paragraph}{CE-E: Electromagnetic Section}{20}{section*.53}%
-\contentsline {paragraph}{CE-H: Hadronic Section}{20}{section*.54}%
-\contentsline {subsection}{\numberline {2.7.2}Design and Innovations}{20}{subsection.55}%
-\contentsline {subsection}{\numberline {2.7.3}Performance and Applications}{21}{subsection.56}%
-\contentsline {section}{\numberline {2.8}Conclusion}{22}{section.58}%
-\contentsline {chapter}{\numberline {3}Dataset}{23}{chapter.59}%
-\contentsline {section}{\numberline {3.1}Geant4 Simulation}{23}{section.60}%
-\contentsline {subsection}{\numberline {3.1.1}Physics Processes}{23}{subsection.61}%
-\contentsline {subsection}{\numberline {3.1.2}Geometry and Materials}{23}{subsection.62}%
-\contentsline {subsection}{\numberline {3.1.3}Applications in HGCal Development}{24}{subsection.63}%
-\contentsline {section}{\numberline {3.2}The Fast Calorimeter Simulation Challenge (CaloChallenge)}{24}{section.65}%
-\contentsline {subsection}{\numberline {3.2.1}Objectives}{24}{subsection.66}%
-\contentsline {subsection}{\numberline {3.2.2}Datasets}{24}{subsection.67}%
-\contentsline {subsubsection}{Dataset 1: ATLAS GEANT4 Open Datasets}{24}{section*.68}%
-\contentsline {subsubsection}{Dataset 2: Multi-Layer Geometry with Electrons}{25}{section*.69}%
-\contentsline {subsubsection}{Dataset 3: High-Granularity Calorimeter Geometry}{25}{section*.70}%
-\contentsline {subsection}{\numberline {3.2.3}Data Format}{25}{subsection.71}%
-\contentsline {subsection}{\numberline {3.2.4}Evaluation Metrics}{26}{subsection.72}%
-\contentsline {subsection}{\numberline {3.2.5}Community Engagement}{26}{subsection.73}%
-\contentsline {chapter}{\numberline {4}Algorithm}{27}{chapter.74}%
-\contentsline {section}{\numberline {4.1}Score-based Diffusion Model}{27}{section.75}%
-\contentsline {subsection}{\numberline {4.1.1}Denoising Score Matching with Langevin Dynamics (SMLD)}{27}{subsection.76}%
-\contentsline {subsection}{\numberline {4.1.2} Denoising Diffusion Probabilistic Model (DDPM)}{28}{subsection.79}%
-\contentsline {section}{\numberline {4.2}Forward Process}{29}{section.82}%
-\contentsline {section}{\numberline {4.3}Backward Process}{30}{section.86}%
-\contentsline {section}{\numberline {4.4}VE, VP SDEs}{32}{section.96}%
-\contentsline {subsection}{\numberline {4.4.1}Continuos Forward Process}{32}{subsection.97}%
-\contentsline {subsection}{\numberline {4.4.2}Continuos Backward Process - PC Sampler}{34}{subsection.107}%
-\contentsline {chapter}{\numberline {5}Model Structure}{37}{chapter.131}%
-\contentsline {section}{\numberline {5.1}Transformer}{38}{section.132}%
-\contentsline {subsection}{\numberline {5.1.1}Introduction}{38}{subsection.133}%
-\contentsline {subsection}{\numberline {5.1.2}The Evolution from RNNs to Transformers}{38}{subsection.134}%
-\contentsline {subsection}{\numberline {5.1.3}Types and Structure of Transformer Architectures}{39}{subsection.136}%
-\contentsline {subsection}{\numberline {5.1.4}Choosing an Encoder-Only Model for Detector Simulation}{39}{subsection.138}%
-\contentsline {section}{\numberline {5.2}Self-Attention Mechanism}{40}{section.139}%
-\contentsline {section}{\numberline {5.3}Our Model Structure}{41}{section.141}%
-\contentsline {subsection}{\numberline {5.3.1}Gaussian Fourier Projection for Temporal Encoding}{41}{subsection.143}%
-\contentsline {subsection}{\numberline {5.3.2}Mean-Field Attention in Detector Simulation}{42}{subsection.145}%
-\contentsline {subsection}{\numberline {5.3.3}Parameter Tuning}{42}{subsection.147}%
-\contentsline {section}{\numberline {5.4}Conclusion}{43}{section.148}%
-\contentsline {chapter}{\numberline {6}Strategies and Results}{45}{chapter.149}%
-\contentsline {section}{\numberline {6.1}Data Preprocessing}{45}{section.150}%
-\contentsline {subsection}{\numberline {6.1.1}Bucketing}{45}{subsection.151}%
-\contentsline {subsection}{\numberline {6.1.2}Preprocessor}{46}{subsection.152}%
-\contentsline {section}{\numberline {6.2}Metrics}{50}{section.159}%
-\contentsline {subsection}{\numberline {6.2.1}FID Score}{50}{subsection.160}%
-\contentsline {subsection}{\numberline {6.2.2}Classifier}{51}{subsection.163}%
-\contentsline {section}{\numberline {6.3}VE and VP Studies}{52}{section.164}%
-\contentsline {section}{\numberline {6.4}$\sigma _{max}$ and $\sigma _{min}$ Studies}{54}{section.171}%
-\contentsline {subsection}{\numberline {6.4.1}The Role of $\sigma _{max}$ and $\sigma _{min}$}{54}{subsection.172}%
-\contentsline {subsection}{\numberline {6.4.2}Conclusions}{55}{subsection.177}%
-\contentsline {section}{\numberline {6.5}Overall Parameter Sweeping}{57}{section.178}%
-\contentsline {section}{\numberline {6.6}Centralization}{58}{section.180}%
-\contentsline {section}{\numberline {6.7}Conditioning Issue}{59}{section.185}%
-\contentsline {subsection}{\numberline {6.7.1}Incident energy}{59}{subsection.186}%
-\contentsline {subsection}{\numberline {6.7.2}Time}{61}{subsection.190}%
-\contentsline {section}{\numberline {6.8}Conclusion}{62}{section.192}%
-\contentsline {chapter}{\numberline {7}Future Goals}{65}{chapter.193}%
-\contentsline {section}{\numberline {7.1}Further Acceleration of the Model}{65}{section.194}%
-\contentsline {section}{\numberline {7.2}Layer Relationship Learning and Tracking}{65}{section.195}%
-\contentsline {chapter}{\numberline {A}Figures}{67}{appendix.196}%
-\contentsline {section}{\numberline {A.1}Best Result for Full Dataset}{67}{section.197}%
-\contentsline {section}{\numberline {A.2}Best Result for Single Bucket Data}{68}{section.199}%
-\contentsline {section}{\numberline {A.3}Result for using different Preprocessor}{69}{section.201}%
-\contentsline {section}{\numberline {A.4}Result for using different SDE settings}{71}{section.205}%
-\contentsline {chapter}{\numberline {B}TopFCNH}{75}{appendix.220}%
-\contentsline {section}{\numberline {B.1}Introduction}{75}{section.221}%
-\contentsline {section}{\numberline {B.2}Background}{75}{section.222}%
-\contentsline {section}{\numberline {B.3}Analysis Tool}{77}{section.225}%
-\contentsline {section}{\numberline {B.4}Workflow}{79}{section.227}%
-\contentsline {subsection}{\numberline {B.4.1}Data-MC Samples Comparison \& Top Reconstruction}{79}{subsection.228}%
-\contentsline {subsection}{\numberline {B.4.2}Signal-Background Separation \& Signal Region Optimization}{79}{subsection.229}%
-\contentsline {subsection}{\numberline {B.4.3}Statistical Analysis}{80}{subsection.230}%
-\contentsline {subsection}{\numberline {B.4.4}Summary of the Workflow}{81}{subsection.231}%
-\contentsline {section}{\numberline {B.5}Gridpack Generation}{81}{section.233}%
-\contentsline {section}{\numberline {B.6}Current Status}{82}{section.234}%
-\contentsline {chapter}{Bibliography}{83}{appendix*.236}%
+\contentsline {subsection}{\numberline {1.1.1}The Role of Simulation in High-Energy Physics}{1}{subsection.8}%
+\contentsline {subsection}{\numberline {1.1.2}Generative Models for Fast Simulation}{2}{subsection.10}%
+\contentsline {subsection}{\numberline {1.1.3}Score-Based Generative Models for Simulation}{3}{subsection.11}%
+\contentsline {section}{\numberline {1.2}Challenges}{4}{section.13}%
+\contentsline {chapter}{\numberline {2}Detector}{5}{chapter.14}%
+\contentsline {section}{\numberline {2.1}The Large Hadron Collider (LHC)}{5}{section.15}%
+\contentsline {subsection}{\numberline {2.1.1}Key Components of the LHC}{6}{subsection.17}%
+\contentsline {subsubsection}{Injector Chain}{6}{section*.18}%
+\contentsline {subsubsection}{Main Ring}{6}{section*.19}%
+\contentsline {subsubsection}{Experimental Sites}{6}{section*.20}%
+\contentsline {subsubsection}{Collimation and Beam Dumps}{7}{section*.21}%
+\contentsline {subsubsection}{Collision Points}{7}{section*.22}%
+\contentsline {subsection}{\numberline {2.1.2}Technological Challenges}{7}{subsection.23}%
+\contentsline {section}{\numberline {2.2}The Compact Muon Solenoid (CMS)}{7}{section.24}%
+\contentsline {section}{\numberline {2.3}Silicon Tracker}{8}{section.27}%
+\contentsline {subsection}{\numberline {2.3.1}Silicon Pixel Detector}{8}{subsection.28}%
+\contentsline {subsection}{\numberline {2.3.2}Silicon Strip Tracker}{9}{subsection.29}%
+\contentsline {subsection}{\numberline {2.3.3}Material Choices and Performance}{9}{subsection.30}%
+\contentsline {section}{\numberline {2.4}Electromagnetic Calorimeter (ECAL)}{10}{section.32}%
+\contentsline {subsection}{\numberline {2.4.1}The ECAL Barrel (EB)}{11}{subsection.33}%
+\contentsline {subsection}{\numberline {2.4.2}The ECAL Endcap (EE)}{11}{subsection.34}%
+\contentsline {subsection}{\numberline {2.4.3}The Preshower Detector}{11}{subsection.35}%
+\contentsline {subsection}{\numberline {2.4.4}Material Choices and Performance}{12}{subsection.37}%
+\contentsline {section}{\numberline {2.5}Hadronic Calorimeter (HCAL)}{13}{section.38}%
+\contentsline {subsection}{\numberline {2.5.1}The HCAL Barrel (HB)}{13}{subsection.39}%
+\contentsline {subsection}{\numberline {2.5.2}The HCAL Endcap (HE)}{13}{subsection.40}%
+\contentsline {subsection}{\numberline {2.5.3}The HCAL Forward (HF)}{14}{subsection.41}%
+\contentsline {subsection}{\numberline {2.5.4}The HCAL Outer (HO)}{14}{subsection.42}%
+\contentsline {subsection}{\numberline {2.5.5}Material Choices and Their Impact}{15}{subsection.43}%
+\contentsline {subsection}{\numberline {2.5.6}Performance}{16}{subsection.45}%
+\contentsline {section}{\numberline {2.6}Muon Detector}{16}{section.46}%
+\contentsline {subsection}{\numberline {2.6.1}Muon Chambers: Drift Tubes (DT)}{16}{subsection.47}%
+\contentsline {subsection}{\numberline {2.6.2}Muon Chambers: Cathode Strip Chambers (CSC)}{16}{subsection.48}%
+\contentsline {subsection}{\numberline {2.6.3}Resistive Plate Chambers (RPC)}{17}{subsection.49}%
+\contentsline {subsection}{\numberline {2.6.4}Material Choices and Performance}{17}{subsection.50}%
+\contentsline {subsection}{\numberline {2.6.5}Trigger and Reconstruction}{18}{subsection.52}%
+\contentsline {subsection}{\numberline {2.6.6}Level-1 Trigger}{18}{subsection.53}%
+\contentsline {subsection}{\numberline {2.6.7}High-Level Trigger (HLT)}{18}{subsection.54}%
+\contentsline {section}{\numberline {2.7}The High-Granularity Calorimeter (HGCal)}{18}{section.55}%
+\contentsline {subsection}{\numberline {2.7.1}Structure and Components}{19}{subsection.56}%
+\contentsline {paragraph}{CE-E: Electromagnetic Section}{19}{section*.57}%
+\contentsline {paragraph}{CE-H: Hadronic Section}{19}{section*.58}%
+\contentsline {subsection}{\numberline {2.7.2}Design and Innovations}{19}{subsection.59}%
+\contentsline {subsection}{\numberline {2.7.3}Performance and Applications}{20}{subsection.60}%
+\contentsline {section}{\numberline {2.8}Conclusion}{21}{section.62}%
+\contentsline {chapter}{\numberline {3}Dataset}{23}{chapter.63}%
+\contentsline {section}{\numberline {3.1}Geant4 Simulation}{23}{section.64}%
+\contentsline {subsection}{\numberline {3.1.1}Physics Processes}{23}{subsection.65}%
+\contentsline {subsection}{\numberline {3.1.2}Physics Processes}{23}{subsection.66}%
+\contentsline {subsection}{\numberline {3.1.3}Geometry and Materials}{23}{subsection.67}%
+\contentsline {subsection}{\numberline {3.1.4}Applications in HGCal Development}{24}{subsection.68}%
+\contentsline {subsection}{\numberline {3.1.5}Challenges of Geant4}{25}{subsection.70}%
+\contentsline {section}{\numberline {3.2}The Fast Calorimeter Simulation Challenge (CaloChallenge)}{26}{section.71}%
+\contentsline {subsection}{\numberline {3.2.1}Objectives}{26}{subsection.72}%
+\contentsline {subsection}{\numberline {3.2.2}Datasets}{26}{subsection.73}%
+\contentsline {subsubsection}{Dataset 1: ATLAS GEANT4 Open Datasets}{26}{section*.74}%
+\contentsline {subsubsection}{Dataset 2: Multi-Layer Geometry with Electrons}{27}{section*.75}%
+\contentsline {subsubsection}{Dataset 3: High-Granularity Calorimeter Geometry}{27}{section*.76}%
+\contentsline {subsection}{\numberline {3.2.3}Data Format}{28}{subsection.77}%
+\contentsline {subsection}{\numberline {3.2.4}Evaluation Metrics}{28}{subsection.78}%
+\contentsline {subsection}{\numberline {3.2.5}Community Engagement}{28}{subsection.79}%
+\contentsline {chapter}{\numberline {4}Algorithm}{29}{chapter.80}%
+\contentsline {section}{\numberline {4.1}Score-based Diffusion Model}{29}{section.81}%
+\contentsline {subsection}{\numberline {4.1.1}Denoising Score Matching with Langevin Dynamics (SMLD)}{29}{subsection.82}%
+\contentsline {subsection}{\numberline {4.1.2} Denoising Diffusion Probabilistic Model (DDPM)}{30}{subsection.85}%
+\contentsline {section}{\numberline {4.2}Forward Process}{31}{section.88}%
+\contentsline {section}{\numberline {4.3}Backward Process}{32}{section.92}%
+\contentsline {section}{\numberline {4.4}VE, VP SDEs}{34}{section.102}%
+\contentsline {subsection}{\numberline {4.4.1}Continuos Forward Process}{34}{subsection.103}%
+\contentsline {subsection}{\numberline {4.4.2}Continuos Backward Process - PC Sampler}{36}{subsection.113}%
+\contentsline {chapter}{\numberline {5}Model Structure}{39}{chapter.137}%
+\contentsline {section}{\numberline {5.1}Transformer}{40}{section.138}%
+\contentsline {subsection}{\numberline {5.1.1}Introduction}{40}{subsection.139}%
+\contentsline {subsection}{\numberline {5.1.2}The Evolution from RNNs to Transformers}{40}{subsection.140}%
+\contentsline {subsection}{\numberline {5.1.3}Types and Structure of Transformer Architectures}{41}{subsection.142}%
+\contentsline {subsection}{\numberline {5.1.4}Choosing an Encoder-Only Model for Detector Simulation}{41}{subsection.144}%
+\contentsline {section}{\numberline {5.2}Self-Attention Mechanism}{42}{section.145}%
+\contentsline {section}{\numberline {5.3}Our Model Structure}{43}{section.147}%
+\contentsline {subsection}{\numberline {5.3.1}Gaussian Fourier Projection for Temporal Encoding}{43}{subsection.149}%
+\contentsline {subsection}{\numberline {5.3.2}Mean-Field Attention in Detector Simulation}{44}{subsection.151}%
+\contentsline {subsection}{\numberline {5.3.3}Parameter Tuning}{44}{subsection.153}%
+\contentsline {section}{\numberline {5.4}Conclusion}{45}{section.154}%
+\contentsline {chapter}{\numberline {6}Strategies and Results}{47}{chapter.155}%
+\contentsline {section}{\numberline {6.1}Data Preprocessing}{47}{section.156}%
+\contentsline {subsection}{\numberline {6.1.1}Bucketing}{47}{subsection.157}%
+\contentsline {subsection}{\numberline {6.1.2}Preprocessor}{48}{subsection.158}%
+\contentsline {section}{\numberline {6.2}Metrics}{52}{section.165}%
+\contentsline {subsection}{\numberline {6.2.1}FID Score}{52}{subsection.166}%
+\contentsline {subsection}{\numberline {6.2.2}Classifier}{53}{subsection.169}%
+\contentsline {section}{\numberline {6.3}VE and VP Studies}{54}{section.170}%
+\contentsline {section}{\numberline {6.4}$\sigma _{max}$ and $\sigma _{min}$ Studies}{56}{section.177}%
+\contentsline {subsection}{\numberline {6.4.1}The Role of $\sigma _{max}$ and $\sigma _{min}$}{56}{subsection.178}%
+\contentsline {subsection}{\numberline {6.4.2}Conclusions}{57}{subsection.183}%
+\contentsline {section}{\numberline {6.5}Overall Parameter Sweeping}{59}{section.184}%
+\contentsline {section}{\numberline {6.6}Centralization}{60}{section.186}%
+\contentsline {section}{\numberline {6.7}Conditioning Issue}{61}{section.191}%
+\contentsline {subsection}{\numberline {6.7.1}Incident energy}{61}{subsection.192}%
+\contentsline {subsection}{\numberline {6.7.2}Time}{63}{subsection.196}%
+\contentsline {section}{\numberline {6.8}Conclusion}{64}{section.198}%
+\contentsline {chapter}{\numberline {7}Future Goals}{67}{chapter.199}%
+\contentsline {section}{\numberline {7.1}Further Acceleration of the Model}{67}{section.200}%
+\contentsline {section}{\numberline {7.2}Layer Relationship Learning and Tracking}{67}{section.201}%
+\contentsline {chapter}{\numberline {A}Figures}{69}{appendix.202}%
+\contentsline {section}{\numberline {A.1}Best Result for Full Dataset}{69}{section.203}%
+\contentsline {section}{\numberline {A.2}Best Result for Single Bucket Data}{70}{section.205}%
+\contentsline {section}{\numberline {A.3}Result for using different Preprocessor}{71}{section.207}%
+\contentsline {section}{\numberline {A.4}Result for using different SDE settings}{73}{section.211}%
+\contentsline {chapter}{\numberline {B}TopFCNH}{77}{appendix.226}%
+\contentsline {section}{\numberline {B.1}Introduction}{77}{section.227}%
+\contentsline {section}{\numberline {B.2}Background}{77}{section.228}%
+\contentsline {section}{\numberline {B.3}Analysis Tool}{79}{section.231}%
+\contentsline {section}{\numberline {B.4}Workflow}{81}{section.233}%
+\contentsline {subsection}{\numberline {B.4.1}Data-MC Samples Comparison \& Top Reconstruction}{81}{subsection.234}%
+\contentsline {subsection}{\numberline {B.4.2}Signal-Background Separation \& Signal Region Optimization}{81}{subsection.235}%
+\contentsline {subsection}{\numberline {B.4.3}Statistical Analysis}{82}{subsection.236}%
+\contentsline {subsection}{\numberline {B.4.4}Summary of the Workflow}{83}{subsection.237}%
+\contentsline {section}{\numberline {B.5}Gridpack Generation}{83}{section.239}%
+\contentsline {section}{\numberline {B.6}Current Status}{84}{section.240}%
+\contentsline {chapter}{Bibliography}{85}{appendix*.242}%

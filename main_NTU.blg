@@ -26,7 +26,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 13260 items from 5000.
+Reallocated field_info (elt_size=4) to 13400 items from 5000.
 Database file #1: main_NTU-blx.bib
 Database file #2: bib/Algorithm.bib
 Database file #3: bib/transformer.bib
@@ -47,7 +47,6 @@ Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Database file #5: bib/detector.bib
 Database file #6: bib/result.bib
 Database file #7: bib/dataset.bib
-Warning--I didn't find a database entry for "hgcal_picture"
 Warning--I didn't find a database entry for "calochallenge"
 Warning--I didn't find a database entry for "restart"
 Biblatex version: 3.19
@@ -66,45 +65,45 @@ Warning--you've exceeded 500, the entry-string-size, for entry collaboration_atl
 while executing--line 2727 of file biblatex.bst
 *Please notify the bibstyle designer*
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 56 entries,
+You've used 58 entries,
             6399 wiz_defined-function locations,
-            1527 strings with 111775 characters,
-and the built_in function-call counts, 9623027 in all, are:
-= -- 988084
-> -- 51936
-< -- 1365
-+ -- 439356
-- -- 36619
-* -- 663299
-:= -- 1446670
+            1548 strings with 113356 characters,
+and the built_in function-call counts, 9624233 in all, are:
+= -- 987724
+> -- 52251
+< -- 1404
++ -- 439524
+- -- 36910
+* -- 663215
+:= -- 1446564
 add.period$ -- 0
-call.type$ -- 56
-change.case$ -- 509
-chr.to.int$ -- 608
-cite$ -- 110
-duplicate$ -- 1133258
-empty$ -- 661762
-format.name$ -- 60729
-if$ -- 1698231
+call.type$ -- 58
+change.case$ -- 518
+chr.to.int$ -- 632
+cite$ -- 114
+duplicate$ -- 1133659
+empty$ -- 661993
+format.name$ -- 60754
+if$ -- 1698349
 int.to.chr$ -- 0
-int.to.str$ -- 163
+int.to.str$ -- 161
 missing$ -- 0
-newline$ -- 33285
-num.names$ -- 2008
-pop$ -- 124598
+newline$ -- 33340
+num.names$ -- 2031
+pop$ -- 125195
 preamble$ -- 1
-purify$ -- 11295
+purify$ -- 11307
 quote$ -- 0
-skip$ -- 31017
+skip$ -- 31162
 stack$ -- 0
-substring$ -- 1912409
-swap$ -- 81328
-text.length$ -- 10491
+substring$ -- 1911323
+swap$ -- 81557
+text.length$ -- 10526
 text.prefix$ -- 4016
 top$ -- 1
-type$ -- 1881
+type$ -- 1949
 warning$ -- 0
 while$ -- 194712
 width$ -- 0
-write$ -- 33230
-(There were 7 warnings)
+write$ -- 33283
+(There were 6 warnings)

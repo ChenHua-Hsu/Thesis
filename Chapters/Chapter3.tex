@@ -1,7 +1,16 @@
 \chapter{Dataset}
+
 \section{Geant4 Simulation}
 
-Geant4 is a powerful and widely used simulation toolkit for modeling the passage of particles through matter. It provides detailed simulations of detector geometry, material interactions, and physics processes, enabling accurate predictions of detector responses. In the context of the CMS detector, Geant4 plays a critical role in validating experimental results and designing upgrades like the HGCal.
+Geant4 is a powerful and widely used simulation toolkit for modeling particle interactions with matter. It provides detailed simulations of detector geometry, material interactions, and physics processes, enabling accurate predictions of detector responses. In the CMS experiment, Geant4 plays a crucial role in validating experimental results and designing detector upgrades such as the High-Granularity Calorimeter (HGCal).
+
+\subsection{Physics Processes}
+
+Geant4 provides a comprehensive suite of physics processes covering electromagnetic,
+hadronic, and optical interactions. For the HGCal, electromagnetic processes such as
+ionization, bremsstrahlung, and photon interactions are particularly important in the
+CE-E section, while hadronic processes are crucial for modeling particle showers in
+the CE-H~\cite{geant4_toolkit}.
 
 \subsection{Physics Processes}
 
@@ -15,20 +24,45 @@ Through Geant4, the HGCal geometry is meticulously constructed layer by layer. S
 
 \subsection{Applications in HGCal Development}
 
-Geant4 has been instrumental in optimizing the design of the HGCal. By simulating different configurations and material choices, researchers have fine-tuned the detector to achieve the desired performance in terms of energy resolution, granularity, and radiation tolerance. These simulations also help in developing reconstruction algorithms and calibrations tailored to the unique characteristics of the HGCal \cite{geant4_toolkit}.
+Geant4 has played a crucial role in optimizing the design of the HGCal. Through simulations of various configurations and material choices, researchers have fine-tuned the detector to achieve optimal performance in terms of energy resolution, granularity, and radiation tolerance. Additionally, these simulations aid in the development of reconstruction algorithms and calibration techniques specifically tailored to the unique characteristics of the HGCal~\cite{geant4_toolkit}.
+
+
+Below is a demonstration of a Geant4 simulation for the HGCal, illustrating the interaction of a 20 GeV $\pi^{+}$ particle within the detector. An interesting aspect of Geant4 visualizations is the use of distinct colors to represent different particle types and interactions. In this simulation, charged particles are labeled in green, neutral particles in red, and interactions within the calorimeter in blue.
+
 
 \begin{figure}[h]
     \centering
-    %\includegraphics[width=\textwidth]{Geant4_Simulation.png}
-    \caption{Visualization of a Geant4 simulation for the HGCal, showing particle showers in the calorimeter layers. (Image credit: Geant4 Collaboration)}
+    \includegraphics[width=\textwidth]{Figures/geant4_simulation.png}
+    \caption{Visualization of a Geant4 simulation for the HGCal, showing particle showers in the calorimeter layers. (Image credit: Geant4 Collaboration)}~\cite{geant4_simulation}
     \label{fig:geant4_simulation}
 \end{figure}
+
+\subsection{Challenges of Geant4}
+
+While Geant4 is a powerful and widely used simulation toolkit, it presents several challenges that impact its efficiency and usability in large-scale physics experiments.
+
+\begin{itemize}
+    \item \textbf{Computational Intensity:} \\
+    Geant4 simulations require significant computational resources, particularly for high-energy physics experiments involving dense materials and complex interactions. The need to track billions of particles through detailed detector geometries makes large-scale simulations computationally expensive~\cite{geant4_reference}.
+    
+    \item \textbf{High Complexity:} \\
+    The object-oriented design of Geant4 provides flexibility but also introduces a steep learning curve. Users must understand multiple modules, including geometry definitions, physics processes, and tracking systems, which can slow down the implementation of new simulations~\cite{geant4_doc}.
+    
+    \item \textbf{Scaling Issues:} \\
+    With increasing experimental data rates, such as those expected in the High-Luminosity Large Hadron Collider (HL-LHC) phase, Geant4 faces challenges in maintaining simulation accuracy while keeping computational costs manageable. Machine learning approaches, such as diffusion models, are being explored as potential solutions to accelerate Geant4-like simulations while retaining high fidelity.
+    
+    \item \textbf{Validation and Maintenance:} \\
+    Ensuring the accuracy of Geant4 requires continuous validation against experimental data. Physics models must be regularly updated and optimized to reflect the latest theoretical and experimental findings. Additionally, software maintenance and debugging add further complexity to large-scale implementations~\cite{geant4_validation}.
+\end{itemize}
+
+Despite these challenges, Geant4 remains an essential tool in particle physics and detector simulations, with ongoing research focusing on improving its computational efficiency and expanding its applicability to future high-energy physics experiments.
+
 
 Geant4 remains an indispensable tool in the development and operation of the CMS detector, enabling detailed studies of particle interactions and supporting advancements in high-energy physics.
 
 \section{The Fast Calorimeter Simulation Challenge (CaloChallenge)}
 
-The Fast Calorimeter Simulation Challenge, or CaloChallenge, is an initiative designed to advance the development of fast, accurate, and efficient generative models for calorimeter shower simulations. This challenge bridges the gap between traditional simulation methods like GEANT4 and novel machine learning approaches, providing datasets, benchmarks, and metrics for evaluation \cite{calochallenge}.
+The Fast Calorimeter Simulation Challenge, or CaloChallenge, is an initiative designed to advance the development of fast, accurate, and efficient generative models for calorimeter shower simulations. This challenge bridges the gap between traditional simulation methods like GEANT4 and novel machine learning approaches, providing datasets, benchmarks, and metrics for evaluation~\cite{calochallenge}.
 
 \subsection{Objectives}
 
@@ -45,19 +79,54 @@ CaloChallenge has the following primary goals:
 The CaloChallenge offers three distinct datasets, each increasing in complexity, to evaluate model performance in diverse scenarios. The datasets are as follows:
 
 \subsubsection{Dataset 1: ATLAS GEANT4 Open Datasets}
-Dataset 1 is based on simulations using the ATLAS detector geometry. It includes two particle types: photons and charged pions. The voxelized shower information is derived from single particles produced at the calorimeter surface in the $\eta$ range of 0.2-0.25. The detector geometry consists of 5 layers for photons and 7 layers for pions, with the number of radial and angular bins varying by layer and particle type. This results in 368 voxels for photons and 533 voxels for pions.
+Dataset 1 is based on simulations using the ATLAS detector geometry. It includes two single-particle shower types: photons and charged pions. The voxelized shower information is derived from single particles produced at the calorimeter surface in the $\eta$ range of 0.2-0.25. The detector geometry consists of 5 layers for photons and 7 layers for pions, with the number of radial and angular bins varying by layer and particle type.
 
-The dataset spans 15 discrete incident energy levels, ranging from 256 MeV to 4 TeV in powers of two. Each energy level contains 10k events, except for the higher energies, where fewer events are available due to statistical limitations. This dataset serves as a benchmark for evaluating generative models on simpler detector geometries and energy distributions.
+\begin{itemize}
+    \item Voxel structure:  
+    \begin{itemize}
+        \item 368 voxels for photons  
+        \item 533 voxels for pions  
+    \end{itemize}
+    \item Incident energy levels: 15 discrete values, spanning 256 MeV to 4 TeV in powers of two.  
+    \item Number of events: 10,000 per energy level, except at higher energies where limited statistics are available.
+\end{itemize}
+
+This dataset serves as a baseline for evaluating generative models on relatively simple detector geometries and energy distributions.
 
 \subsubsection{Dataset 2: Multi-Layer Geometry with Electrons}
-Dataset 2 focuses on simulations of electrons interacting with a concentric cylindrical detector geometry. The detector comprises 45 layers, each with both active (silicon) and passive (tungsten) material. Each layer is divided into 9 radial bins and 16 angular bins, resulting in a total of 6480 voxels (45 $\times$ 16 $\times$ 9). 
+This dataset simulates electron showers in a concentric cylindrical calorimeter, which consists of:
+\begin{itemize}
+    \item 45 layers, each containing:
+    \begin{itemize}
+        \item Active material (silicon)
+        \item Passive material (tungsten)
+    \end{itemize}
+    \item Voxel segmentation:
+    \begin{itemize}
+        \item 9 radial bins $\times$ 16 angular bins per layer
+        \item Total: 6,480 voxels (45 $\times$ 16 $\times$ 9)
+    \end{itemize}
+    \item Incident energies: Sampled from a log-uniform distribution in the range 1 GeV to 1 TeV.
+    \item Number of events: 100,000
+\end{itemize}
 
-The electron energies are sampled from a log-uniform distribution ranging from 1 GeV to 1 TeV, offering a continuous spectrum of energy levels. The dataset contains 100k events, enabling models to explore and learn intricate energy depositions across the detector geometry. This dataset challenges models to handle the complexities of high-granularity detectors.
+This dataset introduces high-granularity segmentation, challenging models to accurately capture energy depositions across a complex detector geometry.
 
 \subsubsection{Dataset 3: High-Granularity Calorimeter Geometry}
-Dataset 3 simulates a high-granularity calorimeter with an advanced detector geometry. Like Dataset 2, it features 45 layers with active (silicon) and passive (tungsten) material. However, the granularity is significantly higher, with each layer containing 18 radial bins and 50 angular bins. This results in a total of 40,500 voxels (45 $\times$ 50 $\times$ 18).
+Dataset 3 extends the complexity of Dataset 2 by significantly increasing granularity:
 
-The dataset consists of electron showers with energies sampled from a log-uniform distribution ranging from 1 GeV to 1 TeV. Each file contains 50k events, offering robust training and evaluation datasets. This dataset is designed to test models' ability to generalize and simulate realistic particle physics scenarios with highly detailed detector geometries.
+\begin{itemize}
+    \item 45-layer calorimeter with active (silicon) and passive (tungsten) material.
+    \item Higher voxel segmentation:
+    \begin{itemize}
+        \item 18 radial bins $\times$ 50 angular bins per layer
+        \item Total: 40,500 voxels (45 $\times$ 50 $\times$ 18)
+    \end{itemize}
+    \item Electron energies: Log-uniformly sampled between 1 GeV and 1 TeV.
+    \item Number of events: 50,000
+\end{itemize}
+
+This dataset is specifically designed to evaluate the ability of generative models to generalize and simulate realistic high-granularity calorimeters, such as those planned for HL-LHC and future collider experiments.
 
 
 \subsection{Data Format}
@@ -84,10 +153,7 @@ CaloChallenge evaluates the generative models using multiple metrics, including:
 
 \subsection{Community Engagement}
 
-Participants are encouraged to share their findings and contribute to community discussions. The challenge concludes with a workshop to present results, compare approaches, and collaborate on a community paper documenting the outcomes. For communication and updates, participants can join the ML4Jets Slack channel and the Google Groups mailing list \cite{calochallenge}.
+Participants are encouraged to share their findings and contribute to community discussions. The challenge concludes with a workshop to present results, compare approaches, and collaborate on a community paper documenting the outcomes. For communication and updates, participants can join the ML4Jets Slack channel and the Google Groups mailing list.
 
 For further details, visit the official CaloChallenge GitHub repository: \url{https://github.com/CaloChallenge/homepage}.
-
-
-
 
