@@ -33313,6 +33313,61 @@
     \field{urlyear}{2025}
   \endentry
 
+  \entry{restart}{misc}{}
+    \name{author}{6}{}{%
+      {{hash=XY}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Yilun},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Deng},
+         familyi={D\bibinitperiod},
+         given={Mingyang},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CX}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Xiang},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=TY}{%
+         family={Tian},
+         familyi={T\bibinitperiod},
+         given={Yonglong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Ziming},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=JT}{%
+         family={Jaakkola},
+         familyi={J\bibinitperiod},
+         given={Tommi},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{XY+1}
+    \strng{fullhash}{XYDMCXTYLZJT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 2306.14878
+    \endverb
+    \field{title}{Restart Sampling for Improving Generative Processes}
+    \verb{url}
+    \verb https://arxiv.org/abs/2306.14878
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.LG}
+    \field{year}{2023}
+  \endentry
+
   \entry{maiani_gim_2013}{misc}{}
     \name{author}{1}{}{%
       {{hash=ML}{%

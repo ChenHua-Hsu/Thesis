@@ -48,7 +48,6 @@ Database file #5: bib/detector.bib
 Database file #6: bib/result.bib
 Database file #7: bib/dataset.bib
 Warning--I didn't find a database entry for "calochallenge"
-Warning--I didn't find a database entry for "restart"
 Biblatex version: 3.19
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Warning--you've exceeded 500, the entry-string-size, for entry collaboration_atlas_2008
@@ -65,45 +64,45 @@ Warning--you've exceeded 500, the entry-string-size, for entry collaboration_atl
 while executing--line 2727 of file biblatex.bst
 *Please notify the bibstyle designer*
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 60 entries,
+You've used 61 entries,
             6399 wiz_defined-function locations,
-            1560 strings with 113756 characters,
-and the built_in function-call counts, 9637781 in all, are:
-= -- 988726
-> -- 52613
-< -- 1443
-+ -- 440100
-- -- 37184
-* -- 664066
-:= -- 1448190
+            1566 strings with 113952 characters,
+and the built_in function-call counts, 9650264 in all, are:
+= -- 989856
+> -- 52724
+< -- 1459
++ -- 440595
+- -- 37234
+* -- 664898
+:= -- 1449869
 add.period$ -- 0
-call.type$ -- 60
-change.case$ -- 527
+call.type$ -- 61
+change.case$ -- 534
 chr.to.int$ -- 656
-cite$ -- 118
-duplicate$ -- 1135046
-empty$ -- 663198
-format.name$ -- 60831
-if$ -- 1700858
+cite$ -- 120
+duplicate$ -- 1136564
+empty$ -- 664165
+format.name$ -- 60930
+if$ -- 1703176
 int.to.chr$ -- 0
-int.to.str$ -- 164
+int.to.str$ -- 166
 missing$ -- 0
-newline$ -- 33395
-num.names$ -- 2069
-pop$ -- 125905
+newline$ -- 33450
+num.names$ -- 2107
+pop$ -- 126338
 preamble$ -- 1
-purify$ -- 11325
+purify$ -- 11345
 quote$ -- 0
-skip$ -- 31396
+skip$ -- 31555
 stack$ -- 0
-substring$ -- 1913279
-swap$ -- 81805
-text.length$ -- 10564
+substring$ -- 1915307
+swap$ -- 81986
+text.length$ -- 10586
 text.prefix$ -- 4016
 top$ -- 1
-type$ -- 2017
+type$ -- 2051
 warning$ -- 0
-while$ -- 194892
+while$ -- 195124
 width$ -- 0
-write$ -- 33336
-(There were 6 warnings)
+write$ -- 33390
+(There were 5 warnings)

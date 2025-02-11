@@ -89,7 +89,7 @@ The three main types of Transformer architectures are as follows:
 \end{itemize}
 
 \subsection{Choosing an Encoder-Only Model for Detector Simulation}
-In the context of detector simulation, our objective is to generate a high-quality representation of input data, such as particle collisions, without generating new sequences. Thus, an encoder-only model is more appropriate, as it efficiently processes and encodes input data, capturing necessary features without the additional complexity of a generative decoder.
+In the context of detector simulation, our objective is to generate a high-quality representation of input data, such as particle collisions. Given that our datasets exhibit rotational symmetry, an encoder-only model is the optimal choice, as it efficiently extracts and encodes essential features without introducing the additional complexity of a generative decoder. By focusing solely on representation learning, the encoder architecture ensures that the model captures the intricate relationships within the data while maintaining computational efficiency.
 
 
 % \begin{figure}[ht]
@@ -100,11 +100,11 @@ In the context of detector simulation, our objective is to generate a high-quali
 % \end{figure}
 
 \section{Our Model Structure}
-Our model architecture builds upon the Transformer framework, with specific modifications to optimize performance in detector simulations, as shown in Figure .
+Our model architecture builds upon the Transformer framework, with specific modifications to optimize performance in detector simulations, as shown in Figure \ref{fig:model_structure}.
 
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=0.8\textwidth]{Figures/model_structure.png}
+    \includegraphics[width=0.8\textwidth]{Figures/model_structure1.png}
     \caption{Custom Transformer model structure for detector simulations.}
     \label{fig:model_structure}
 
@@ -134,7 +134,7 @@ where \( a_i \) and \( \mathbf{b}_i \) are parameters that control the scaling a
 \subsection{Mean-Field Attention in Detector Simulation}
 Our model utilizes a variation of self-attention called \textbf{mean-field attention}. Unlike traditional self-attention, mean-field attention employs a class token to aggregate information from all tokens, creating a global summary. This reduces computational complexity while preserving essential global context.
 
-Mean-field attention allows the class token to encapsulate the sequence's essential features by attending to each token once. This mechanism is computationally efficient and well-suited for high-energy physics applications, where capturing global properties of particle collisions is more important than individual token interactions. Figure ?? provides a comparison between self-attention and mean-field attention mechanisms.
+Mean-field attention allows the class token to encapsulate the sequence's essential features by attending to each token once. This mechanism is computationally efficient and well-suited for high-energy physics applications, where capturing global properties of particle collisions is more important than individual token interactions. Figure \ref{fig:attention_comparison} provides a comparison between self-attention and mean-field attention mechanisms.
 
 \begin{figure}[ht]
     \centering
@@ -155,25 +155,25 @@ Mean-field attention allows the class token to encapsulate the sequence's essent
     \label{fig:attention_comparison}
 \end{figure}
 
-\subsection{Parameter Tuning}
-Once the model structure is established, tuning the parameters is essential for optimal performance. 
+% \subsection{Parameter Tuning}
+% Once the model structure is established, tuning the parameters is essential for optimal performance. 
 
-To optimize the model, we utilize \textbf{Weights \& Biases (wandb)} for parameter tuning. Using wandb’s sweep functionality, we systematically explore hyperparameters, including:
+% To optimize the model, we utilize \textbf{Weights \& Biases (wandb)} for parameter tuning. Using wandb’s sweep functionality, we systematically explore hyperparameters, including:
 
-\begin{itemize}
-    \item \textbf{Number of blocks}: Controls the depth of the Transformer model.
-    \item \textbf{Number of heads}: Determines the number of attention heads in the multi-head attention mechanism.
-    \item \textbf{Hidden dimension}: Sets the size of the hidden layers in the model.
-    \item \textbf{Embed dimension}: Specifies the embedding size for the model’s input.
-    \item \textbf{Batch size}: Number of samples per batch.
-    \item \textbf{Learning rate}: Determines the rate at which the model updates during training.
-    \item \textbf{Dropout rate}: The fraction of nodes dropped during training to prevent overfitting.
-    \item \textbf{Sampling steps}: The number of sampling steps when solving SDE.
-    \item \textbf{Correction steps}: The number of correction steps in each sampling step.
-    \item \textbf{Scale in Fourier features}: The scaling factor for Fourier features.
-\end{itemize}
+% \begin{itemize}
+%     \item \textbf{Number of blocks}: Controls the depth of the Transformer model.
+%     \item \textbf{Number of heads}: Determines the number of attention heads in the multi-head attention mechanism.
+%     \item \textbf{Hidden dimension}: Sets the size of the hidden layers in the model.
+%     \item \textbf{Embed dimension}: Specifies the embedding size for the model’s input.
+%     \item \textbf{Batch size}: Number of samples per batch.
+%     \item \textbf{Learning rate}: Determines the rate at which the model updates during training.
+%     \item \textbf{Dropout rate}: The fraction of nodes dropped during training to prevent overfitting.
+%     \item \textbf{Sampling steps}: The number of sampling steps when solving SDE.
+%     \item \textbf{Correction steps}: The number of correction steps in each sampling step.
+%     \item \textbf{Scale in Fourier features}: The scaling factor for Fourier features.
+% \end{itemize}
 
-The results of this tuning process are presented in later chapters.
+% The results of this tuning process are presented in later chapters.
 
 \section{Conclusion}
 Our custom Transformer model leverages specialized architectural choices to optimize performance in high-energy physics simulations. Key modifications include \textbf{Gaussian Fourier projections} for encoding time and incident energy, and \textbf{mean-field attention} for capturing global context beyond immediate shower information. The addition of a class token enables the model to represent both local and global dependencies, making it particularly suitable for scenarios with strong temporal and energetic relationships.
