@@ -32953,6 +32953,23 @@
     \field{year}{2016}
   \endentry
 
+  \entry{calochallenge}{misc}{}
+    \list{publisher}{1}{%
+      {CaloChallenge}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{original-date: 2022-01-27T14:46:13Z}
+    \field{title}{{CaloChallenge}/homepage}
+    \verb{url}
+    \verb https://github.com/CaloChallenge/homepage
+    \endverb
+    \field{month}{12}
+    \field{year}{2024}
+    \field{urlday}{11}
+    \field{urlmonth}{02}
+    \field{urlyear}{2025}
+  \endentry
+
   \entry{song_generative_2020}{misc}{}
     \name{author}{2}{}{%
       {{hash=SY}{%

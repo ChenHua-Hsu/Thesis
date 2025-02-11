@@ -540,7 +540,7 @@ To assess model quality, we used the Fréchet Inception Distance (FID) score, su
 
 One significant challenge we encountered was the conditioning issue, particularly with incident energy and time as conditional variables. Despite various conditioning strategies, including direct concatenation and implicit conditioning through normalization, the model struggled to fully leverage these inputs. This suggests that additional work is required to refine the conditional mechanisms to improve control over generated samples.
 
-Additionally, we observed a **centralization issue** in the generated data, where the model failed to accurately capture the expected energy-radius relationship. Our attempts to enforce correlation constraints showed limited improvement, but the **QuantileTransformer preprocessing unexpectedly enhanced centralization**, highlighting its potential importance in data representation.
+Additionally, we observed a centralization issue in the generated data, where the model failed to accurately capture the expected energy-radius relationship. Our attempts to enforce correlation constraints showed limited improvement, but the QuantileTransformer preprocessing unexpectedly enhanced centralization, highlighting its potential importance in data representation.
 
 Moving forward, future work will focus on:
 \begin{itemize}
